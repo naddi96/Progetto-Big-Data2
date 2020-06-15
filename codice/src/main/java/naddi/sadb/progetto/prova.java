@@ -1,8 +1,30 @@
 package naddi.sadb.progetto;
 
-public class prova {
-    public static void main(String[] args){
+import org.apache.flink.streaming.api.windowing.time.Time;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
+public class prova {
+    public static void main(String[] args) throws ParseException {
+
+
+        if (3>2){
+            System.out.println(3);
+        }
+
+        System.out.println("dddddd");
+
+        String format = "yyyy-MM-dd'T'HH:mm:ss.SSS";
+        String ex="2019-11-27T14:45:00.000";
+        SimpleDateFormat df = new SimpleDateFormat(format);
+        Date dat = df.parse(ex);
+        Calendar c = Calendar.getInstance();
+        c.setTime(dat);
+
+        System.out.println(c.getTimeInMillis());
         String m="45 min";
         if ((!m.contains(":") && m.toLowerCase().contains("m") && !(m.contains("-") || m.contains("/")))) {
             String stri = "";

@@ -18,14 +18,30 @@
 
 package naddi.sadb.progetto;
 
+import com.sun.xml.internal.ws.api.ha.StickyFeature;
 import org.apache.flink.api.common.functions.FlatMapFunction;
+import org.apache.flink.api.common.functions.MapFunction;
+import org.apache.flink.api.common.functions.ReduceFunction;
 import org.apache.flink.api.java.tuple.Tuple;
 import org.apache.flink.api.java.tuple.Tuple2;
+import org.apache.flink.api.java.tuple.Tuple3;
+import org.apache.flink.streaming.api.TimeCharacteristic;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.datastream.KeyedStream;
+import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
+import org.apache.flink.streaming.api.datastream.WindowedStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
+import org.apache.flink.streaming.api.functions.timestamps.BoundedOutOfOrdernessTimestampExtractor;
+import org.apache.flink.streaming.api.functions.windowing.WindowFunction;
+import org.apache.flink.streaming.api.windowing.assigners.TumblingEventTimeWindows;
 import org.apache.flink.streaming.api.windowing.time.Time;
+import org.apache.flink.streaming.api.windowing.windows.TimeWindow;
 import org.apache.flink.util.Collector;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 
 /**
  * Skeleton for a Flink Streaming Job.
@@ -77,24 +93,86 @@ public class StreamingJob {
 
 		// get input data by connecting to the socket
 		DataStream<String> text = env.socketTextStream(hostname, port, "\n");
-
+		env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
 		// parse the data, group it, window it, and aggregate the counts
-		DataStream<BussDelay> windowCoun=text.flatMap( new FlatMapFunction<String, BussDelay>() {
+
+		DataStream<Tuple2<String,BussDelay>> windowCoun=text.flatMap( new FlatMapFunction<String, Tuple2<String,BussDelay>>() {
 			@Override
-			public void flatMap(String value, Collector<BussDelay> out)
+			public void flatMap(String value, Collector<Tuple2<String,BussDelay>> out)
 					throws Exception {
 				BussDelay c=new BussDelay(value);
 				if (!c.How_Long_Delayed.equals("")){
-					out.collect(c);
+					out.collect(new Tuple2<>(c.Boro,c));
 				}
 			}
 		});
 
+
+		//windowCoun.assignTimestampsAndWatermarks(x->time() );
+		SingleOutputStreamOperator<Tuple2<String,BussDelay>> provaaa =
+				windowCoun.assignTimestampsAndWatermarks(
+						new BoundedOutOfOrdernessTimestampExtractor
+								<Tuple2<String, BussDelay>>(Time.days(10)) {
+			@Override
+			public long extractTimestamp(Tuple2<String,BussDelay> tup) {
+
+				String format = "yyyy-MM-dd'T'HH:mm:ss.SSS";
+				String ex = tup.f1.Occurred_On;
+
+				SimpleDateFormat df = new SimpleDateFormat(format);
+				Date dat = null;
+				try {
+					dat = df.parse(ex);
+				} catch (ParseException e) {
+					e.printStackTrace();
+				}
+				return dat.getTime();//bussDelay.How_Long_Delayed;
+			}
+		});
 	//	KeyedStream<Tuple2<String, String>,Tuple> ddd = windowCoun.keyBy(1);
-		windowCoun.timeWindowAll(Time.seconds(2));
-		windowCoun.print().setParallelism(1);
+
+		KeyedStream<Tuple2<String, BussDelay>, Tuple> x = provaaa.keyBy(0);
+
+		WindowedStream<Tuple2<String, BussDelay>, Tuple, TimeWindow> s = x.window((TumblingEventTimeWindows.of(Time.days(30))));
+
+		SingleOutputStreamOperator<Tuple2<String, BussDelay>> k = s.reduce(new ReduceFunction<Tuple2<String, BussDelay>>() {
+			@Override
+			public Tuple2<String, BussDelay> reduce(Tuple2<String, BussDelay> tup1, Tuple2<String, BussDelay> tup2) throws Exception {
+				//tup1.f1.Boro = tup1.f1.Boro + " " + tup2.f1.Boro;
+				tup1.f1.count=tup1.f1.count+tup2.f1.count;
+				//tup1.f1.Occurred_On=returnMinDate(tup1.f1.Occurred_On,tup2.f1.Occurred_On);
+				tup1.f1.How_Long_Delayed=String.valueOf(Integer.valueOf(tup1.f1.How_Long_Delayed)+Integer.valueOf(tup2.f1.How_Long_Delayed));
+				return new Tuple2<>(tup1.f0, tup1.f1);
+			}
+		});
+
+		SingleOutputStreamOperator<Tuple3<String,String,String>> datafinale = k.map(
+				new MapFunction<Tuple2<String, BussDelay>, Tuple3<String, String, String>>() {
+					@Override
+					public Tuple3<String, String, String> map(Tuple2<String, BussDelay> tup) throws Exception {
+						double avg=Double.valueOf(tup.f1.How_Long_Delayed) / Double.valueOf(tup.f1.count);
+						return new Tuple3<String,String,String>(tup.f1.Boro,String.valueOf(avg),tup.f1.Occurred_On);
+					}
+		});
+
+
+		datafinale.print().setParallelism(1);
 		env.execute("Socket Window WordCount");
 
+		/*
+		s.reduce()
+		s.reduce(new ReduceFunction, WindowFunction <BussDelay> {
+			public BussDelay reduce(BussDelay f, BussDelay b){
+				return f;
+		}
+		});/
+
+
+		env.execute("Socket Window WordCount");
+		/*windowCoun.timeWindowAll(Time.seconds(2));
+		windowCoun.print().setParallelism(1);
+
+*/
 /*
 		DataStream<WordWithCount> windowCounts = text
 
@@ -123,6 +201,28 @@ public class StreamingJob {
 		env.execute("Socket Window WordCount");*/
 	}
 
+
+	public static String returnMinDate(String date1, String date2){
+
+
+
+		String format = "yyyy-MM-dd'T'HH:mm:ss.SSS";
+
+		SimpleDateFormat df = new SimpleDateFormat(format);
+		Date dat1 = null;
+		Date dat2 =null;
+		try {
+			dat1 = df.parse(date1);
+			dat2 = df.parse(date2);
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		if (dat1.getTime() > dat2.getTime()){
+			return  date2;
+		}
+		return date1;
+	}
+
 	// ------------------------------------------------------------------------
 
 
@@ -130,92 +230,5 @@ public class StreamingJob {
 	/**
 	 * Data type for words with count.
 	 */
-	public static class BussDelay {
-		public String How_Long_Delayed;
-		public String Boro;
-		public String Occurred_On;
 
-		public BussDelay() {}
-
-		private static String ritornaMinuti(String m){
-			try {
-
-
-				if (m.matches("[0-9]+")) {
-					return m;
-				}
-				if ((!m.contains(":") && m.toLowerCase().contains("m") && (m.contains("-") || m.contains("/")))) {
-
-					String stri = "";
-					if (m.contains("/")) stri = "/";
-					if (m.contains("-")) stri = "-";
-					String[] numebers = m.split(stri);
-					if (numebers.length > 1) {
-						String num1 = numebers[0].replaceAll("[^0-9]", "");
-						String num2 = numebers[1].replaceAll("[^0-9]", "");
-						int num11 = Integer.valueOf(num1);
-						int num22 = Integer.valueOf(num2);
-
-						double x = (num11 + num22) / 2.0;
-						return String.valueOf(x);
-					}
-				}
-
-				if ((!m.contains(":") && m.toLowerCase().contains("m") && !(m.contains("/") || m.contains("-")))) {
-					return String.valueOf(m.replaceAll("[^0-9]", ""));
-				}
-				if ((!m.contains(":") && (!(m.toLowerCase().contains("m") && m.toLowerCase().contains("h"))) && (m.contains("-") || m.contains("/")))) {
-					String stri = "";
-					if (m.contains("/")) stri = "/";
-					if (m.contains("-")) stri = "-";
-					String[] numebers = m.split(stri);
-					if (numebers.length > 1) {
-						String num1 = numebers[0].replaceAll("[^0-9]", "");
-						String num2 = numebers[1].replaceAll("[^0-9]", "");
-						int num11 = Integer.valueOf(num1);
-						int num22 = Integer.valueOf(num2);
-						double x = (num11 + num22) / 2.0;
-						return String.valueOf(x);
-					}
-				}
-				if (m.toLowerCase().contains("h") && !(m.contains("-") && m.contains("/"))) {
-					if (m.contains(":")) {
-						;
-						String[] x = m.split(":");
-						Integer num1 = Integer.valueOf(x[0].replaceAll("[^0-9]", ""));
-						Integer num2 = Integer.valueOf(x[1].replaceAll("[^0-9]", ""));
-						return String.valueOf(num1 * 60 + num2);
-					}
-					int num11 = Integer.valueOf(m.replaceAll("[^0-9]", ""));
-
-					return String.valueOf(num11 * 60);
-				}
-				if (m.contains("1/2")) {
-					return "30";
-				}
-				if (m.contains("45min/1hr")) {
-					return "105";
-				}
-				if (m.contains("35min/45mi")) {
-					return "40";
-				}
-
-			}catch (Exception e){
-				System.out.println(m);
-			}
-			return "";
-
-		}
-		public BussDelay(String line) {
-			String[] x = line.split(";");
-			this.Occurred_On=x[7];
-			this.How_Long_Delayed=ritornaMinuti(x[11]).replaceAll("[^0-9]", "");
-			this.Boro=x[9];
-		}
-
-		@Override
-		public String toString() {
-			return this.How_Long_Delayed + " : " + this.Boro + " : " + this.Occurred_On;
-		}
-	}
 }
