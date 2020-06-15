@@ -1,11 +1,14 @@
 package naddi.sadb.progetto;
 
+import org.apache.flink.api.common.functions.RichMapFunction;
 import org.apache.flink.streaming.api.windowing.time.Time;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+
+
 
 public class prova {
     public static void main(String[] args) throws ParseException {
