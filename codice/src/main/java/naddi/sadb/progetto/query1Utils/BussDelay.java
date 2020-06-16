@@ -1,4 +1,4 @@
-package naddi.sadb.progetto;
+package naddi.sadb.progetto.query1Utils;
 
 
 import java.io.Serializable;

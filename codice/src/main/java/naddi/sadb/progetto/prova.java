@@ -1,6 +1,8 @@
 package naddi.sadb.progetto;
 
+import naddi.sadb.progetto.query1Utils.utils;
 import org.apache.flink.api.common.functions.RichMapFunction;
+import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.streaming.api.windowing.time.Time;
 
 import java.text.ParseException;
@@ -13,15 +15,24 @@ import java.util.Date;
 public class prova {
     public static void main(String[] args) throws ParseException {
 
+        String format = "HH:mm:ss.SSS";
+        String ex = "5:00:00.000";
+        Date data= utils.parseDate(format,ex);
+        Date fascia5=utils.parseDate(format,"5:00:00.000");
+        Date fascia11=utils.parseDate(format,"11:59:00.000");
 
+        if ((data.after(fascia5)  && data.before(fascia11) || data.equals(fascia5) || data.equals(fascia11))){
+            System.out.println("aaaaa");
+        }
         if (3>2){
             System.out.println(3);
         }
 
         System.out.println("dddddd");
 
-        String format = "yyyy-MM-dd'T'HH:mm:ss.SSS";
-        String ex="2019-11-27T14:45:00.000";
+
+
+        System.out.println(ex.substring(11));
         SimpleDateFormat df = new SimpleDateFormat(format);
         Date dat = df.parse(ex);
         Calendar c = Calendar.getInstance();
