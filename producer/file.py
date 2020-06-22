@@ -2,7 +2,7 @@
 import socket
 import time
 HOST = '127.0.0.1'  # Standard loopback interface address (localhost)
-PORT = 444        # Port to listen on (non-privileged ports are > 1023)
+PORT = 9999        # Port to listen on (non-privileged ports are > 1023)
 wait_time=0
 
 
