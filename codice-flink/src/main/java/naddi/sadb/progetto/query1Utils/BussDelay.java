@@ -11,13 +11,13 @@ public class BussDelay implements Serializable {
     public String Boro;
     public String Occurred_On;
     public int count=1;
+    public    Long startingTimeNew;
+    public    Long startingTimeOld;
 
     public BussDelay() {}
 
     private static String ritornaMinuti(String m){
         try {
-
-
             if (m.matches("[0-9]+")) {
                 return m;
             }
@@ -78,16 +78,17 @@ public class BussDelay implements Serializable {
             }
 
         }catch (Exception e){
-            System.out.println(m);
         }
         return "";
 
     }
     public BussDelay(String line) {
         String[] x = line.split(";(?=([^\"]*\"[^\"]*\")*[^\"]*$)");
-        this.Occurred_On=x[7];
-        this.How_Long_Delayed=ritornaMinuti(x[11]).replaceAll("[^0-9]", "");
-        this.Boro=x[9];
+        this.Occurred_On=x[7+1];
+        this.How_Long_Delayed=ritornaMinuti(x[11+1]).replaceAll("[^0-9]", "");
+        this.Boro=x[9+1];
+        this.startingTimeNew=Long.valueOf(x[0]);
+        this.startingTimeOld=Long.valueOf(x[0]);
     }
 
     @Override

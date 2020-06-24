@@ -2,6 +2,7 @@ package SerilizerDeserialazer;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.streams.processor.TimestampExtractor;
+import stream.BussDelay;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -14,12 +15,14 @@ public class TimeExstractor implements TimestampExtractor {
         // `Foo` is your own custom class, which we assume has a method that returns
         // the embedded timestamp (milliseconds since midnight, January 1, 1970 UTC).
         long timestamp = -1;
-        String sa = (String) record.value();
-        String[] x = sa.split(";(?=([^\"]*\"[^\"]*\")*[^\"]*$)");
 
-        //System.out.println(x[7]);
-        Date k= parseDate( "yyyy-MM-dd'T'HH:mm:ss.SSS",x[7]);
-        return k.getTime();
+
+            String sa = (String) record.value();
+            String[] x = sa.split(";(?=([^\"]*\"[^\"]*\")*[^\"]*$)");
+
+            //System.out.println(x[7]);
+            Date k = parseDate("yyyy-MM-dd'T'HH:mm:ss.SSS", x[7+1]);
+            return k.getTime();
 
     }
 

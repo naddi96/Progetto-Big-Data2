@@ -12,8 +12,24 @@ import java.util.Date;
 
 
 
+
 public class prova {
+    public static String week(String date){
+        Date x =utils.parseDate("yyyy-MM-dd'T'HH:mm:ss.SSS",date);
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(x);
+        String week=String.valueOf(cal.get(Calendar.WEEK_OF_YEAR));
+        return date.substring(0,4)+"-"+week;
+    }
+
+
     public static void main(String[] args) throws ParseException {
+        System.out.println("aaaaaaa".split(",")[0]);
+        System.out.println("3000-09-07T07:41:00.000".substring(0,10));//giorno
+        System.out.println("3000-09-07T07:41:00.000".substring(0,7));//mese
+        System.out.println(week("3000-09-07T07:41:00.000"));//settimana
+        System.out.println("3000-09-07T07:41:00.000".substring(0,13));//ora
+
 
         String format = "HH:mm:ss.SSS";
         String ex = "5:00:00.000";

@@ -1,6 +1,8 @@
 package stream;
 
 import java.io.Serializable;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Data type for words with count.
@@ -9,17 +11,22 @@ public class BussDelay implements Serializable {
     public    String Occurred_On;
     public    String How_Long_Delayed;
     public    String Boro;
+    public    Long startingTimeNew;
+    public    Long startingTimeOld;
     public long count;
+
 
     public  BussDelay(String line) {
             String[] x = line.split(";(?=([^\"]*\"[^\"]*\")*[^\"]*$)");
-            this.Occurred_On=x[7];
-            this.How_Long_Delayed=ritornaMinuti(x[11]).replaceAll("[^0-9]", "");
-            this.Boro=x[9];
+            this.Occurred_On=x[1+7];
+            this.How_Long_Delayed=ritornaMinuti(x[11+1]).replaceAll("[^0-9]", "");
+            this.Boro=x[9+1];
             this.count=1;
+            this.startingTimeNew=Long.valueOf(x[0]);
+            this.startingTimeOld=Long.valueOf(x[0]);
             //String c = "{'Occurred_On':" + Occurred_On + ", 'How_Long_Delayed':" + How_Long_Delayed + ", 'Boro':" + Boro + " 'count':"+1+"}";
            // return Occurred_On+"#"+How_Long_Delayed+"#"+Boro+"#"+"1";
-        }
+    }
 
 
 
@@ -87,7 +94,6 @@ public class BussDelay implements Serializable {
             }
 
         }catch (Exception e){
-            System.out.println(m);
         }
         return "";
 

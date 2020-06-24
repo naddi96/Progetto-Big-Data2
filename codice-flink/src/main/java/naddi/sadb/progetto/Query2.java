@@ -35,7 +35,8 @@ public class Query2 {
         env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
         SingleOutputStreamOperator<Tuple2<String, BussDisservice>>
                 stream = text.flatMap(new flatMapFascia());
-                    putEventTimeQuery2(stream, Time.days(1)).keyBy(0)
+
+        putEventTimeQuery2(stream, Time.days(1)).keyBy(0)
                     .window(TumblingEventTimeWindows.of(Time.hours(24)))
                     .reduce((x, y) -> reduceReason(x, y)).keyBy(0)
                     .map(new makeFasciaKey()).keyBy(0)
@@ -43,6 +44,8 @@ public class Query2 {
                     .reduce((x, y) -> reduceFascia(x, y)).keyBy(0)
                     .map(new get_top_3rank())
                 .print().setParallelism(1);
+
+
         env.execute("Socket Window WordCount");
 
     }

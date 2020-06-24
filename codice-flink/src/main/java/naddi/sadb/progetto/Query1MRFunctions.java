@@ -7,6 +7,7 @@ import org.apache.flink.api.common.functions.RichFlatMapFunction;
 import org.apache.flink.api.common.functions.RichMapFunction;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.api.java.tuple.Tuple3;
+import org.apache.flink.api.java.tuple.Tuple5;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.functions.timestamps.BoundedOutOfOrdernessTimestampExtractor;
@@ -21,16 +22,16 @@ import java.util.Date;
 class parseFlatMap extends RichFlatMapFunction<String, Tuple2<String, BussDelay>> {
     public void flatMap(String value, Collector<Tuple2<String,BussDelay>> out) {
                 BussDelay c=new BussDelay(value);
-                if (!c.How_Long_Delayed.equals("")){
+                if (!c.How_Long_Delayed.equals("")  ){
                     out.collect(new Tuple2<>(c.Boro,c));
                 }
             }
     }
 
-class computeAvgMap extends RichMapFunction<Tuple2<String, BussDelay>,Tuple3<String, String, String> > {
-    public Tuple3<String, String, String> map(Tuple2<String, BussDelay> tup) throws Exception {
+class computeAvgMap extends RichMapFunction<Tuple2<String, BussDelay>, Tuple5<String, String, String,Long,Long>> {
+    public Tuple5<String, String, String, Long,Long> map(Tuple2<String, BussDelay> tup) throws Exception {
         double avg=Double.valueOf(tup.f1.How_Long_Delayed) / Double.valueOf(tup.f1.count);
-        return new Tuple3<String,String,String>(tup.f1.Boro,String.valueOf(avg),tup.f1.Occurred_On);
+        return new Tuple5<String,String,String,Long,Long>(tup.f1.Boro,String.valueOf(avg),tup.f1.Occurred_On,tup.f1.startingTimeNew,tup.f1.startingTimeOld);
     }
 }
 
@@ -42,6 +43,8 @@ class MapReduceFunctions {
         tup1.f1.count=tup1.f1.count+tup2.f1.count;
         tup1.f1.Occurred_On= utils.returnMinDate(tup1.f1.Occurred_On,tup2.f1.Occurred_On);
         tup1.f1.How_Long_Delayed=String.valueOf(Integer.valueOf(tup1.f1.How_Long_Delayed)+Integer.valueOf(tup2.f1.How_Long_Delayed));
+        tup1.f1.startingTimeNew = Math.max(tup1.f1.startingTimeNew,tup2.f1.startingTimeNew);
+        tup1.f1.startingTimeOld = Math.min(tup1.f1.startingTimeOld,tup2.f1.startingTimeOld);
         return new Tuple2<>(tup1.f0, tup1.f1);
     }
 

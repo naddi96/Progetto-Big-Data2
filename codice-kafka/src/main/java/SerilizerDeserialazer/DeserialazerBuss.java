@@ -5,7 +5,6 @@ import org.apache.commons.lang3.SerializationUtils;
 import org.apache.kafka.common.serialization.Deserializer;
 import stream.BussDelay;
 
-import java.io.IOException;
 import java.util.Map;
 
 public class DeserialazerBuss implements Deserializer<BussDelay> {

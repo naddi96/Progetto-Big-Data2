@@ -6,11 +6,13 @@ import SerilizerDeserialazer.TimeExstractor;
 import config.Configuration;
 import org.apache.kafka.common.serialization.Serde;
 import org.apache.kafka.common.serialization.Serdes;
+import org.apache.kafka.common.serialization.Serializer;
 import org.apache.kafka.streams.KafkaStreams;
 import org.apache.kafka.streams.KeyValue;
 import org.apache.kafka.streams.StreamsBuilder;
 import org.apache.kafka.streams.StreamsConfig;
 import org.apache.kafka.streams.kstream.*;
+import org.apache.kafka.streams.kstream.internals.TimeWindow;
 
 import java.time.Duration;
 import java.util.*;
@@ -37,7 +39,7 @@ import java.util.*;
  */
 public class BussDelayProcess {
 
-
+//  $KAFKA_HOME/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic streams
     private static Properties createStreamProperties(){
         final Properties props = new Properties();
 
@@ -61,13 +63,28 @@ public class BussDelayProcess {
 
 
 
+    public static String windowsTime(String time,String intervallo){
+        if (intervallo.equals("ora")){
+            return  time.substring(0,13);
+        }
+        if (intervallo.equals("giorno")){
+            return time.substring(0,10);
+        }
+        if (intervallo.equals("mese")){
+            return  time.substring(0,7);
+        }
+        if (intervallo.equals("settimana")){
+            return retWeek(time);
+        }
+        return "";
+    }
+
 
     public static void main(final String[] args) throws Exception {
 
         SerializerBuss ser= new SerializerBuss();
         DeserialazerBuss des =new DeserialazerBuss();
         final Serde<BussDelay> BussDelaySerde = Serdes.serdeFrom(ser, des);
-
         final Properties props = createStreamProperties();
         props.put(StreamsConfig.DEFAULT_TIMESTAMP_EXTRACTOR_CLASS_CONFIG, TimeExstractor.class);
         final StreamsBuilder builder = new StreamsBuilder();
@@ -75,32 +92,71 @@ public class BussDelayProcess {
                 builder.stream("streams");
 
 
+       String durata="giorno";
+       Duration durataWindow = Duration.ofDays(1);
 
 
         KStream<String, BussDelay> buss = textLines.flatMap((key, value) -> MapReduceFunc.parseFlatmap(value));
 
 
         TimeWindowedKStream<String, BussDelay> widowedBuss = buss.groupByKey(Serialized.with(Serdes.String(),BussDelaySerde))
-                .windowedBy(TimeWindows.of(Duration.ofDays(1)));
+                .windowedBy(TimeWindows.of(durataWindow));
 
         KTable<Windowed<String>, BussDelay> reducedBuss = widowedBuss.reduce((z, a) -> MapReduceFunc.reducers(z, a));
-        KTable<Windowed<String>, String> tostringBuss = reducedBuss.mapValues(value -> {
-                String ret = value.Occurred_On;
-                double avg = Double.valueOf(value.How_Long_Delayed) / Double.valueOf(value.count);
-                ret = ret + "," + value.Boro + "," + avg;
-            System.out.println(ret);
-            return ret;
-        });
 
-        KStream<String, String> toStreamBuss = tostringBuss.toStream().map((key, value) -> KeyValue.pair(key.key(), value));
-        toStreamBuss.to("streams-wordcount-output",Produced.with(Serdes.String(), Serdes.String()));
+
+        //System.out.println(value);
+        //  System.out.println(value.count+", "+value.Occurred_On+", "+value.How_Long_Delayed);
+        //System.out.println(value);
+        //  System.out.println(value.count+", "+value.Occurred_On+", "+value.How_Long_Delayed);
+        KStream<Windowed<String>, BussDelay> avgBuss = reducedBuss.mapValues(value -> {
+            double avg = Double.valueOf(value.How_Long_Delayed) / Double.valueOf(value.count);
+            value.How_Long_Delayed = value.Boro + ";" + String.valueOf(avg);
+
+            //System.out.println(value);
+            //  System.out.println(value.count+", "+value.Occurred_On+", "+value.How_Long_Delayed);
+            return value;
+
+        }).toStream();
+
+        //KGroupedTable<String, BussDelay> x = avgBuss.groupBy((key, value) -> KeyValue.pair(windowsTime(value.Occurred_On,durata), value), Grouped.with(Serdes.String(), BussDelaySerde));
+        KGroupedStream<String, BussDelay> x = avgBuss.groupBy((key, value) ->windowsTime(value.Occurred_On,durata), Serialized.with(Serdes.String(), BussDelaySerde));
+      //  TimeWindowedKStream<String, BussDelay> stri = x.windowedBy(TimeWindows.of(Duration.ofDays(1)));
+
+        KTable<String, BussDelay> xx = x.reduce(
+                new Reducer<BussDelay>() { /* adder */
+                    @Override
+                    public BussDelay apply(BussDelay aggValue, BussDelay newValue) {
+                        return MapReduceFunc.aggrecate(aggValue,newValue);
+                    }
+                });
+
+      //  KTable<String, BussDelay> xx = x.reduce((aggValue, newValue) -> MapReduceFunc.aggrecate(aggValue, newValue));
+        KTable<String, String> prova = xx.mapValues(value ->{
+            long end = System.nanoTime();
+            float timenew = (float)(end - value.startingTimeNew)/1000000000 ;
+            float tmieold =(float) (end -value.startingTimeOld)/1000000000 ;
+            System.out.println("tempo di latenza da recod più vecchio: "+tmieold  );
+            System.out.println("tempo di latenza da recod più nuovo: "+timenew  );
+            return value.startingTimeNew+","+value.startingTimeOld+","+value.Occurred_On+","+value.How_Long_Delayed;
+        });
+        //prova.toStream().foreach((key,value)-> System.out.println(value+"\n"));
+       // KStream<String, String> toStreamBuss = prova.toStream().map((key, value) -> KeyValue.pair(key.key(), value));
+        //prova.toStream().foreach( (key,value)-> System.out.println(value));
+        prova.toStream().to("streams-wordcount-output",Produced.with(Serdes.String(), Serdes.String()));
         final KafkaStreams streams = new KafkaStreams(builder.build(), props);
         streams.cleanUp();
         streams.start();
-
         // Add shutdown hook to respond to SIGTERM and gracefully close Kafka Streams
         Runtime.getRuntime().addShutdownHook(new Thread(streams::close));
     }
 
+    public static String retWeek(String date){
+        Date x =TimeExstractor.parseDate("yyyy-MM-dd'T'HH:mm:ss.SSS",date);
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(x);
+        String week=String.valueOf(cal.get(Calendar.WEEK_OF_YEAR));
+        return date.substring(0,4)+"-"+week;
+    }
 }
 

@@ -3,8 +3,190 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5928425d-4d64-41da-aaf0-00b87c5b70cb" name="Default Changelist" comment="" />
+    <list default="true" id="0c745bcb-98f5-4f6c-a23b-b20d1ad73380" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../codice-flink/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../codice-flink/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice-flink/codice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../codice-flink/codice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice-flink/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../codice-flink/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice-flink/src/main/java/naddi/sadb/progetto/Query1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../codice-flink/src/main/java/naddi/sadb/progetto/Query1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice-flink/src/main/java/naddi/sadb/progetto/Query1MRFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../codice-flink/src/main/java/naddi/sadb/progetto/Query1MRFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice-flink/src/main/java/naddi/sadb/progetto/Query2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../codice-flink/src/main/java/naddi/sadb/progetto/Query2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice-flink/src/main/java/naddi/sadb/progetto/prova.java" beforeDir="false" afterPath="$PROJECT_DIR$/../codice-flink/src/main/java/naddi/sadb/progetto/prova.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice-flink/src/main/java/naddi/sadb/progetto/query1Utils/BussDelay.java" beforeDir="false" afterPath="$PROJECT_DIR$/../codice-flink/src/main/java/naddi/sadb/progetto/query1Utils/BussDelay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice-flink/src/main/java/naddi/sadb/progetto/query1Utils/utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../codice-flink/src/main/java/naddi/sadb/progetto/query1Utils/utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice-flink/target/classes/META-INF/codice.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice-flink/target/classes/naddi/sadb/progetto/Query1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../codice-flink/target/classes/naddi/sadb/progetto/Query1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice-flink/target/classes/naddi/sadb/progetto/Query2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../codice-flink/target/classes/naddi/sadb/progetto/Query2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice-flink/target/classes/naddi/sadb/progetto/Query2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../codice-flink/target/classes/naddi/sadb/progetto/Query2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice-flink/target/classes/naddi/sadb/progetto/flatMapFascia.class" beforeDir="false" afterPath="$PROJECT_DIR$/../codice-flink/target/classes/naddi/sadb/progetto/flatMapFascia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice-flink/target/classes/naddi/sadb/progetto/get_top_3rank.class" beforeDir="false" afterPath="$PROJECT_DIR$/../codice-flink/target/classes/naddi/sadb/progetto/get_top_3rank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice-flink/target/classes/naddi/sadb/progetto/makeFasciaKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/../codice-flink/target/classes/naddi/sadb/progetto/makeFasciaKey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice-flink/target/classes/naddi/sadb/progetto/prova.class" beforeDir="false" afterPath="$PROJECT_DIR$/../codice-flink/target/classes/naddi/sadb/progetto/prova.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice-flink/target/classes/naddi/sadb/progetto/query1Utils/BussDelay.class" beforeDir="false" afterPath="$PROJECT_DIR$/../codice-flink/target/classes/naddi/sadb/progetto/query1Utils/BussDelay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice-flink/target/classes/naddi/sadb/progetto/query1Utils/Query2prov$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice-flink/target/classes/naddi/sadb/progetto/query1Utils/Query2prov.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice-flink/target/classes/naddi/sadb/progetto/query1Utils/flatMapFascia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice-flink/target/classes/naddi/sadb/progetto/query1Utils/get_top_3rank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice-flink/target/classes/naddi/sadb/progetto/query1Utils/makeFasciaKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bus-breakdown-and-delays.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/bus-breakdown-and-delays.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BussDelayKafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/producer/BussDelayKafkaProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BussDelayProducerLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/producer/BussDelayProducerLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SerilizerDeserialazer/DeserialazerBuss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SerilizerDeserialazer/DeserialazerBuss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SerilizerDeserialazer/SerializerBuss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SerilizerDeserialazer/SerializerBuss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SerilizerDeserialazer/TimeExstractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SerilizerDeserialazer/TimeExstractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stream/BussDelay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stream/BussDelay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stream/BussDelayProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stream/BussDelayProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stream/MapReduceFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stream/MapReduceFunc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BussDelayProducerLauncher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ConsumerLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ConsumerLauncher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/simple/BussDelayKafkaProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/simple/SimpleKafkaConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stream/BussDelay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stream/BussDelay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stream/BussDelayProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stream/BussDelayProcess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stream/JsonPOJODeserializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stream/JsonPOJOSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stream/MapReduceFunc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stream/MapReduceFunc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stream/TimeExstractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stream/bussDeserialazer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stream/bussSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__com_data_artisans_frocksdbjni_5_17_2_artisans_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__com_esotericsoftware_kryo_kryo_2_24_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__com_esotericsoftware_minlog_minlog_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__com_github_luben_zstd_jni_1_3_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__com_github_scopt_scopt_2_11_3_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__com_twitter_chill_2_11_0_7_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__com_twitter_chill_java_0_7_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_11_2_5_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__com_typesafe_akka_akka_protobuf_2_11_2_5_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__com_typesafe_akka_akka_slf4j_2_11_2_5_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__com_typesafe_akka_akka_stream_2_11_2_5_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__com_typesafe_config_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__com_typesafe_ssl_config_core_2_11_0_3_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__commons_cli_commons_cli_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__jline_jline_0_9_94.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_commons_commons_math3_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_curator_curator_test_2_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_flink_annotations_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_flink_clients_2_11_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_2_11_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_base_2_11_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_flink_connector_twitter_2_11_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_flink_core_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_flink_hadoop_fs_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_flink_java_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_flink_metrics_core_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_flink_optimizer_2_11_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_flink_queryable_state_client_java_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_flink_runtime_2_11_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_flink_runtime_2_11_test_jar_tests_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_flink_scala_2_11_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_flink_shaded_asm_7_7_1_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_flink_shaded_guava_18_0_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_flink_shaded_jackson_2_10_1_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_flink_shaded_netty_4_1_39_Final_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_flink_statebackend_rocksdb_2_11_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_flink_streaming_java_2_11_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_flink_streaming_scala_2_11_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_flink_test_utils_2_11_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_flink_test_utils_junit_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_flink_force_shading_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_clapper_grizzled_slf4j_2_11_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_jcuda_jcublas_10_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_jcuda_jcuda_10_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_lz4_lz4_java_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_scala_lang_modules_scala_java8_compat_2_11_0_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_11_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/codice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/src/main/java/naddi/sadb/progetto/BussDisservice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/src/main/java/naddi/sadb/progetto/Query1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/src/main/java/naddi/sadb/progetto/Query1MRFunctions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/src/main/java/naddi/sadb/progetto/Query2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/src/main/java/naddi/sadb/progetto/Query2MRFunc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/src/main/java/naddi/sadb/progetto/prova.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/src/main/java/naddi/sadb/progetto/query1Utils/BussDelay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/src/main/java/naddi/sadb/progetto/query1Utils/utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/target/classes/META-INF/codice.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/target/classes/naddi/sadb/progetto/BussDisservice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/target/classes/naddi/sadb/progetto/MapReduceFunctions$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/target/classes/naddi/sadb/progetto/MapReduceFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/target/classes/naddi/sadb/progetto/Query1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/target/classes/naddi/sadb/progetto/Query2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/target/classes/naddi/sadb/progetto/Query2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/target/classes/naddi/sadb/progetto/computeAvgMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/target/classes/naddi/sadb/progetto/flatMapFascia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/target/classes/naddi/sadb/progetto/get_top_3rank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/target/classes/naddi/sadb/progetto/makeFasciaKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/target/classes/naddi/sadb/progetto/parseFlatMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/target/classes/naddi/sadb/progetto/prova.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/target/classes/naddi/sadb/progetto/query1Utils/BussDelay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/target/classes/naddi/sadb/progetto/query1Utils/Query2prov$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/target/classes/naddi/sadb/progetto/query1Utils/Query2prov.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/target/classes/naddi/sadb/progetto/query1Utils/flatMapFascia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/target/classes/naddi/sadb/progetto/query1Utils/get_top_3rank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/target/classes/naddi/sadb/progetto/query1Utils/makeFasciaKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/target/classes/naddi/sadb/progetto/query1Utils/utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codice/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +199,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.jdks/corretto-1.8.0_252/src.zip!/java/text/DateFormat.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.2.0/kafka-clients-2.2.0.jar!/org/apache/kafka/clients/consumer/KafkaConsumer.class" root0="FORCE_HIGHLIGHTING" />
@@ -28,27 +213,29 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1dPeAXiAqQSegNwxSrb5ardnAvj" />
+  <component name="ProjectId" id="1dgg5g8JS1nKrgWj39zTGlBZFNA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591877192863" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sf_Info_Retrival/PROGETTO/information-retrival-project/webapp_solr" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="stream" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BussDelayProcess">
+  <component name="RunManager" selected="Application.BussDelayProducerLauncher">
     <configuration name="BussDelayProcess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.BussDelayProcess" />
       <module name="codice-kafka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SerilizerDeserialazer.*" />
+          <option name="PATTERN" value="stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,7 +244,7 @@
       </method>
     </configuration>
     <configuration name="BussDelayProducerLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BussDelayProducerLauncher" />
+      <option name="MAIN_CLASS_NAME" value="producer.BussDelayProducerLauncher" />
       <module name="codice-kafka" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,159 +257,92 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumLambdaExampleProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.SumLambdaExampleProducer" />
-      <module name="codice-kafka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SerilizerDeserialazer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.WordCount" />
-      <module name="codice-kafka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SerilizerDeserialazer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="codice-kafka" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="codice-kafka" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BussDelayProducerLauncher" />
-        <item itemvalue="Application.BussDelayProcess" />
-        <item itemvalue="Application.WordCount" />
         <item itemvalue="Application.ConsumerLauncher" />
-        <item itemvalue="Application.SumLambdaExampleProducer" />
+        <item itemvalue="Application.BussDelayProcess" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5928425d-4d64-41da-aaf0-00b87c5b70cb" name="Default Changelist" comment="" />
-      <created>1559409644864</created>
+      <changelist id="0c745bcb-98f5-4f6c-a23b-b20d1ad73380" name="Default Changelist" comment="" />
+      <created>1592851970581</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1559409644864</updated>
+      <updated>1592851970581</updated>
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="670" y="216" width="572" height="597" key="#com.intellij.ide.util.MemberChooser" timestamp="1592825932459">
-      <screen x="0" y="38" width="1920" height="947" />
-    </state>
-    <state x="670" y="216" width="572" height="597" key="#com.intellij.ide.util.MemberChooser/0.38.1920.947@0.38.1920.947" timestamp="1592825932459" />
-    <state x="667" y="239" width="578" height="551" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1592341826266">
-      <screen x="0" y="38" width="1920" height="947" />
-    </state>
-    <state x="667" y="239" width="578" height="551" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.38.1920.947@0.38.1920.947" timestamp="1592341826266" />
-    <state x="711" y="371" width="490" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592838148570">
-      <screen x="0" y="38" width="1920" height="947" />
-    </state>
-    <state x="711" y="371" width="490" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.38.1920.947@0.38.1920.947" timestamp="1592838148570" />
-    <state x="693" y="261" width="526" height="506" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592838113277">
-      <screen x="0" y="38" width="1920" height="947" />
-    </state>
-    <state x="693" y="261" width="526" height="506" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.38.1920.947@0.38.1920.947" timestamp="1592838113277" />
-    <state x="693" y="261" width="526" height="506" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1592337185626">
-      <screen x="0" y="38" width="1920" height="947" />
-    </state>
-    <state x="693" y="261" width="526" height="506" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.38.1920.947@0.38.1920.947" timestamp="1592337185626" />
-    <state x="743" y="272" width="426" height="485" key="FileChooserDialogImpl" timestamp="1592384147932">
-      <screen x="0" y="38" width="1920" height="947" />
-    </state>
-    <state x="743" y="272" width="426" height="485" key="FileChooserDialogImpl/0.38.1920.947@0.38.1920.947" timestamp="1592384147932" />
-    <state width="1870" height="378" key="GridCell.Tab.0.bottom" timestamp="1592838523723">
-      <screen x="0" y="38" width="1920" height="947" />
-    </state>
-    <state width="1870" height="378" key="GridCell.Tab.0.bottom/0.38.1920.947@0.38.1920.947" timestamp="1592838523723" />
-    <state width="1870" height="378" key="GridCell.Tab.0.center" timestamp="1592838523722">
-      <screen x="0" y="38" width="1920" height="947" />
-    </state>
-    <state width="1870" height="378" key="GridCell.Tab.0.center/0.38.1920.947@0.38.1920.947" timestamp="1592838523722" />
-    <state width="1870" height="378" key="GridCell.Tab.0.left" timestamp="1592838523721">
-      <screen x="0" y="38" width="1920" height="947" />
-    </state>
-    <state width="1870" height="378" key="GridCell.Tab.0.left/0.38.1920.947@0.38.1920.947" timestamp="1592838523721" />
-    <state width="1870" height="378" key="GridCell.Tab.0.right" timestamp="1592838523723">
-      <screen x="0" y="38" width="1920" height="947" />
-    </state>
-    <state width="1870" height="378" key="GridCell.Tab.0.right/0.38.1920.947@0.38.1920.947" timestamp="1592838523723" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="768" y="218" width="376" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1592952860397">
+      <screen x="0" y="38" width="1920" height="947" />
+    </state>
+    <state x="768" y="218" width="376" height="592" key="#com.intellij.ide.util.MemberChooser/0.38.1920.947@0.38.1920.947" timestamp="1592952860397" />
+    <state x="743" y="272" width="426" height="485" key="FileChooserDialogImpl" timestamp="1592901069650">
+      <screen x="0" y="38" width="1920" height="947" />
+    </state>
+    <state x="743" y="272" width="426" height="485" key="FileChooserDialogImpl/0.38.1920.947@0.38.1920.947" timestamp="1592901069650" />
+    <state width="1870" height="327" key="GridCell.Tab.0.bottom" timestamp="1593014584776">
+      <screen x="0" y="38" width="1920" height="1042" />
+    </state>
+    <state width="1870" height="327" key="GridCell.Tab.0.bottom/0.38.1920.1042@0.38.1920.1042" timestamp="1593014584776" />
+    <state width="1870" height="400" key="GridCell.Tab.0.bottom/0.38.1920.947@0.38.1920.947" timestamp="1592954262287" />
+    <state width="1870" height="327" key="GridCell.Tab.0.center" timestamp="1593014584775">
+      <screen x="0" y="38" width="1920" height="1042" />
+    </state>
+    <state width="1870" height="327" key="GridCell.Tab.0.center/0.38.1920.1042@0.38.1920.1042" timestamp="1593014584775" />
+    <state width="1870" height="400" key="GridCell.Tab.0.center/0.38.1920.947@0.38.1920.947" timestamp="1592954262286" />
+    <state width="1870" height="327" key="GridCell.Tab.0.left" timestamp="1593014584775">
+      <screen x="0" y="38" width="1920" height="1042" />
+    </state>
+    <state width="1870" height="327" key="GridCell.Tab.0.left/0.38.1920.1042@0.38.1920.1042" timestamp="1593014584775" />
+    <state width="1870" height="400" key="GridCell.Tab.0.left/0.38.1920.947@0.38.1920.947" timestamp="1592954262285" />
+    <state width="1870" height="327" key="GridCell.Tab.0.right" timestamp="1593014584776">
+      <screen x="0" y="38" width="1920" height="1042" />
+    </state>
+    <state width="1870" height="327" key="GridCell.Tab.0.right/0.38.1920.1042@0.38.1920.1042" timestamp="1593014584776" />
+    <state width="1870" height="400" key="GridCell.Tab.0.right/0.38.1920.947@0.38.1920.947" timestamp="1592954262286" />
+    <state x="534" y="307" width="843" height="509" key="IDE.errors.dialog" timestamp="1592998176926">
+      <screen x="0" y="38" width="1920" height="1042" />
+    </state>
+    <state x="534" y="307" width="843" height="509" key="IDE.errors.dialog/0.38.1920.1042@0.38.1920.1042" timestamp="1592998176926" />
+    <state x="493" y="219" width="926" height="685" key="Maven.ArtifactSearchDialog" timestamp="1592990043584">
+      <screen x="0" y="38" width="1920" height="1042" />
+    </state>
+    <state x="493" y="219" width="926" height="685" key="Maven.ArtifactSearchDialog/0.38.1920.1042@0.38.1920.1042" timestamp="1592990043584" />
+    <state x="455" y="202" width="1002" height="687" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1592951242912">
+      <screen x="0" y="38" width="1920" height="947" />
+    </state>
+    <state x="455" y="202" width="1002" height="687" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.38.1920.947@0.38.1920.947" timestamp="1592951242912" />
+    <state x="623" y="266" width="672" height="747" key="search.everywhere.popup" timestamp="1593007685472">
+      <screen x="0" y="38" width="1920" height="1042" />
+    </state>
+    <state x="623" y="266" width="672" height="747" key="search.everywhere.popup/0.38.1920.1042@0.38.1920.1042" timestamp="1593007685472" />
+    <state x="623" y="245" width="672" height="678" key="search.everywhere.popup/0.38.1920.947@0.38.1920.947" timestamp="1592952636187" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

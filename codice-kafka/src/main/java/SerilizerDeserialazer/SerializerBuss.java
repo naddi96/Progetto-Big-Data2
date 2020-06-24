@@ -2,7 +2,6 @@ package SerilizerDeserialazer;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.lang3.SerializationUtils;
-import org.apache.kafka.common.errors.SerializationException;
 import org.apache.kafka.common.serialization.Serializer;
 import stream.BussDelay;
 
