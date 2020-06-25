@@ -8,6 +8,12 @@ import java.util.*;
 public class MapReduceFunc {
 
 
+    public static BussDelay calcolaAVG(BussDelay value){
+        double avg = Double.valueOf(value.How_Long_Delayed) / Double.valueOf(value.count);
+        value.How_Long_Delayed = value.Boro + ";" + String.valueOf(avg);
+        return value;
+    }
+
     public static BussDelay reducers(BussDelay zb, BussDelay ab){
             zb.count=ab.count+zb.count;
             zb.Occurred_On= TimeExstractor.returnMinDate(zb.Occurred_On,ab.Occurred_On);

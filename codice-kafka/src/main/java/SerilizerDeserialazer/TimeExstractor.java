@@ -6,6 +6,7 @@ import stream.BussDelay;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 
 public class TimeExstractor implements TimestampExtractor {
@@ -37,6 +38,29 @@ public class TimeExstractor implements TimestampExtractor {
         return dat;
     }
 
+    public static String returnWeek(String date){
+        Date x =TimeExstractor.parseDate("yyyy-MM-dd'T'HH:mm:ss.SSS",date);
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(x);
+        String week=String.valueOf(cal.get(Calendar.WEEK_OF_YEAR));
+        return date.substring(0,4)+"-"+week;
+    }
+
+    public static String windowsTime(String time,String intervallo){
+        if (intervallo.equals("ora")){
+            return  time.substring(0,13);
+        }
+        if (intervallo.equals("giorno")){
+            return time.substring(0,10);
+        }
+        if (intervallo.equals("mese")){
+            return  time.substring(0,7);
+        }
+        if (intervallo.equals("settimana")){
+            return TimeExstractor.returnWeek(time);
+        }
+        return "";
+    }
 
 
     public static String returnMinDate(String date1, String date2){

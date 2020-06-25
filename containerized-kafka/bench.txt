@@ -1,0 +1,7 @@
+/home/naddi/kafka/bin/kafka-consumer-perf-test.sh --topic streams-wordcount-output \
+--broker-list "localhost:9092,localhost:9093,localhost:9094" \
+--messages 150 \
+--threads 1
+
+
+
