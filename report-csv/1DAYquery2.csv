@@ -1,0 +1,937 @@
+2015-09-01T07:29:00.000,fascia5-11,Heavy Traffic:4/Other:3,fascia12-19,
+2015-09-02T06:22:00.000,fascia5-11,Heavy Traffic:22/Other:7/Mechanical Problem:3,fascia12-19,Won`t Start:1/Heavy Traffic:1/Other:1
+2015-09-03T06:08:00.000,fascia5-11,Heavy Traffic:13/Other:4/Mechanical Problem:3,fascia12-19,Won`t Start:1/Heavy Traffic:1/Other:1
+2015-09-04T06:24:00.000,fascia5-11,Heavy Traffic:4/Other:4/Won`t Start:1,fascia12-19,Other:2/Heavy Traffic:1
+2015-09-08T05:12:00.000,fascia5-11,Heavy Traffic:67/Other:22/Mechanical Problem:16,fascia12-19,Delayed by School:10/Other:5/Heavy Traffic:3
+2015-09-09T05:31:00.000,fascia5-11,Heavy Traffic:428/Other:72/Mechanical Problem:51,fascia12-19,Delayed by School:21/Heavy Traffic:18/Mechanical Problem:16
+2015-09-10T05:41:00.000,fascia5-11,Heavy Traffic:320/Weather Conditions:54/Other:43,fascia12-19,Heavy Traffic:32/Mechanical Problem:15/Other:14
+2015-09-11T05:28:00.000,fascia5-11,Heavy Traffic:280/Other:37/Mechanical Problem:21,fascia12-19,Heavy Traffic:35/Mechanical Problem:12/Other:11
+2015-09-14T06:57:00.000,fascia5-11,Heavy Traffic:14/Other:2/Mechanical Problem:1,fascia12-19,Heavy Traffic:1/Mechanical Problem:1/Other:1
+2015-09-15T06:15:00.000,fascia5-11,Heavy Traffic:24/Other:5/Mechanical Problem:1,fascia12-19,Heavy Traffic:1/Mechanical Problem:1
+2015-09-16T05:44:00.000,fascia5-11,Heavy Traffic:340/Other:76/Mechanical Problem:36,fascia12-19,Heavy Traffic:28/Other:25/Mechanical Problem:17
+2015-09-17T05:04:00.000,fascia5-11,Heavy Traffic:294/Other:41/Mechanical Problem:25,fascia12-19,Heavy Traffic:29/Mechanical Problem:13/Other:13
+2015-09-18T05:42:00.000,fascia5-11,Heavy Traffic:243/Other:37/Mechanical Problem:19,fascia12-19,Heavy Traffic:25/Other:20/Mechanical Problem:13
+2015-09-21T05:16:00.000,fascia5-11,Heavy Traffic:229/Other:59/Mechanical Problem:44,fascia12-19,Other:27/Heavy Traffic:11/Mechanical Problem:11
+2015-09-22T05:11:00.000,fascia5-11,Heavy Traffic:176/Other:31/Problem Run:22,fascia12-19,Other:14/Mechanical Problem:10/Heavy Traffic:9
+2015-09-23T05:50:00.000,fascia5-11,Heavy Traffic:8/Other:3/Won`t Start:1,fascia12-19,Other:3
+2015-09-24T06:00:00.000,fascia5-11,Heavy Traffic:14/Mechanical Problem:6/Other:4,fascia12-19,Other:5/Flat Tire:1/Won`t Start:1
+2015-09-25T05:26:00.000,fascia5-11,Heavy Traffic:198/Other:55/Mechanical Problem:17,fascia12-19,Heavy Traffic:15/Other:7/Won`t Start:6
+2015-09-28T05:21:00.000,fascia5-11,Heavy Traffic:210/Other:55/Mechanical Problem:19,fascia12-19,Heavy Traffic:18/Mechanical Problem:10/Other:6
+2015-09-29T05:38:00.000,fascia5-11,Heavy Traffic:240/Other:53/Mechanical Problem:19,fascia12-19,Heavy Traffic:20/Mechanical Problem:12/Other:11
+2015-09-30T05:35:00.000,fascia5-11,Heavy Traffic:207/Other:48/Weather Conditions:35,fascia12-19,Other:14/Mechanical Problem:9/Won`t Start:7
+2015-10-01T05:43:00.000,fascia5-11,Heavy Traffic:160/Other:43/Problem Run:24,fascia12-19,Heavy Traffic:13/Other:11/Won`t Start:8
+2015-10-02T05:30:00.000,fascia5-11,Heavy Traffic:156/Weather Conditions:73/Other:43,fascia12-19,Heavy Traffic:27/Other:9/Weather Conditions:9
+2015-10-05T05:26:00.000,fascia5-11,Heavy Traffic:167/Other:61/Mechanical Problem:26,fascia12-19,Other:11/Heavy Traffic:9/Won`t Start:7
+2015-10-06T05:31:00.000,fascia5-11,Heavy Traffic:179/Other:48/Mechanical Problem:24,fascia12-19,Mechanical Problem:15/Other:14/Heavy Traffic:12
+2015-10-07T05:30:00.000,fascia5-11,Heavy Traffic:219/Other:51/Mechanical Problem:23,fascia12-19,Heavy Traffic:17/Other:12/Mechanical Problem:8
+2015-10-08T05:45:00.000,fascia5-11,Heavy Traffic:213/Other:60/Mechanical Problem:26,fascia12-19,Other:12/Heavy Traffic:10/Mechanical Problem:10
+2015-10-09T05:48:00.000,fascia5-11,Heavy Traffic:179/Other:38/Mechanical Problem:14,fascia12-19,Heavy Traffic:19/Other:16/Mechanical Problem:10
+2015-10-13T05:38:00.000,fascia5-11,Heavy Traffic:258/Other:48/Mechanical Problem:23,fascia12-19,Heavy Traffic:20/Mechanical Problem:17/Other:16
+2015-10-14T05:47:00.000,fascia5-11,Heavy Traffic:322/Other:96/Problem Run:27,fascia12-19,Other:35/Late return from Field Trip:29/Heavy Traffic:28
+2015-10-15T05:55:00.000,fascia5-11,Heavy Traffic:357/Other:130/Mechanical Problem:44,fascia12-19,Heavy Traffic:9/Late return from Field Trip:9/Mechanical Problem:7
+2015-10-16T07:12:00.000,fascia5-11,Other:5/Heavy Traffic:4/Won`t Start:1,fascia12-19,Other:1
+2015-10-19T05:45:00.000,fascia5-11,Heavy Traffic:356/Other:116/Mechanical Problem:35,fascia12-19,Heavy Traffic:30/Mechanical Problem:22/Other:18
+2015-10-20T05:30:00.000,fascia5-11,Heavy Traffic:273/Other:105/Mechanical Problem:43,fascia12-19,Mechanical Problem:15/Heavy Traffic:13/Other:8
+2015-10-21T05:45:00.000,fascia5-11,Heavy Traffic:117/Other:17/Won`t Start:3,fascia12-19,Heavy Traffic:31/Other:12/Mechanical Problem:7
+2015-10-22T05:35:00.000,fascia5-11,Heavy Traffic:287/Other:57/Mechanical Problem:25,fascia12-19,Heavy Traffic:36/Other:22/Mechanical Problem:20
+2015-10-23T05:40:00.000,fascia5-11,Heavy Traffic:358/Other:94/Mechanical Problem:22,fascia12-19,Late return from Field Trip:32/Heavy Traffic:29/Other:22
+2015-10-26T05:20:00.000,fascia5-11,Heavy Traffic:233/Other:95/Mechanical Problem:24,fascia12-19,Heavy Traffic:18/Other:13/Late return from Field Trip:8
+2015-10-27T05:49:00.000,fascia5-11,Heavy Traffic:199/Other:54/Mechanical Problem:22,fascia12-19,Heavy Traffic:14/Other:13/Mechanical Problem:13
+2015-10-28T05:45:00.000,fascia5-11,Heavy Traffic:193/Other:68/Mechanical Problem:24,fascia12-19,Heavy Traffic:39/Late return from Field Trip:20/Other:14
+2015-10-29T05:16:00.000,fascia5-11,Heavy Traffic:276/Other:66/Mechanical Problem:25,fascia12-19,Heavy Traffic:18/Mechanical Problem:12/Other:10
+2015-10-30T05:35:00.000,fascia5-11,Heavy Traffic:168/Other:43/Mechanical Problem:25,fascia12-19,Heavy Traffic:22/Late return from Field Trip:6/Other:6
+2015-11-02T05:51:00.000,fascia5-11,Heavy Traffic:167/Other:61/Mechanical Problem:28,fascia12-19,Heavy Traffic:13/Won`t Start:13/Other:7
+2015-11-03T05:27:00.000,fascia5-11,Heavy Traffic:20/Other:14/Mechanical Problem:5,fascia12-19,Heavy Traffic:3/Mechanical Problem:3/Accident:1
+2015-11-04T05:05:00.000,fascia5-11,Heavy Traffic:190/Other:55/Mechanical Problem:24,fascia12-19,Heavy Traffic:13/Other:13/Mechanical Problem:7
+2015-11-05T06:00:00.000,fascia5-11,Heavy Traffic:226/Other:43/Mechanical Problem:29,fascia12-19,Heavy Traffic:14/Other:14/Mechanical Problem:5
+2015-11-06T05:55:00.000,fascia5-11,Heavy Traffic:170/Other:47/Mechanical Problem:14,fascia12-19,Other:14/Late return from Field Trip:12/Mechanical Problem:11
+2015-11-09T05:20:00.000,fascia5-11,Heavy Traffic:197/Other:51/Mechanical Problem:24,fascia12-19,Other:18/Heavy Traffic:16/Late return from Field Trip:10
+2015-11-10T06:05:00.000,fascia5-11,Heavy Traffic:233/Other:73/Mechanical Problem:17,fascia12-19,Heavy Traffic:19/Other:12/Weather Conditions:5
+2015-11-12T05:49:00.000,fascia5-11,Heavy Traffic:214/Other:56/Mechanical Problem:39,fascia12-19,Other:16/Mechanical Problem:14/Late return from Field Trip:13
+2015-11-13T05:57:00.000,fascia5-11,Heavy Traffic:220/Other:59/Mechanical Problem:15,fascia12-19,Heavy Traffic:43/Other:18/Late return from Field Trip:16
+2015-11-16T05:38:00.000,fascia5-11,Heavy Traffic:179/Other:67/Mechanical Problem:32,fascia12-19,Other:22/Heavy Traffic:14/Mechanical Problem:12
+2015-11-17T05:32:00.000,fascia5-11,Heavy Traffic:222/Other:72/Mechanical Problem:17,fascia12-19,Heavy Traffic:14/Other:13/Mechanical Problem:9
+2015-11-18T05:07:00.000,fascia5-11,Heavy Traffic:150/Other:49/Mechanical Problem:10,fascia12-19,Heavy Traffic:21/Other:17/Late return from Field Trip:7
+2015-11-19T05:45:00.000,fascia5-11,Heavy Traffic:146/Other:49/Mechanical Problem:25,fascia12-19,Heavy Traffic:24/Other:22/Late return from Field Trip:10
+2015-11-20T06:04:00.000,fascia5-11,Heavy Traffic:141/Other:50/Mechanical Problem:14,fascia12-19,Heavy Traffic:21/Other:18/Mechanical Problem:4
+2015-11-23T05:30:00.000,fascia5-11,Heavy Traffic:205/Other:62/Mechanical Problem:44,fascia12-19,Heavy Traffic:27/Other:15/Flat Tire:8
+2015-11-24T05:38:00.000,fascia5-11,Heavy Traffic:290/Other:42/Mechanical Problem:20,fascia12-19,Heavy Traffic:30/Other:16/Late return from Field Trip:12
+2015-11-25T05:35:00.000,fascia5-11,Heavy Traffic:157/Other:31/Mechanical Problem:12,fascia12-19,Heavy Traffic:24/Late return from Field Trip:9/Other:9
+2015-11-27T07:44:00.000,fascia5-11,Heavy Traffic:1,fascia12-19,
+2015-11-30T05:53:00.000,fascia5-11,Heavy Traffic:254/Other:69/Mechanical Problem:28,fascia12-19,Heavy Traffic:26/Other:24/Mechanical Problem:9
+2015-12-01T05:25:00.000,fascia5-11,Heavy Traffic:264/Weather Conditions:53/Other:36,fascia12-19,Heavy Traffic:21/Late return from Field Trip:12/Mechanical Problem:10
+2015-12-02T05:15:00.000,fascia5-11,Heavy Traffic:240/Other:56/Weather Conditions:27,fascia12-19,Heavy Traffic:43/Other:19/Late return from Field Trip:14
+2015-12-03T05:06:00.000,fascia5-11,Heavy Traffic:168/Other:39/Mechanical Problem:23,fascia12-19,Heavy Traffic:15/Late return from Field Trip:8/Other:7
+2015-12-04T05:15:00.000,fascia5-11,Heavy Traffic:178/Other:55/Mechanical Problem:16,fascia12-19,Heavy Traffic:21/Other:7/Won`t Start:5
+2015-12-07T05:46:00.000,fascia5-11,Heavy Traffic:204/Other:62/Mechanical Problem:20,fascia12-19,Heavy Traffic:19/Other:13/Mechanical Problem:11
+2015-12-08T05:50:00.000,fascia5-11,Heavy Traffic:217/Other:47/Mechanical Problem:13,fascia12-19,Heavy Traffic:49/Other:13/Mechanical Problem:9
+2015-12-09T05:47:00.000,fascia5-11,Heavy Traffic:178/Other:52/Mechanical Problem:17,fascia12-19,Heavy Traffic:21/Late return from Field Trip:17/Other:15
+2015-12-10T05:32:00.000,fascia5-11,Heavy Traffic:183/Other:39/Mechanical Problem:19,fascia12-19,Heavy Traffic:47/Late return from Field Trip:13/Mechanical Problem:12
+2015-12-11T05:25:00.000,fascia5-11,Heavy Traffic:181/Other:41/Mechanical Problem:17,fascia12-19,Heavy Traffic:29/Other:11/Mechanical Problem:9
+2015-12-14T05:23:00.000,fascia5-11,Heavy Traffic:179/Other:62/Mechanical Problem:20,fascia12-19,Heavy Traffic:16/Other:12/Late return from Field Trip:8
+2015-12-15T05:15:00.000,fascia5-11,Heavy Traffic:147/Other:42/Mechanical Problem:24,fascia12-19,Heavy Traffic:13/Late return from Field Trip:9/Mechanical Problem:9
+2015-12-16T05:20:00.000,fascia5-11,Heavy Traffic:161/Other:39/Mechanical Problem:12,fascia12-19,Heavy Traffic:14/Mechanical Problem:12/Late return from Field Trip:7
+2015-12-17T05:40:00.000,fascia5-11,Heavy Traffic:172/Other:41/Problem Run:19,fascia12-19,Heavy Traffic:32/Late return from Field Trip:18/Other:14
+2015-12-18T05:40:00.000,fascia5-11,Heavy Traffic:134/Other:43/Mechanical Problem:17,fascia12-19,Late return from Field Trip:30/Other:24/Heavy Traffic:22
+2015-12-21T05:37:00.000,fascia5-11,Heavy Traffic:134/Other:46/Mechanical Problem:20,fascia12-19,Heavy Traffic:13/Mechanical Problem:11/Other:9
+2015-12-22T05:41:00.000,fascia5-11,Heavy Traffic:133/Other:37/Weather Conditions:13,fascia12-19,Heavy Traffic:36/Other:11/Late return from Field Trip:9
+2015-12-23T05:30:00.000,fascia5-11,Heavy Traffic:77/Other:33/Weather Conditions:21,fascia12-19,Heavy Traffic:19/Weather Conditions:7/Other:6
+2015-12-24T06:52:00.000,fascia5-11,Heavy Traffic:2,fascia12-19,
+2015-12-28T06:50:00.000,fascia5-11,Other:3/Mechanical Problem:2/Heavy Traffic:2,fascia12-19,Other:1
+2015-12-29T07:48:00.000,fascia5-11,Weather Conditions:2/Mechanical Problem:1,fascia12-19,Other:1
+2015-12-30T06:50:00.000,fascia5-11,Heavy Traffic:3,fascia12-19,Heavy Traffic:1
+2015-12-31T08:25:00.000,fascia5-11,Mechanical Problem:1,fascia12-19,Heavy Traffic:2
+2016-01-04T05:25:00.000,fascia5-11,Heavy Traffic:219/Other:88/Won`t Start:40,fascia12-19,Heavy Traffic:19/Mechanical Problem:13/Other:13
+2016-01-05T05:40:00.000,fascia5-11,Heavy Traffic:222/Other:101/Mechanical Problem:75,fascia12-19,Mechanical Problem:19/Other:12/Heavy Traffic:8
+2016-01-06T05:45:00.000,fascia5-11,Heavy Traffic:141/Other:57/Mechanical Problem:37,fascia12-19,Mechanical Problem:17/Heavy Traffic:15/Won`t Start:11
+2016-01-07T05:49:00.000,fascia5-11,Heavy Traffic:157/Other:53/Mechanical Problem:21,fascia12-19,Heavy Traffic:36/Other:15/Mechanical Problem:9
+2016-01-08T05:59:00.000,fascia5-11,Heavy Traffic:184/Other:60/Problem Run:18,fascia12-19,Won`t Start:10/Heavy Traffic:7/Mechanical Problem:6
+2016-01-11T05:20:00.000,fascia5-11,Heavy Traffic:156/Other:50/Mechanical Problem:20,fascia12-19,Heavy Traffic:6/Won`t Start:5/Other:3
+2016-01-12T05:39:00.000,fascia5-11,Heavy Traffic:343/Other:73/Mechanical Problem:26,fascia12-19,Other:12/Mechanical Problem:10/Heavy Traffic:8
+2016-01-13T05:36:00.000,fascia5-11,Heavy Traffic:145/Other:44/Mechanical Problem:22,fascia12-19,Mechanical Problem:27/Other:19/Heavy Traffic:15
+2016-01-14T05:50:00.000,fascia5-11,Heavy Traffic:124/Other:48/Mechanical Problem:21,fascia12-19,Heavy Traffic:13/Mechanical Problem:12/Other:8
+2016-01-15T05:50:00.000,fascia5-11,Heavy Traffic:130/Other:41/Mechanical Problem:17,fascia12-19,Heavy Traffic:18/Mechanical Problem:9/Other:7
+2016-01-19T05:31:00.000,fascia5-11,Heavy Traffic:154/Other:66/Mechanical Problem:53,fascia12-19,Heavy Traffic:29/Mechanical Problem:18/Won`t Start:11
+2016-01-20T06:10:00.000,fascia5-11,Heavy Traffic:158/Other:43/Mechanical Problem:34,fascia12-19,Mechanical Problem:16/Heavy Traffic:13/Won`t Start:11
+2016-01-21T05:40:00.000,fascia5-11,Heavy Traffic:154/Other:49/Mechanical Problem:21,fascia12-19,Heavy Traffic:21/Other:11/Mechanical Problem:9
+2016-01-22T05:49:00.000,fascia5-11,Heavy Traffic:129/Other:46/Mechanical Problem:16,fascia12-19,Heavy Traffic:22/Mechanical Problem:9/Late return from Field Trip:7
+2016-01-25T05:00:00.000,fascia5-11,Weather Conditions:782/Heavy Traffic:131/Other:109,fascia12-19,Weather Conditions:38/Heavy Traffic:15/Won`t Start:13
+2016-01-26T05:40:00.000,fascia5-11,Heavy Traffic:361/Weather Conditions:270/Other:62,fascia12-19,Heavy Traffic:31/Mechanical Problem:19/Other:10
+2016-01-27T05:16:00.000,fascia5-11,Heavy Traffic:260/Other:59/Mechanical Problem:23,fascia12-19,Heavy Traffic:28/Other:8/Mechanical Problem:7
+2016-01-28T05:26:00.000,fascia5-11,Heavy Traffic:311/Other:33/Mechanical Problem:21,fascia12-19,Heavy Traffic:11/Mechanical Problem:8/Won`t Start:6
+2016-01-29T05:45:00.000,fascia5-11,Heavy Traffic:133/Other:41/Mechanical Problem:18,fascia12-19,Heavy Traffic:22/Other:6/Mechanical Problem:5
+2016-02-01T05:10:00.000,fascia5-11,Heavy Traffic:189/Other:62/Mechanical Problem:30,fascia12-19,Heavy Traffic:15/Other:14/Mechanical Problem:7
+2016-02-02T05:55:00.000,fascia5-11,Heavy Traffic:136/Other:45/Mechanical Problem:35,fascia12-19,Mechanical Problem:12/Other:12/Heavy Traffic:8
+2016-02-03T05:40:00.000,fascia5-11,Heavy Traffic:146/Other:72/Mechanical Problem:21,fascia12-19,Heavy Traffic:15/Mechanical Problem:10/Late return from Field Trip:9
+2016-02-04T05:26:00.000,fascia5-11,Heavy Traffic:134/Other:39/Mechanical Problem:19,fascia12-19,Heavy Traffic:13/Other:13/Mechanical Problem:10
+2016-02-05T05:14:00.000,fascia5-11,Weather Conditions:405/Heavy Traffic:125/Other:25,fascia12-19,Heavy Traffic:7/Mechanical Problem:6/Other:5
+2016-02-08T05:51:00.000,fascia5-11,Heavy Traffic:24/Other:15/Mechanical Problem:5,fascia12-19,Heavy Traffic:1/Mechanical Problem:1/Won`t Start:1
+2016-02-09T05:17:00.000,fascia5-11,Heavy Traffic:227/Other:59/Mechanical Problem:26,fascia12-19,Heavy Traffic:11/Mechanical Problem:6/Won`t Start:6
+2016-02-10T05:30:00.000,fascia5-11,Heavy Traffic:138/Other:51/Mechanical Problem:17,fascia12-19,Heavy Traffic:23/Late return from Field Trip:12/Mechanical Problem:8
+2016-02-11T06:00:00.000,fascia5-11,Heavy Traffic:124/Other:46/Mechanical Problem:24,fascia12-19,Heavy Traffic:15/Late return from Field Trip:13/Mechanical Problem:12
+2016-02-12T05:25:00.000,fascia5-11,Heavy Traffic:164/Other:47/Mechanical Problem:30,fascia12-19,Heavy Traffic:28/Mechanical Problem:12/Late return from Field Trip:8
+2016-02-16T06:00:00.000,fascia5-11,Other:5/Weather Conditions:4/Mechanical Problem:3,fascia12-19,Mechanical Problem:2/Weather Conditions:1/Won`t Start:1
+2016-02-17T05:48:00.000,fascia5-11,Heavy Traffic:4/Other:3/Won`t Start:2,fascia12-19,Heavy Traffic:1
+2016-02-18T05:50:00.000,fascia5-11,Heavy Traffic:4/Other:2/Mechanical Problem:2,fascia12-19,
+2016-02-19T06:34:00.000,fascia5-11,Heavy Traffic:4/Flat Tire:1/Won`t Start:1,fascia12-19,Other:1/Won`t Start:1
+2016-02-22T05:39:00.000,fascia5-11,Heavy Traffic:185/Other:80/Mechanical Problem:59,fascia12-19,Heavy Traffic:18/Other:13/Mechanical Problem:7
+2016-02-23T05:30:00.000,fascia5-11,Heavy Traffic:116/Other:49/Mechanical Problem:17,fascia12-19,Heavy Traffic:22/Won`t Start:8/Mechanical Problem:5
+2016-02-24T05:40:00.000,fascia5-11,Heavy Traffic:167/Other:33/Mechanical Problem:20,fascia12-19,Heavy Traffic:21/Mechanical Problem:8/Other:8
+2016-02-25T05:16:00.000,fascia5-11,Heavy Traffic:120/Other:37/Mechanical Problem:16,fascia12-19,Other:21/Heavy Traffic:17/Mechanical Problem:8
+2016-02-26T05:35:00.000,fascia5-11,Heavy Traffic:115/Other:20/Mechanical Problem:16,fascia12-19,Other:12/Heavy Traffic:11/Mechanical Problem:10
+2016-02-29T05:23:00.000,fascia5-11,Heavy Traffic:138/Other:68/Mechanical Problem:36,fascia12-19,Heavy Traffic:22/Mechanical Problem:7/Won`t Start:6
+2016-03-01T05:40:00.000,fascia5-11,Heavy Traffic:106/Other:45/Mechanical Problem:13,fascia12-19,Mechanical Problem:13/Heavy Traffic:12/Late return from Field Trip:8
+2016-03-02T05:52:00.000,fascia5-11,Heavy Traffic:181/Other:47/Problem Run:15,fascia12-19,Heavy Traffic:17/Late return from Field Trip:5/Mechanical Problem:5
+2016-03-03T05:15:00.000,fascia5-11,Heavy Traffic:125/Other:40/Won`t Start:13,fascia12-19,Heavy Traffic:10/Other:10/Accident:3
+2016-03-04T05:43:00.000,fascia5-11,Heavy Traffic:154/Other:45/Weather Conditions:29,fascia12-19,Late return from Field Trip:10/Other:10/Won`t Start:8
+2016-03-07T05:46:00.000,fascia5-11,Heavy Traffic:148/Other:108/Mechanical Problem:39,fascia12-19,Other:5/Heavy Traffic:4/Won`t Start:4
+2016-03-08T06:00:00.000,fascia5-11,Heavy Traffic:89/Other:25/Problem Run:11,fascia12-19,Heavy Traffic:10/Mechanical Problem:9/Other:6
+2016-03-09T05:50:00.000,fascia5-11,Heavy Traffic:68/Other:28/Mechanical Problem:10,fascia12-19,Other:21/Heavy Traffic:20/Mechanical Problem:19
+2016-03-10T05:23:00.000,fascia5-11,Heavy Traffic:209/Other:49/Mechanical Problem:16,fascia12-19,Heavy Traffic:65/Other:9/Mechanical Problem:7
+2016-03-11T05:19:00.000,fascia5-11,Heavy Traffic:155/Other:41/Mechanical Problem:10,fascia12-19,Heavy Traffic:13/Other:13/Mechanical Problem:4
+2016-03-14T05:15:00.000,fascia5-11,Heavy Traffic:193/Other:58/Mechanical Problem:13,fascia12-19,Heavy Traffic:11/Other:9/Late return from Field Trip:8
+2016-03-15T06:00:00.000,fascia5-11,Heavy Traffic:146/Other:40/Mechanical Problem:15,fascia12-19,Heavy Traffic:15/Other:14/Flat Tire:6
+2016-03-16T05:30:00.000,fascia5-11,Heavy Traffic:115/Other:54/Mechanical Problem:17,fascia12-19,Heavy Traffic:18/Other:7/Late return from Field Trip:5
+2016-03-17T05:25:00.000,fascia5-11,Heavy Traffic:140/Other:44/Flat Tire:13,fascia12-19,Heavy Traffic:9/Mechanical Problem:5/Other:4
+2016-03-18T05:29:00.000,fascia5-11,Heavy Traffic:111/Other:47/Mechanical Problem:13,fascia12-19,Heavy Traffic:18/Other:8/Late return from Field Trip:5
+2016-03-21T05:24:00.000,fascia5-11,Heavy Traffic:150/Other:82/Weather Conditions:26,fascia12-19,Mechanical Problem:8/Other:8/Heavy Traffic:7
+2016-03-22T05:25:00.000,fascia5-11,Heavy Traffic:152/Other:44/Mechanical Problem:18,fascia12-19,Heavy Traffic:20/Late return from Field Trip:14/Other:5
+2016-03-23T05:37:00.000,fascia5-11,Heavy Traffic:117/Other:57/Mechanical Problem:13,fascia12-19,Heavy Traffic:15/Mechanical Problem:11/Late return from Field Trip:10
+2016-03-24T05:23:00.000,fascia5-11,Heavy Traffic:86/Other:28/Mechanical Problem:13,fascia12-19,Heavy Traffic:19/Other:12/Mechanical Problem:8
+2016-03-28T05:40:00.000,fascia5-11,Heavy Traffic:142/Other:61/Weather Conditions:50,fascia12-19,Mechanical Problem:13/Heavy Traffic:11/Other:9
+2016-03-29T05:46:00.000,fascia5-11,Heavy Traffic:121/Other:56/Mechanical Problem:13,fascia12-19,Heavy Traffic:8/Mechanical Problem:8/Other:3
+2016-03-30T05:48:00.000,fascia5-11,Heavy Traffic:110/Other:41/Mechanical Problem:12,fascia12-19,Heavy Traffic:19/Other:9/Mechanical Problem:4
+2016-03-31T05:05:00.000,fascia5-11,Heavy Traffic:147/Other:47/Mechanical Problem:13,fascia12-19,Heavy Traffic:7/Mechanical Problem:6/Late return from Field Trip:5
+2016-04-01T05:45:00.000,fascia5-11,Heavy Traffic:96/Other:30/Mechanical Problem:17,fascia12-19,Heavy Traffic:16/Mechanical Problem:7/Won`t Start:5
+2016-04-04T05:32:00.000,fascia5-11,Heavy Traffic:189/Other:68/Won`t Start:27,fascia12-19,Heavy Traffic:14/Mechanical Problem:13/Won`t Start:5
+2016-04-05T05:20:00.000,fascia5-11,Heavy Traffic:189/Other:60/Mechanical Problem:27,fascia12-19,Heavy Traffic:17/Late return from Field Trip:15/Mechanical Problem:7
+2016-04-06T05:28:00.000,fascia5-11,Heavy Traffic:142/Other:42/Mechanical Problem:10,fascia12-19,Heavy Traffic:21/Other:16/Late return from Field Trip:14
+2016-04-07T05:39:00.000,fascia5-11,Heavy Traffic:194/Other:49/Mechanical Problem:14,fascia12-19,Heavy Traffic:19/Late return from Field Trip:9/Mechanical Problem:8
+2016-04-08T05:10:00.000,fascia5-11,Heavy Traffic:118/Other:34/Mechanical Problem:18,fascia12-19,Heavy Traffic:17/Mechanical Problem:7/Late return from Field Trip:6
+2016-04-11T05:35:00.000,fascia5-11,Heavy Traffic:170/Other:35/Mechanical Problem:19,fascia12-19,Heavy Traffic:27/Mechanical Problem:15/Other:10
+2016-04-12T05:47:00.000,fascia5-11,Heavy Traffic:190/Other:51/Won`t Start:10,fascia12-19,Heavy Traffic:21/Won`t Start:7/Other:7
+2016-04-13T05:30:00.000,fascia5-11,Heavy Traffic:144/Other:34/Mechanical Problem:12,fascia12-19,Late return from Field Trip:45/Heavy Traffic:24/Mechanical Problem:7
+2016-04-14T05:38:00.000,fascia5-11,Heavy Traffic:127/Other:45/Mechanical Problem:12,fascia12-19,Heavy Traffic:21/Late return from Field Trip:14/Other:11
+2016-04-15T05:29:00.000,fascia5-11,Heavy Traffic:143/Other:41/Mechanical Problem:8,fascia12-19,Heavy Traffic:29/Late return from Field Trip:22/Other:12
+2016-04-18T05:28:00.000,fascia5-11,Heavy Traffic:146/Other:61/Mechanical Problem:24,fascia12-19,Heavy Traffic:27/Other:14/Mechanical Problem:11
+2016-04-19T05:42:00.000,fascia5-11,Heavy Traffic:112/Other:43/Mechanical Problem:21,fascia12-19,Heavy Traffic:27/Other:14/Late return from Field Trip:12
+2016-04-20T05:00:00.000,fascia5-11,Heavy Traffic:114/Other:78/Mechanical Problem:13,fascia12-19,Heavy Traffic:34/Late return from Field Trip:19/Other:13
+2016-04-21T05:15:00.000,fascia5-11,Heavy Traffic:114/Other:44/Won`t Start:15,fascia12-19,Late return from Field Trip:33/Heavy Traffic:30/Mechanical Problem:11
+2016-04-22T05:45:00.000,fascia5-11,Heavy Traffic:108/Other:39/Mechanical Problem:14,fascia12-19,Heavy Traffic:45/Late return from Field Trip:30/Mechanical Problem:11
+2016-04-25T06:13:00.000,fascia5-11,Heavy Traffic:2,fascia12-19,Heavy Traffic:2
+2016-04-26T06:50:00.000,fascia5-11,Won`t Start:1,fascia12-19,Mechanical Problem:1/Other:1
+2016-04-27T06:23:00.000,fascia5-11,Heavy Traffic:1/Other:1,fascia12-19,Mechanical Problem:1
+2016-04-28T06:10:00.000,fascia5-11,Mechanical Problem:2/Flat Tire:2/Heavy Traffic:1,fascia12-19,
+2016-04-29T06:12:00.000,fascia5-11,Won`t Start:2/Mechanical Problem:1,fascia12-19,Won`t Start:1
+2016-05-02T05:45:00.000,fascia5-11,Heavy Traffic:177/Other:65/Won`t Start:27,fascia12-19,Heavy Traffic:29/Won`t Start:9/Late return from Field Trip:6
+2016-05-03T05:31:00.000,fascia5-11,Heavy Traffic:251/Weather Conditions:75/Other:45,fascia12-19,Heavy Traffic:24/Other:11/Late return from Field Trip:8
+2016-05-04T05:40:00.000,fascia5-11,Heavy Traffic:163/Weather Conditions:24/Other:19,fascia12-19,Heavy Traffic:24/Late return from Field Trip:22/Other:15
+2016-05-05T05:45:00.000,fascia5-11,Heavy Traffic:100/Other:32/Won`t Start:18,fascia12-19,Heavy Traffic:20/Late return from Field Trip:13/Mechanical Problem:8
+2016-05-06T05:45:00.000,fascia5-11,Heavy Traffic:176/Weather Conditions:78/Other:31,fascia12-19,Heavy Traffic:26/Mechanical Problem:14/Late return from Field Trip:10
+2016-05-09T05:45:00.000,fascia5-11,Heavy Traffic:142/Other:40/Mechanical Problem:16,fascia12-19,Heavy Traffic:79/Other:12/Won`t Start:9
+2016-05-10T05:55:00.000,fascia5-11,Heavy Traffic:179/Other:51/Mechanical Problem:17,fascia12-19,Heavy Traffic:20/Mechanical Problem:14/Late return from Field Trip:12
+2016-05-11T05:39:00.000,fascia5-11,Heavy Traffic:112/Other:34/Mechanical Problem:10,fascia12-19,Late return from Field Trip:21/Heavy Traffic:14/Mechanical Problem:13
+2016-05-12T05:55:00.000,fascia5-11,Heavy Traffic:123/Other:37/Mechanical Problem:14,fascia12-19,Heavy Traffic:50/Late return from Field Trip:46/Won`t Start:11
+2016-05-13T05:30:00.000,fascia5-11,Heavy Traffic:103/Other:34/Mechanical Problem:15,fascia12-19,Heavy Traffic:64/Late return from Field Trip:23/Other:9
+2016-05-16T05:47:00.000,fascia5-11,Heavy Traffic:172/Other:56/Mechanical Problem:17,fascia12-19,Heavy Traffic:31/Late return from Field Trip:21/Mechanical Problem:13
+2016-05-17T05:37:00.000,fascia5-11,Heavy Traffic:102/Other:45/Mechanical Problem:18,fascia12-19,Heavy Traffic:29/Late return from Field Trip:18/Mechanical Problem:12
+2016-05-18T05:30:00.000,fascia5-11,Heavy Traffic:127/Other:35/Mechanical Problem:15,fascia12-19,Heavy Traffic:69/Late return from Field Trip:31/Other:8
+2016-05-19T05:44:00.000,fascia5-11,Heavy Traffic:113/Other:31/Mechanical Problem:12,fascia12-19,Late return from Field Trip:34/Heavy Traffic:23/Other:12
+2016-05-20T05:44:00.000,fascia5-11,Heavy Traffic:216/Other:20/Mechanical Problem:14,fascia12-19,Heavy Traffic:41/Late return from Field Trip:32/Other:12
+2016-05-23T05:49:00.000,fascia5-11,Heavy Traffic:168/Mechanical Problem:29/Other:26,fascia12-19,Late return from Field Trip:16/Heavy Traffic:15/Other:12
+2016-05-24T05:48:00.000,fascia5-11,Heavy Traffic:211/Weather Conditions:57/Other:41,fascia12-19,Late return from Field Trip:27/Heavy Traffic:18/Mechanical Problem:11
+2016-05-25T05:53:00.000,fascia5-11,Heavy Traffic:111/Other:40/Won`t Start:16,fascia12-19,Heavy Traffic:25/Late return from Field Trip:25/Mechanical Problem:19
+2016-05-26T05:40:00.000,fascia5-11,Heavy Traffic:175/Other:52/Mechanical Problem:25,fascia12-19,Heavy Traffic:64/Late return from Field Trip:44/Other:21
+2016-05-27T05:38:00.000,fascia5-11,Heavy Traffic:78/Other:20/Mechanical Problem:9,fascia12-19,Late return from Field Trip:44/Heavy Traffic:21/Won`t Start:12
+2016-05-31T05:45:00.000,fascia5-11,Heavy Traffic:152/Other:37/Mechanical Problem:24,fascia12-19,Heavy Traffic:27/Late return from Field Trip:19/Won`t Start:7
+2016-06-01T05:35:00.000,fascia5-11,Heavy Traffic:132/Other:39/Mechanical Problem:29,fascia12-19,Late return from Field Trip:41/Heavy Traffic:39/Other:11
+2016-06-02T05:40:00.000,fascia5-11,Heavy Traffic:119/Other:52/Mechanical Problem:20,fascia12-19,Late return from Field Trip:31/Heavy Traffic:30/Other:8
+2016-06-03T06:00:00.000,fascia5-11,Heavy Traffic:128/Other:41/Mechanical Problem:16,fascia12-19,Heavy Traffic:34/Late return from Field Trip:29/Other:18
+2016-06-06T05:30:00.000,fascia5-11,Heavy Traffic:172/Other:52/Mechanical Problem:29,fascia12-19,Heavy Traffic:31/Late return from Field Trip:31/Mechanical Problem:20
+2016-06-07T05:31:00.000,fascia5-11,Heavy Traffic:130/Other:32/Mechanical Problem:19,fascia12-19,Late return from Field Trip:48/Heavy Traffic:21/Other:13
+2016-06-08T05:46:00.000,fascia5-11,Heavy Traffic:138/Other:30/Mechanical Problem:18,fascia12-19,Heavy Traffic:42/Late return from Field Trip:28/Mechanical Problem:14
+2016-06-09T06:10:00.000,fascia5-11,Heavy Traffic:23/Other:6/Mechanical Problem:2,fascia12-19,Mechanical Problem:3/Flat Tire:2/Accident:1
+2016-06-10T05:45:00.000,fascia5-11,Heavy Traffic:126/Other:37/Mechanical Problem:12,fascia12-19,Late return from Field Trip:40/Heavy Traffic:23/Mechanical Problem:7
+2016-06-13T05:44:00.000,fascia5-11,Heavy Traffic:99/Mechanical Problem:29/Other:27,fascia12-19,Heavy Traffic:17/Mechanical Problem:6/Other:4
+2016-06-14T05:40:00.000,fascia5-11,Heavy Traffic:36/Other:6/Flat Tire:4,fascia12-19,Mechanical Problem:9/Heavy Traffic:4/Other:2
+2016-06-15T05:35:00.000,fascia5-11,Heavy Traffic:124/Other:30/Mechanical Problem:22,fascia12-19,Mechanical Problem:13/Heavy Traffic:12/Other:10
+2016-06-16T05:20:00.000,fascia5-11,Heavy Traffic:157/Other:22/Mechanical Problem:17,fascia12-19,Heavy Traffic:25/Won`t Start:10/Mechanical Problem:9
+2016-06-17T05:40:00.000,fascia5-11,Heavy Traffic:67/Mechanical Problem:18/Other:14,fascia12-19,Heavy Traffic:15/Mechanical Problem:7/Won`t Start:5
+2016-06-20T05:24:00.000,fascia5-11,Heavy Traffic:80/Other:32/Mechanical Problem:15,fascia12-19,Heavy Traffic:15/Mechanical Problem:12/Other:12
+2016-06-21T05:35:00.000,fascia5-11,Heavy Traffic:76/Other:25/Mechanical Problem:18,fascia12-19,Heavy Traffic:9/Mechanical Problem:8/Other:6
+2016-06-22T05:47:00.000,fascia5-11,Heavy Traffic:74/Other:18/Mechanical Problem:15,fascia12-19,Heavy Traffic:27/Mechanical Problem:8/Won`t Start:6
+2016-06-23T05:31:00.000,fascia5-11,Heavy Traffic:64/Mechanical Problem:16/Won`t Start:11,fascia12-19,Heavy Traffic:23/Other:8/Mechanical Problem:6
+2016-06-24T06:00:00.000,fascia5-11,Heavy Traffic:36/Other:22/Mechanical Problem:8,fascia12-19,Heavy Traffic:26/Mechanical Problem:8/Other:8
+2016-06-27T05:15:00.000,fascia5-11,Heavy Traffic:57/Other:13/Won`t Start:7,fascia12-19,Heavy Traffic:9/Mechanical Problem:4/Flat Tire:4
+2016-06-28T06:09:00.000,fascia5-11,Heavy Traffic:21/Other:16/Won`t Start:13,fascia12-19,Heavy Traffic:4/Accident:1/Won`t Start:1
+2016-06-29T07:50:00.000,fascia5-11,Heavy Traffic:3/Mechanical Problem:1,fascia12-19,Mechanical Problem:1/Heavy Traffic:1
+2016-06-30T07:18:00.000,fascia5-11,Heavy Traffic:3,fascia12-19,Other:1
+2016-07-01T06:17:00.000,fascia5-11,Heavy Traffic:2/Won`t Start:1,fascia12-19,Heavy Traffic:1
+2016-07-05T05:55:00.000,fascia5-11,Heavy Traffic:57/Other:13/Weather Conditions:11,fascia12-19,Mechanical Problem:5/Heavy Traffic:4/Other:4
+2016-07-06T06:06:00.000,fascia5-11,Heavy Traffic:49/Other:9/Mechanical Problem:5,fascia12-19,Mechanical Problem:4/Flat Tire:2/Heavy Traffic:1
+2016-07-07T05:58:00.000,fascia5-11,Heavy Traffic:87/Other:33/Mechanical Problem:8,fascia12-19,Won`t Start:15/Other:7/Heavy Traffic:6
+2016-07-08T06:00:00.000,fascia5-11,Heavy Traffic:62/Other:27/Mechanical Problem:5,fascia12-19,Heavy Traffic:6/Mechanical Problem:6/Other:5
+2016-07-11T05:50:00.000,fascia5-11,Heavy Traffic:96/Other:39/Mechanical Problem:16,fascia12-19,Heavy Traffic:21/Won`t Start:3/Mechanical Problem:3
+2016-07-12T05:35:00.000,fascia5-11,Heavy Traffic:93/Other:29/Won`t Start:13,fascia12-19,Heavy Traffic:12/Won`t Start:8/Other:6
+2016-07-13T06:05:00.000,fascia5-11,Heavy Traffic:99/Other:23/Mechanical Problem:7,fascia12-19,Heavy Traffic:17/Won`t Start:4/Other:2
+2016-07-14T05:50:00.000,fascia5-11,Heavy Traffic:95/Other:29/Won`t Start:12,fascia12-19,Heavy Traffic:14/Other:7/Won`t Start:5
+2016-07-15T06:10:00.000,fascia5-11,Heavy Traffic:79/Other:21/Mechanical Problem:9,fascia12-19,Other:10/Heavy Traffic:10/Mechanical Problem:3
+2016-07-18T05:52:00.000,fascia5-11,Heavy Traffic:69/Other:19/Mechanical Problem:18,fascia12-19,Heavy Traffic:29/Mechanical Problem:10/Other:8
+2016-07-19T05:55:00.000,fascia5-11,Heavy Traffic:80/Other:23/Mechanical Problem:10,fascia12-19,Heavy Traffic:22/Other:8/Mechanical Problem:7
+2016-07-20T06:00:00.000,fascia5-11,Heavy Traffic:94/Other:18/Mechanical Problem:15,fascia12-19,Heavy Traffic:10/Won`t Start:7/Mechanical Problem:4
+2016-07-21T06:00:00.000,fascia5-11,Heavy Traffic:106/Other:15/Mechanical Problem:12,fascia12-19,Heavy Traffic:15/Mechanical Problem:6/Late return from Field Trip:5
+2016-07-22T06:10:00.000,fascia5-11,Heavy Traffic:43/Other:13/Mechanical Problem:6,fascia12-19,Heavy Traffic:9/Other:6/Mechanical Problem:2
+2016-07-25T05:50:00.000,fascia5-11,Heavy Traffic:75/Other:28/Mechanical Problem:17,fascia12-19,Heavy Traffic:9/Other:8/Won`t Start:6
+2016-07-26T06:00:00.000,fascia5-11,Heavy Traffic:88/Mechanical Problem:24/Other:17,fascia12-19,Heavy Traffic:12/Mechanical Problem:7/Other:7
+2016-07-27T06:23:00.000,fascia5-11,Heavy Traffic:66/Other:19/Mechanical Problem:18,fascia12-19,Heavy Traffic:5/Won`t Start:4/Other:4
+2016-07-28T06:00:00.000,fascia5-11,Heavy Traffic:69/Other:22/Mechanical Problem:19,fascia12-19,Heavy Traffic:12/Mechanical Problem:7/Other:6
+2016-07-29T06:00:00.000,fascia5-11,Heavy Traffic:73/Weather Conditions:22/Other:16,fascia12-19,Heavy Traffic:9/Mechanical Problem:5/Won`t Start:2
+2016-08-01T06:00:00.000,fascia5-11,Heavy Traffic:82/Other:22/Mechanical Problem:8,fascia12-19,Other:7/Won`t Start:4/Heavy Traffic:4
+2016-08-02T05:50:00.000,fascia5-11,Heavy Traffic:67/Other:20/Mechanical Problem:6,fascia12-19,Other:11/Heavy Traffic:8/Won`t Start:5
+2016-08-03T06:00:00.000,fascia5-11,Heavy Traffic:45/Other:19/Mechanical Problem:10,fascia12-19,Heavy Traffic:12/Other:6/Won`t Start:4
+2016-08-04T06:00:00.000,fascia5-11,Heavy Traffic:63/Other:19/Mechanical Problem:11,fascia12-19,Heavy Traffic:6/Other:4/Won`t Start:2
+2016-08-05T06:10:00.000,fascia5-11,Heavy Traffic:52/Other:13/Mechanical Problem:8,fascia12-19,Heavy Traffic:9/Other:7/Mechanical Problem:1
+2016-08-08T05:40:00.000,fascia5-11,Heavy Traffic:62/Other:20/Mechanical Problem:11,fascia12-19,Other:11/Heavy Traffic:6/Won`t Start:4
+2016-08-09T05:50:00.000,fascia5-11,Heavy Traffic:38/Other:18/Won`t Start:6,fascia12-19,Heavy Traffic:22/Other:6/Mechanical Problem:3
+2016-08-10T06:04:00.000,fascia5-11,Heavy Traffic:45/Other:12/Won`t Start:10,fascia12-19,Heavy Traffic:14/Won`t Start:7/Weather Conditions:5
+2016-08-11T06:03:00.000,fascia5-11,Heavy Traffic:36/Other:16/Mechanical Problem:13,fascia12-19,Heavy Traffic:6/Won`t Start:4/Flat Tire:4
+2016-08-12T06:00:00.000,fascia5-11,Heavy Traffic:22/Other:17/Mechanical Problem:4,fascia12-19,Other:11/Heavy Traffic:11/Won`t Start:5
+2016-08-15T06:15:00.000,fascia5-11,Heavy Traffic:35/Other:23/Mechanical Problem:11,fascia12-19,Heavy Traffic:13/Mechanical Problem:3/Won`t Start:2
+2016-08-16T06:48:00.000,fascia5-11,Heavy Traffic:6/Other:3/Mechanical Problem:1,fascia12-19,Heavy Traffic:4/Flat Tire:1/Other:1
+2016-08-17T06:49:00.000,fascia5-11,Heavy Traffic:2/Mechanical Problem:1/Other:1,fascia12-19,
+2016-08-18T06:15:00.000,fascia5-11,Heavy Traffic:3,fascia12-19,
+2016-08-19T07:07:00.000,fascia5-11,Mechanical Problem:1/Heavy Traffic:1,fascia12-19,
+2016-08-22T06:17:00.000,fascia5-11,Heavy Traffic:1,fascia12-19,
+2016-08-23T06:45:00.000,fascia5-11,Other:2/Heavy Traffic:1,fascia12-19,Accident:1
+2016-08-24T06:58:00.000,fascia5-11,Heavy Traffic:2,fascia12-19,Heavy Traffic:2
+2016-08-26T06:49:00.000,fascia5-11,Heavy Traffic:1,fascia12-19,
+2016-08-29T07:15:00.000,fascia5-11,Heavy Traffic:1,fascia12-19,Flat Tire:1
+2016-08-31T08:09:00.000,fascia5-11,Heavy Traffic:5,fascia12-19,
+2016-09-01T05:56:00.000,fascia5-11,Heavy Traffic:17/Won`t Start:1/Other:1,fascia12-19,Heavy Traffic:1
+2016-09-02T06:54:00.000,fascia5-11,Heavy Traffic:4/Problem Run:1/Flat Tire:1,fascia12-19,Heavy Traffic:1
+2016-09-06T06:03:00.000,fascia5-11,Heavy Traffic:64/Other:16/Mechanical Problem:7,fascia12-19,Mechanical Problem:4/Heavy Traffic:4/Flat Tire:2
+2016-09-07T05:54:00.000,fascia5-11,Heavy Traffic:104/Other:16/Mechanical Problem:10,fascia12-19,Mechanical Problem:5/Heavy Traffic:4/Won`t Start:3
+2016-09-08T05:50:00.000,fascia5-11,Heavy Traffic:398/Other:65/Mechanical Problem:37,fascia12-19,Heavy Traffic:27/Mechanical Problem:14/Other:12
+2016-09-09T05:30:00.000,fascia5-11,Heavy Traffic:299/Mechanical Problem:40/Other:29,fascia12-19,Heavy Traffic:34/Mechanical Problem:30/Other:14
+2016-09-12T05:14:00.000,fascia5-11,Heavy Traffic:68/Mechanical Problem:13/Other:11,fascia12-19,Mechanical Problem:6/Won`t Start:4/Heavy Traffic:2
+2016-09-13T05:53:00.000,fascia5-11,Heavy Traffic:335/Other:59/Mechanical Problem:46,fascia12-19,Heavy Traffic:23/Mechanical Problem:17/Other:14
+2016-09-14T05:27:00.000,fascia5-11,Heavy Traffic:274/Mechanical Problem:32/Other:27,fascia12-19,Heavy Traffic:36/Mechanical Problem:14/Other:7
+2016-09-15T05:50:00.000,fascia5-11,Heavy Traffic:299/Other:58/Problem Run:19,fascia12-19,Heavy Traffic:18/Won`t Start:12/Flat Tire:10
+2016-09-16T05:40:00.000,fascia5-11,Heavy Traffic:251/Mechanical Problem:24/Other:20,fascia12-19,Heavy Traffic:25/Other:14/Mechanical Problem:8
+2016-09-19T05:45:00.000,fascia5-11,Heavy Traffic:359/Other:67/Weather Conditions:56,fascia12-19,Mechanical Problem:18/Heavy Traffic:15/Other:9
+2016-09-20T05:37:00.000,fascia5-11,Heavy Traffic:300/Other:43/Mechanical Problem:30,fascia12-19,Heavy Traffic:23/Other:13/Mechanical Problem:6
+2016-09-21T05:30:00.000,fascia5-11,Heavy Traffic:290/Mechanical Problem:33/Other:32,fascia12-19,Heavy Traffic:42/Other:10/Mechanical Problem:9
+2016-09-22T05:45:00.000,fascia5-11,Heavy Traffic:269/Other:34/Mechanical Problem:24,fascia12-19,Heavy Traffic:21/Other:15/Mechanical Problem:12
+2016-09-23T05:38:00.000,fascia5-11,Heavy Traffic:268/Other:46/Mechanical Problem:24,fascia12-19,Heavy Traffic:89/Mechanical Problem:13/Other:13
+2016-09-26T05:38:00.000,fascia5-11,Heavy Traffic:321/Other:56/Mechanical Problem:39,fascia12-19,Heavy Traffic:42/Other:9/Won`t Start:8
+2016-09-27T05:46:00.000,fascia5-11,Heavy Traffic:456/Mechanical Problem:44/Other:41,fascia12-19,Heavy Traffic:28/Won`t Start:9/Mechanical Problem:8
+2016-09-28T05:28:00.000,fascia5-11,Heavy Traffic:202/Other:43/Problem Run:32,fascia12-19,Heavy Traffic:31/Mechanical Problem:21/Other:19
+2016-09-29T05:41:00.000,fascia5-11,Heavy Traffic:232/Other:48/Problem Run:26,fascia12-19,Heavy Traffic:35/Mechanical Problem:16/Other:14
+2016-09-30T05:40:00.000,fascia5-11,Heavy Traffic:197/Other:30/Problem Run:24,fascia12-19,Heavy Traffic:31/Won`t Start:13/Mechanical Problem:7
+2016-10-03T06:00:00.000,fascia5-11,Heavy Traffic:8/Other:6/Mechanical Problem:3,fascia12-19,Accident:1/Heavy Traffic:1/Other:1
+2016-10-04T05:29:00.000,fascia5-11,Other:7/Heavy Traffic:7/Mechanical Problem:3,fascia12-19,
+2016-10-05T05:00:00.000,fascia5-11,Heavy Traffic:280/Other:62/Mechanical Problem:50,fascia12-19,Heavy Traffic:27/Mechanical Problem:11/Won`t Start:10
+2016-10-06T05:10:00.000,fascia5-11,Heavy Traffic:249/Other:53/Mechanical Problem:27,fascia12-19,Heavy Traffic:38/Other:22/Won`t Start:14
+2016-10-07T05:50:00.000,fascia5-11,Heavy Traffic:260/Other:35/Mechanical Problem:24,fascia12-19,Heavy Traffic:52/Other:26/Won`t Start:16
+2016-10-10T06:15:00.000,fascia5-11,Flat Tire:1,fascia12-19,
+2016-10-11T05:19:00.000,fascia5-11,Heavy Traffic:240/Other:43/Mechanical Problem:30,fascia12-19,Heavy Traffic:20/Mechanical Problem:11/Other:6
+2016-10-12T06:09:00.000,fascia5-11,Other:3/Problem Run:1/Heavy Traffic:1,fascia12-19,Mechanical Problem:2/Other:2/Won`t Start:1
+2016-10-13T05:21:00.000,fascia5-11,Heavy Traffic:391/Other:36/Problem Run:25,fascia12-19,Heavy Traffic:30/Other:10/Mechanical Problem:7
+2016-10-14T05:52:00.000,fascia5-11,Heavy Traffic:219/Other:40/Mechanical Problem:35,fascia12-19,Heavy Traffic:24/Mechanical Problem:11/Won`t Start:10
+2016-10-17T05:38:00.000,fascia5-11,Heavy Traffic:185/Other:47/Problem Run:19,fascia12-19,Mechanical Problem:15/Heavy Traffic:11/Won`t Start:9
+2016-10-18T05:50:00.000,fascia5-11,Heavy Traffic:177/Other:41/Mechanical Problem:19,fascia12-19,Mechanical Problem:15/Heavy Traffic:13/Won`t Start:8
+2016-10-19T05:50:00.000,fascia5-11,Heavy Traffic:204/Other:42/Mechanical Problem:26,fascia12-19,Heavy Traffic:20/Won`t Start:13/Other:11
+2016-10-20T05:45:00.000,fascia5-11,Heavy Traffic:163/Other:29/Mechanical Problem:14,fascia12-19,Heavy Traffic:19/Other:15/Mechanical Problem:11
+2016-10-21T05:30:00.000,fascia5-11,Heavy Traffic:187/Other:35/Mechanical Problem:16,fascia12-19,Heavy Traffic:31/Mechanical Problem:18/Other:15
+2016-10-24T05:30:00.000,fascia5-11,Heavy Traffic:223/Other:42/Mechanical Problem:39,fascia12-19,Heavy Traffic:15/Other:15/Won`t Start:8
+2016-10-25T05:45:00.000,fascia5-11,Heavy Traffic:208/Other:44/Mechanical Problem:24,fascia12-19,Heavy Traffic:22/Other:13/Won`t Start:9
+2016-10-26T05:59:00.000,fascia5-11,Heavy Traffic:277/Other:36/Mechanical Problem:36,fascia12-19,Won`t Start:19/Heavy Traffic:16/Mechanical Problem:10
+2016-10-27T05:40:00.000,fascia5-11,Heavy Traffic:224/Other:53/Mechanical Problem:46,fascia12-19,Heavy Traffic:26/Mechanical Problem:12/Other:9
+2016-10-28T05:52:00.000,fascia5-11,Heavy Traffic:204/Other:40/Mechanical Problem:32,fascia12-19,Heavy Traffic:43/Late return from Field Trip:27/Other:18
+2016-10-31T05:49:00.000,fascia5-11,Heavy Traffic:212/Other:69/Mechanical Problem:40,fascia12-19,Heavy Traffic:26/Other:26/Won`t Start:20
+2016-11-01T05:18:00.000,fascia5-11,Heavy Traffic:237/Other:66/Mechanical Problem:24,fascia12-19,Other:37/Heavy Traffic:28/Mechanical Problem:12
+2016-11-02T05:38:00.000,fascia5-11,Heavy Traffic:256/Other:59/Mechanical Problem:36,fascia12-19,Heavy Traffic:18/Late return from Field Trip:10/Mechanical Problem:7
+2016-11-03T05:15:00.000,fascia5-11,Heavy Traffic:163/Other:42/Mechanical Problem:30,fascia12-19,Heavy Traffic:11/Mechanical Problem:6/Other:5
+2016-11-04T05:46:00.000,fascia5-11,Heavy Traffic:191/Other:50/Mechanical Problem:19,fascia12-19,Heavy Traffic:26/Other:21/Late return from Field Trip:11
+2016-11-07T05:24:00.000,fascia5-11,Heavy Traffic:227/Other:54/Mechanical Problem:48,fascia12-19,Heavy Traffic:29/Other:25/Mechanical Problem:12
+2016-11-08T05:15:00.000,fascia5-11,Heavy Traffic:27/Other:7/Flat Tire:6,fascia12-19,Mechanical Problem:2/Other:1
+2016-11-09T05:50:00.000,fascia5-11,Heavy Traffic:202/Other:48/Mechanical Problem:31,fascia12-19,Heavy Traffic:18/Mechanical Problem:9/Other:7
+2016-11-10T06:00:00.000,fascia5-11,Heavy Traffic:157/Other:34/Mechanical Problem:17,fascia12-19,Late return from Field Trip:14/Heavy Traffic:14/Mechanical Problem:11
+2016-11-11T07:22:00.000,fascia5-11,Other:1/Heavy Traffic:1,fascia12-19,
+2016-11-14T05:34:00.000,fascia5-11,Heavy Traffic:174/Other:60/Mechanical Problem:29,fascia12-19,Other:17/Heavy Traffic:13/Mechanical Problem:10
+2016-11-15T05:40:00.000,fascia5-11,Heavy Traffic:356/Weather Conditions:83/Other:45,fascia12-19,Heavy Traffic:14/Mechanical Problem:11/Won`t Start:6
+2016-11-16T05:55:00.000,fascia5-11,Heavy Traffic:159/Other:39/Mechanical Problem:20,fascia12-19,Heavy Traffic:29/Won`t Start:7/Mechanical Problem:5
+2016-11-17T05:30:00.000,fascia5-11,Heavy Traffic:152/Other:33/Mechanical Problem:17,fascia12-19,Heavy Traffic:41/Other:12/Mechanical Problem:5
+2016-11-18T05:55:00.000,fascia5-11,Heavy Traffic:195/Other:30/Mechanical Problem:17,fascia12-19,Heavy Traffic:18/Won`t Start:5/Other:5
+2016-11-21T05:33:00.000,fascia5-11,Heavy Traffic:208/Other:45/Mechanical Problem:38,fascia12-19,Heavy Traffic:19/Mechanical Problem:16/Won`t Start:11
+2016-11-22T05:48:00.000,fascia5-11,Heavy Traffic:158/Other:36/Mechanical Problem:26,fascia12-19,Heavy Traffic:39/Won`t Start:9/Mechanical Problem:9
+2016-11-23T05:54:00.000,fascia5-11,Heavy Traffic:169/Mechanical Problem:30/Other:22,fascia12-19,Heavy Traffic:18/Other:6/Won`t Start:5
+2016-11-28T05:33:00.000,fascia5-11,Heavy Traffic:169/Other:47/Mechanical Problem:35,fascia12-19,Heavy Traffic:15/Mechanical Problem:15/Other:9
+2016-11-29T05:45:00.000,fascia5-11,Heavy Traffic:308/Other:42/Mechanical Problem:24,fascia12-19,Heavy Traffic:25/Late return from Field Trip:23/Other:11
+2016-11-30T05:45:00.000,fascia5-11,Heavy Traffic:219/Mechanical Problem:35/Other:31,fascia12-19,Late return from Field Trip:29/Heavy Traffic:23/Mechanical Problem:15
+2016-12-01T05:05:00.000,fascia5-11,Heavy Traffic:227/Other:39/Mechanical Problem:25,fascia12-19,Heavy Traffic:26/Mechanical Problem:15/Other:10
+2016-12-02T05:50:00.000,fascia5-11,Heavy Traffic:201/Other:41/Mechanical Problem:14,fascia12-19,Heavy Traffic:27/Other:7/Late return from Field Trip:5
+2016-12-05T05:28:00.000,fascia5-11,Heavy Traffic:346/Weather Conditions:46/Other:44,fascia12-19,Heavy Traffic:28/Mechanical Problem:17/Other:13
+2016-12-06T05:15:00.000,fascia5-11,Heavy Traffic:204/Other:42/Mechanical Problem:27,fascia12-19,Heavy Traffic:22/Other:14/Late return from Field Trip:10
+2016-12-07T05:53:00.000,fascia5-11,Heavy Traffic:200/Other:35/Mechanical Problem:34,fascia12-19,Heavy Traffic:28/Mechanical Problem:16/Late return from Field Trip:6
+2016-12-08T05:42:00.000,fascia5-11,Heavy Traffic:172/Other:21/Mechanical Problem:21,fascia12-19,Heavy Traffic:24/Other:14/Late return from Field Trip:11
+2016-12-09T05:15:00.000,fascia5-11,Heavy Traffic:166/Other:31/Mechanical Problem:29,fascia12-19,Heavy Traffic:46/Mechanical Problem:16/Won`t Start:10
+2016-12-12T05:52:00.000,fascia5-11,Heavy Traffic:284/Weather Conditions:105/Other:42,fascia12-19,Heavy Traffic:20/Other:18/Mechanical Problem:14
+2016-12-13T05:26:00.000,fascia5-11,Heavy Traffic:198/Mechanical Problem:32/Other:29,fascia12-19,Heavy Traffic:37/Other:13/Mechanical Problem:10
+2016-12-14T05:33:00.000,fascia5-11,Heavy Traffic:223/Mechanical Problem:29/Other:25,fascia12-19,Heavy Traffic:27/Mechanical Problem:13/Late return from Field Trip:11
+2016-12-15T05:26:00.000,fascia5-11,Heavy Traffic:216/Other:37/Mechanical Problem:28,fascia12-19,Heavy Traffic:33/Mechanical Problem:21/Late return from Field Trip:13
+2016-12-16T05:24:00.000,fascia5-11,Heavy Traffic:266/Mechanical Problem:60/Other:35,fascia12-19,Heavy Traffic:23/Mechanical Problem:19/Won`t Start:10
+2016-12-19T05:46:00.000,fascia5-11,Heavy Traffic:211/Other:51/Mechanical Problem:51,fascia12-19,Heavy Traffic:38/Other:13/Mechanical Problem:12
+2016-12-20T05:11:00.000,fascia5-11,Heavy Traffic:209/Mechanical Problem:29/Other:26,fascia12-19,Heavy Traffic:33/Late return from Field Trip:11/Mechanical Problem:8
+2016-12-21T05:20:00.000,fascia5-11,Heavy Traffic:201/Other:27/Mechanical Problem:25,fascia12-19,Heavy Traffic:30/Mechanical Problem:17/Late return from Field Trip:13
+2016-12-22T05:30:00.000,fascia5-11,Heavy Traffic:127/Other:36/Mechanical Problem:24,fascia12-19,Heavy Traffic:20/Mechanical Problem:8/Other:8
+2016-12-23T05:43:00.000,fascia5-11,Heavy Traffic:122/Other:35/Mechanical Problem:18,fascia12-19,Heavy Traffic:27/Other:5/Mechanical Problem:4
+2016-12-27T07:20:00.000,fascia5-11,Heavy Traffic:6/Won`t Start:1/Other:1,fascia12-19,Heavy Traffic:1
+2016-12-28T08:10:00.000,fascia5-11,Heavy Traffic:2,fascia12-19,Other:1
+2016-12-30T12:25:00.000,fascia5-11,,fascia12-19,Heavy Traffic:1
+2017-01-03T05:32:00.000,fascia5-11,Heavy Traffic:248/Mechanical Problem:65/Other:54,fascia12-19,Heavy Traffic:28/Mechanical Problem:20/Other:20
+2017-01-04T05:39:00.000,fascia5-11,Heavy Traffic:240/Other:55/Mechanical Problem:38,fascia12-19,Heavy Traffic:22/Mechanical Problem:14/Other:9
+2017-01-05T05:38:00.000,fascia5-11,Heavy Traffic:218/Other:47/Mechanical Problem:41,fascia12-19,Heavy Traffic:20/Mechanical Problem:17/Other:14
+2017-01-06T05:45:00.000,fascia5-11,Heavy Traffic:267/Other:39/Mechanical Problem:36,fascia12-19,Heavy Traffic:15/Other:15/Won`t Start:11
+2017-01-09T05:15:00.000,fascia5-11,Heavy Traffic:429/Mechanical Problem:99/Other:85,fascia12-19,Won`t Start:17/Mechanical Problem:16/Heavy Traffic:16
+2017-01-10T05:25:00.000,fascia5-11,Heavy Traffic:334/Other:64/Mechanical Problem:42,fascia12-19,Heavy Traffic:22/Other:19/Mechanical Problem:17
+2017-01-11T05:30:00.000,fascia5-11,Heavy Traffic:229/Other:40/Mechanical Problem:31,fascia12-19,Heavy Traffic:28/Other:14/Won`t Start:10
+2017-01-12T05:30:00.000,fascia5-11,Heavy Traffic:300/Other:48/Mechanical Problem:18,fascia12-19,Heavy Traffic:41/Other:14/Mechanical Problem:10
+2017-01-13T05:43:00.000,fascia5-11,Heavy Traffic:228/Other:34/Mechanical Problem:16,fascia12-19,Heavy Traffic:26/Other:13/Mechanical Problem:9
+2017-01-17T05:04:00.000,fascia5-11,Heavy Traffic:284/Other:66/Mechanical Problem:32,fascia12-19,Heavy Traffic:20/Won`t Start:15/Other:14
+2017-01-18T05:45:00.000,fascia5-11,Heavy Traffic:305/Other:53/Mechanical Problem:36,fascia12-19,Heavy Traffic:36/Mechanical Problem:15/Won`t Start:13
+2017-01-19T05:54:00.000,fascia5-11,Heavy Traffic:235/Other:32/Mechanical Problem:20,fascia12-19,Mechanical Problem:15/Heavy Traffic:14/Late return from Field Trip:11
+2017-01-20T05:40:00.000,fascia5-11,Heavy Traffic:283/Other:33/Mechanical Problem:27,fascia12-19,Heavy Traffic:21/Mechanical Problem:18/Won`t Start:11
+2017-01-23T05:20:00.000,fascia5-11,Heavy Traffic:203/Other:76/Mechanical Problem:34,fascia12-19,Other:21/Heavy Traffic:18/Mechanical Problem:13
+2017-01-24T05:30:00.000,fascia5-11,Heavy Traffic:230/Other:51/Mechanical Problem:30,fascia12-19,Heavy Traffic:33/Mechanical Problem:8/Won`t Start:7
+2017-01-25T05:20:00.000,fascia5-11,Heavy Traffic:174/Other:36/Mechanical Problem:31,fascia12-19,Heavy Traffic:40/Late return from Field Trip:10/Mechanical Problem:10
+2017-01-26T06:00:00.000,fascia5-11,Heavy Traffic:170/Other:35/Mechanical Problem:17,fascia12-19,Heavy Traffic:30/Other:10/Won`t Start:9
+2017-01-27T05:57:00.000,fascia5-11,Heavy Traffic:319/Other:16/Mechanical Problem:10,fascia12-19,Heavy Traffic:17/Won`t Start:8/Mechanical Problem:6
+2017-01-30T05:24:00.000,fascia5-11,Heavy Traffic:223/Other:71/Mechanical Problem:32,fascia12-19,Heavy Traffic:22/Mechanical Problem:14/Other:6
+2017-01-31T05:30:00.000,fascia5-11,Heavy Traffic:187/Other:42/Mechanical Problem:39,fascia12-19,Heavy Traffic:27/Mechanical Problem:19/Won`t Start:13
+2017-02-01T05:24:00.000,fascia5-11,Heavy Traffic:165/Other:36/Mechanical Problem:23,fascia12-19,Heavy Traffic:25/Won`t Start:16/Mechanical Problem:11
+2017-02-02T05:54:00.000,fascia5-11,Heavy Traffic:209/Other:32/Mechanical Problem:19,fascia12-19,Heavy Traffic:21/Mechanical Problem:11/Other:9
+2017-02-03T05:29:00.000,fascia5-11,Heavy Traffic:178/Mechanical Problem:38/Other:32,fascia12-19,Heavy Traffic:28/Mechanical Problem:16/Other:13
+2017-02-06T05:00:00.000,fascia5-11,Heavy Traffic:219/Mechanical Problem:56/Other:50,fascia12-19,Heavy Traffic:37/Other:21/Won`t Start:16
+2017-02-07T05:05:00.000,fascia5-11,Heavy Traffic:320/Other:67/Mechanical Problem:42,fascia12-19,Heavy Traffic:34/Mechanical Problem:16/Won`t Start:8
+2017-02-08T05:24:00.000,fascia5-11,Heavy Traffic:214/Other:41/Mechanical Problem:20,fascia12-19,Heavy Traffic:30/Other:17/Mechanical Problem:16
+2017-02-10T05:13:00.000,fascia5-11,Weather Conditions:409/Heavy Traffic:241/Other:60,fascia12-19,Heavy Traffic:31/Weather Conditions:12/Other:11
+2017-02-13T05:20:00.000,fascia5-11,Heavy Traffic:265/Other:39/Mechanical Problem:33,fascia12-19,Heavy Traffic:31/Mechanical Problem:23/Won`t Start:19
+2017-02-14T05:45:00.000,fascia5-11,Heavy Traffic:182/Other:33/Mechanical Problem:24,fascia12-19,Heavy Traffic:34/Other:17/Mechanical Problem:9
+2017-02-15T05:30:00.000,fascia5-11,Heavy Traffic:199/Other:39/Mechanical Problem:15,fascia12-19,Heavy Traffic:27/Other:9/Won`t Start:8
+2017-02-16T05:50:00.000,fascia5-11,Heavy Traffic:146/Other:40/Mechanical Problem:21,fascia12-19,Heavy Traffic:38/Other:16/Late return from Field Trip:15
+2017-02-17T05:19:00.000,fascia5-11,Heavy Traffic:157/Other:28/Mechanical Problem:27,fascia12-19,Heavy Traffic:41/Mechanical Problem:15/Other:15
+2017-02-21T06:00:00.000,fascia5-11,Heavy Traffic:7/Mechanical Problem:3/Other:1,fascia12-19,Won`t Start:1
+2017-02-22T05:53:00.000,fascia5-11,Heavy Traffic:4/Won`t Start:1/Flat Tire:1,fascia12-19,Heavy Traffic:1/Flat Tire:1/Other:1
+2017-02-23T06:00:00.000,fascia5-11,Other:2/Heavy Traffic:2/Won`t Start:1,fascia12-19,Other:2
+2017-02-24T06:23:00.000,fascia5-11,Other:5/Heavy Traffic:3/Flat Tire:1,fascia12-19,Heavy Traffic:3/Flat Tire:1/Mechanical Problem:1
+2017-02-27T05:25:00.000,fascia5-11,Heavy Traffic:259/Other:79/Mechanical Problem:42,fascia12-19,Heavy Traffic:28/Mechanical Problem:26/Won`t Start:14
+2017-02-28T05:50:00.000,fascia5-11,Heavy Traffic:146/Other:42/Mechanical Problem:30,fascia12-19,Heavy Traffic:24/Mechanical Problem:17/Other:15
+2017-03-01T05:30:00.000,fascia5-11,Heavy Traffic:140/Other:46/Mechanical Problem:21,fascia12-19,Heavy Traffic:37/Mechanical Problem:17/Won`t Start:8
+2017-03-02T05:27:00.000,fascia5-11,Heavy Traffic:139/Other:31/Mechanical Problem:22,fascia12-19,Heavy Traffic:28/Mechanical Problem:13/Late return from Field Trip:9
+2017-03-03T05:22:00.000,fascia5-11,Heavy Traffic:147/Other:36/Mechanical Problem:29,fascia12-19,Heavy Traffic:20/Mechanical Problem:12/Other:11
+2017-03-06T05:29:00.000,fascia5-11,Heavy Traffic:192/Other:51/Mechanical Problem:50,fascia12-19,Heavy Traffic:34/Mechanical Problem:10/Won`t Start:8
+2017-03-07T05:42:00.000,fascia5-11,Heavy Traffic:158/Other:36/Mechanical Problem:9,fascia12-19,Heavy Traffic:33/Mechanical Problem:10/Other:6
+2017-03-08T05:27:00.000,fascia5-11,Heavy Traffic:173/Other:24/Mechanical Problem:20,fascia12-19,Heavy Traffic:23/Mechanical Problem:12/Won`t Start:10
+2017-03-09T05:42:00.000,fascia5-11,Heavy Traffic:120/Other:34/Mechanical Problem:17,fascia12-19,Heavy Traffic:13/Mechanical Problem:3/Other:3
+2017-03-10T05:36:00.000,fascia5-11,Heavy Traffic:93/Mechanical Problem:15/Weather Conditions:14,fascia12-19,Heavy Traffic:14/Other:12/Flat Tire:8
+2017-03-13T05:45:00.000,fascia5-11,Heavy Traffic:196/Mechanical Problem:39/Other:26,fascia12-19,Heavy Traffic:31/Mechanical Problem:8/Other:6
+2017-03-15T05:28:00.000,fascia5-11,Weather Conditions:472/Heavy Traffic:111/Other:33,fascia12-19,Heavy Traffic:14/Other:10/Mechanical Problem:8
+2017-03-16T05:55:00.000,fascia5-11,Heavy Traffic:380/Other:67/Mechanical Problem:38,fascia12-19,Heavy Traffic:64/Other:10/Mechanical Problem:7
+2017-03-17T05:30:00.000,fascia5-11,Heavy Traffic:237/Other:41/Mechanical Problem:34,fascia12-19,Heavy Traffic:57/Late return from Field Trip:20/Other:11
+2017-03-20T05:30:00.000,fascia5-11,Heavy Traffic:259/Other:45/Mechanical Problem:43,fascia12-19,Heavy Traffic:44/Won`t Start:12/Mechanical Problem:11
+2017-03-21T05:45:00.000,fascia5-11,Heavy Traffic:184/Other:36/Mechanical Problem:27,fascia12-19,Heavy Traffic:68/Other:13/Mechanical Problem:13
+2017-03-22T05:28:00.000,fascia5-11,Heavy Traffic:178/Other:33/Mechanical Problem:13,fascia12-19,Heavy Traffic:28/Mechanical Problem:17/Other:5
+2017-03-23T06:00:00.000,fascia5-11,Heavy Traffic:173/Other:27/Mechanical Problem:24,fascia12-19,Heavy Traffic:39/Other:12/Mechanical Problem:12
+2017-03-24T05:14:00.000,fascia5-11,Heavy Traffic:112/Mechanical Problem:25/Other:24,fascia12-19,Heavy Traffic:23/Mechanical Problem:9/Won`t Start:5
+2017-03-27T05:32:00.000,fascia5-11,Heavy Traffic:327/Other:41/Mechanical Problem:38,fascia12-19,Heavy Traffic:41/Mechanical Problem:13/Other:11
+2017-03-28T05:45:00.000,fascia5-11,Heavy Traffic:213/Other:36/Mechanical Problem:30,fascia12-19,Heavy Traffic:19/Late return from Field Trip:19/Mechanical Problem:15
+2017-03-29T05:29:00.000,fascia5-11,Heavy Traffic:294/Other:29/Mechanical Problem:20,fascia12-19,Heavy Traffic:41/Late return from Field Trip:17/Mechanical Problem:11
+2017-03-30T05:30:00.000,fascia5-11,Heavy Traffic:212/Other:37/Mechanical Problem:22,fascia12-19,Heavy Traffic:39/Late return from Field Trip:21/Mechanical Problem:12
+2017-03-31T05:40:00.000,fascia5-11,Heavy Traffic:247/Mechanical Problem:32/Weather Conditions:25,fascia12-19,Heavy Traffic:61/Late return from Field Trip:19/Mechanical Problem:15
+2017-04-03T05:45:00.000,fascia5-11,Heavy Traffic:274/Other:51/Mechanical Problem:36,fascia12-19,Heavy Traffic:31/Mechanical Problem:13/Other:9
+2017-04-04T05:15:00.000,fascia5-11,Heavy Traffic:377/Other:43/Mechanical Problem:28,fascia12-19,Heavy Traffic:30/Mechanical Problem:13/Won`t Start:10
+2017-04-05T05:15:00.000,fascia5-11,Heavy Traffic:326/Mechanical Problem:33/Other:31,fascia12-19,Heavy Traffic:53/Late return from Field Trip:25/Mechanical Problem:10
+2017-04-06T05:31:00.000,fascia5-11,Heavy Traffic:284/Mechanical Problem:27/Other:25,fascia12-19,Heavy Traffic:64/Late return from Field Trip:25/Mechanical Problem:19
+2017-04-07T05:45:00.000,fascia5-11,Heavy Traffic:176/Mechanical Problem:26/Other:20,fascia12-19,Heavy Traffic:38/Late return from Field Trip:15/Mechanical Problem:14
+2017-04-10T06:59:00.000,fascia5-11,Won`t Start:1/Heavy Traffic:1,fascia12-19,Other:1
+2017-04-11T07:30:00.000,fascia5-11,Heavy Traffic:1/Mechanical Problem:1,fascia12-19,Heavy Traffic:1
+2017-04-12T06:41:00.000,fascia5-11,Other:1/Heavy Traffic:1/Mechanical Problem:1,fascia12-19,Heavy Traffic:1/Flat Tire:1/Mechanical Problem:1
+2017-04-13T14:35:00.000,fascia5-11,,fascia12-19,Heavy Traffic:4
+2017-04-14T06:36:00.000,fascia5-11,Won`t Start:1,fascia12-19,
+2017-04-17T05:58:00.000,fascia5-11,Heavy Traffic:16/Other:5/Flat Tire:5,fascia12-19,Mechanical Problem:1
+2017-04-18T06:30:00.000,fascia5-11,Heavy Traffic:22/Other:2/Won`t Start:1,fascia12-19,Flat Tire:3/Mechanical Problem:2/Won`t Start:1
+2017-04-19T05:29:00.000,fascia5-11,Heavy Traffic:273/Mechanical Problem:44/Other:40,fascia12-19,Heavy Traffic:58/Won`t Start:10/Other:10
+2017-04-20T05:55:00.000,fascia5-11,Heavy Traffic:277/Other:37/Won`t Start:17,fascia12-19,Heavy Traffic:30/Mechanical Problem:16/Won`t Start:9
+2017-04-21T05:36:00.000,fascia5-11,Heavy Traffic:211/Other:32/Mechanical Problem:21,fascia12-19,Heavy Traffic:81/Late return from Field Trip:20/Other:12
+2017-04-24T05:15:00.000,fascia5-11,Heavy Traffic:222/Other:42/Mechanical Problem:39,fascia12-19,Heavy Traffic:43/Other:10/Mechanical Problem:10
+2017-04-25T05:30:00.000,fascia5-11,Heavy Traffic:191/Other:39/Mechanical Problem:18,fascia12-19,Heavy Traffic:42/Mechanical Problem:12/Other:10
+2017-04-26T05:35:00.000,fascia5-11,Heavy Traffic:361/Other:40/Weather Conditions:40,fascia12-19,Heavy Traffic:34/Mechanical Problem:13/Won`t Start:6
+2017-04-27T05:47:00.000,fascia5-11,Heavy Traffic:234/Other:36/Mechanical Problem:26,fascia12-19,Heavy Traffic:51/Won`t Start:12/Other:11
+2017-04-28T05:27:00.000,fascia5-11,Heavy Traffic:218/Mechanical Problem:33/Other:21,fascia12-19,Heavy Traffic:64/Late return from Field Trip:37/Mechanical Problem:16
+2017-05-01T05:55:00.000,fascia5-11,Heavy Traffic:230/Mechanical Problem:40/Other:39,fascia12-19,Heavy Traffic:25/Mechanical Problem:23/Won`t Start:14
+2017-05-02T05:55:00.000,fascia5-11,Heavy Traffic:252/Mechanical Problem:35/Other:33,fascia12-19,Heavy Traffic:41/Late return from Field Trip:23/Mechanical Problem:19
+2017-05-03T05:15:00.000,fascia5-11,Heavy Traffic:230/Other:32/Mechanical Problem:29,fascia12-19,Heavy Traffic:51/Late return from Field Trip:25/Mechanical Problem:16
+2017-05-04T05:25:00.000,fascia5-11,Heavy Traffic:213/Other:38/Mechanical Problem:23,fascia12-19,Heavy Traffic:48/Late return from Field Trip:27/Mechanical Problem:23
+2017-05-05T05:40:00.000,fascia5-11,Heavy Traffic:235/Other:26/Mechanical Problem:21,fascia12-19,Heavy Traffic:81/Weather Conditions:28/Late return from Field Trip:28
+2017-05-08T05:41:00.000,fascia5-11,Heavy Traffic:246/Mechanical Problem:52/Other:50,fascia12-19,Heavy Traffic:36/Mechanical Problem:20/Flat Tire:8
+2017-05-09T05:30:00.000,fascia5-11,Heavy Traffic:224/Other:40/Mechanical Problem:28,fascia12-19,Heavy Traffic:28/Mechanical Problem:19/Late return from Field Trip:15
+2017-05-10T05:45:00.000,fascia5-11,Heavy Traffic:196/Other:26/Mechanical Problem:24,fascia12-19,Heavy Traffic:48/Late return from Field Trip:15/Other:12
+2017-05-11T05:57:00.000,fascia5-11,Heavy Traffic:253/Other:41/Mechanical Problem:21,fascia12-19,Heavy Traffic:57/Late return from Field Trip:29/Mechanical Problem:17
+2017-05-12T05:30:00.000,fascia5-11,Heavy Traffic:231/Other:32/Mechanical Problem:21,fascia12-19,Heavy Traffic:84/Late return from Field Trip:44/Other:8
+2017-05-15T05:39:00.000,fascia5-11,Heavy Traffic:287/Other:42/Mechanical Problem:39,fascia12-19,Heavy Traffic:60/Mechanical Problem:19/Late return from Field Trip:18
+2017-05-16T05:50:00.000,fascia5-11,Heavy Traffic:253/Other:34/Mechanical Problem:25,fascia12-19,Heavy Traffic:75/Won`t Start:18/Late return from Field Trip:18
+2017-05-17T05:50:00.000,fascia5-11,Heavy Traffic:248/Other:52/Mechanical Problem:28,fascia12-19,Heavy Traffic:95/Late return from Field Trip:35/Mechanical Problem:29
+2017-05-18T05:44:00.000,fascia5-11,Heavy Traffic:239/Mechanical Problem:35/Other:28,fascia12-19,Heavy Traffic:173/Mechanical Problem:40/Late return from Field Trip:39
+2017-05-19T05:35:00.000,fascia5-11,Heavy Traffic:281/Mechanical Problem:31/Other:28,fascia12-19,Heavy Traffic:129/Late return from Field Trip:75/Mechanical Problem:38
+2017-05-22T05:15:00.000,fascia5-11,Heavy Traffic:267/Mechanical Problem:68/Other:41,fascia12-19,Heavy Traffic:68/Mechanical Problem:20/Won`t Start:15
+2017-05-23T05:45:00.000,fascia5-11,Heavy Traffic:249/Other:42/Mechanical Problem:38,fascia12-19,Heavy Traffic:61/Late return from Field Trip:37/Mechanical Problem:22
+2017-05-24T05:54:00.000,fascia5-11,Heavy Traffic:291/Other:42/Mechanical Problem:39,fascia12-19,Heavy Traffic:52/Late return from Field Trip:35/Mechanical Problem:15
+2017-05-25T05:30:00.000,fascia5-11,Heavy Traffic:249/Other:35/Weather Conditions:28,fascia12-19,Heavy Traffic:82/Late return from Field Trip:41/Mechanical Problem:17
+2017-05-26T05:50:00.000,fascia5-11,Heavy Traffic:206/Mechanical Problem:20/Other:17,fascia12-19,Heavy Traffic:59/Late return from Field Trip:37/Mechanical Problem:10
+2017-05-30T05:30:00.000,fascia5-11,Heavy Traffic:219/Other:31/Mechanical Problem:21,fascia12-19,Heavy Traffic:56/Late return from Field Trip:28/Mechanical Problem:9
+2017-05-31T05:53:00.000,fascia5-11,Heavy Traffic:180/Other:36/Mechanical Problem:29,fascia12-19,Heavy Traffic:63/Late return from Field Trip:47/Mechanical Problem:11
+2017-06-01T05:26:00.000,fascia5-11,Heavy Traffic:135/Mechanical Problem:26/Other:20,fascia12-19,Heavy Traffic:72/Late return from Field Trip:42/Mechanical Problem:17
+2017-06-02T05:51:00.000,fascia5-11,Heavy Traffic:198/Mechanical Problem:30/Other:19,fascia12-19,Heavy Traffic:74/Late return from Field Trip:45/Mechanical Problem:20
+2017-06-05T05:40:00.000,fascia5-11,Heavy Traffic:252/Mechanical Problem:32/Won`t Start:26,fascia12-19,Heavy Traffic:55/Mechanical Problem:25/Late return from Field Trip:21
+2017-06-06T05:03:00.000,fascia5-11,Heavy Traffic:214/Other:31/Mechanical Problem:23,fascia12-19,Heavy Traffic:39/Late return from Field Trip:16/Other:7
+2017-06-07T05:48:00.000,fascia5-11,Heavy Traffic:156/Other:40/Mechanical Problem:26,fascia12-19,Heavy Traffic:60/Late return from Field Trip:27/Mechanical Problem:8
+2017-06-08T06:23:00.000,fascia5-11,Heavy Traffic:51/Mechanical Problem:13/Flat Tire:7,fascia12-19,Heavy Traffic:15/Won`t Start:3/Other:3
+2017-06-09T05:34:00.000,fascia5-11,Heavy Traffic:157/Other:25/Mechanical Problem:22,fascia12-19,Heavy Traffic:78/Late return from Field Trip:29/Other:15
+2017-06-12T05:36:00.000,fascia5-11,Heavy Traffic:111/Other:18/Mechanical Problem:13,fascia12-19,Heavy Traffic:22/Other:6/Mechanical Problem:3
+2017-06-13T05:30:00.000,fascia5-11,Heavy Traffic:214/Mechanical Problem:52/Other:49,fascia12-19,Heavy Traffic:78/Other:29/Won`t Start:28
+2017-06-14T05:17:00.000,fascia5-11,Heavy Traffic:211/Other:39/Mechanical Problem:35,fascia12-19,Heavy Traffic:75/Mechanical Problem:21/Late return from Field Trip:8
+2017-06-15T05:45:00.000,fascia5-11,Heavy Traffic:135/Other:23/Mechanical Problem:16,fascia12-19,Heavy Traffic:52/Mechanical Problem:13/Other:7
+2017-06-16T05:30:00.000,fascia5-11,Heavy Traffic:154/Other:26/Mechanical Problem:13,fascia12-19,Heavy Traffic:60/Other:6/Mechanical Problem:6
+2017-06-19T05:00:00.000,fascia5-11,Heavy Traffic:196/Other:46/Mechanical Problem:22,fascia12-19,Heavy Traffic:106/Mechanical Problem:15/Other:12
+2017-06-20T05:47:00.000,fascia5-11,Heavy Traffic:174/Other:43/Mechanical Problem:20,fascia12-19,Heavy Traffic:60/Mechanical Problem:14/Other:7
+2017-06-21T05:19:00.000,fascia5-11,Heavy Traffic:135/Other:20/Mechanical Problem:17,fascia12-19,Heavy Traffic:48/Won`t Start:9/Late return from Field Trip:6
+2017-06-22T05:20:00.000,fascia5-11,Heavy Traffic:183/Other:28/Mechanical Problem:12,fascia12-19,Heavy Traffic:50/Mechanical Problem:12/Other:7
+2017-06-23T05:30:00.000,fascia5-11,Heavy Traffic:141/Other:28/Mechanical Problem:14,fascia12-19,Heavy Traffic:56/Other:10/Mechanical Problem:8
+2017-06-26T07:00:00.000,fascia5-11,Heavy Traffic:16/Flat Tire:2/Other:1,fascia12-19,Heavy Traffic:4/Mechanical Problem:2
+2017-06-27T05:44:00.000,fascia5-11,Heavy Traffic:121/Other:23/Mechanical Problem:15,fascia12-19,Heavy Traffic:32/Mechanical Problem:12/Won`t Start:9
+2017-06-28T06:20:00.000,fascia5-11,Heavy Traffic:51/Other:12/Mechanical Problem:7,fascia12-19,Won`t Start:1/Heavy Traffic:1
+2017-06-29T06:30:00.000,fascia5-11,Heavy Traffic:2/Other:2,fascia12-19,
+2017-06-30T13:06:00.000,fascia5-11,,fascia12-19,Other:1/Heavy Traffic:1
+2017-07-03T05:50:00.000,fascia5-11,Heavy Traffic:24/Other:17/Flat Tire:1,fascia12-19,Won`t Start:1/Other:1/Heavy Traffic:1
+2017-07-05T05:43:00.000,fascia5-11,Heavy Traffic:95/Other:42/Mechanical Problem:12,fascia12-19,Heavy Traffic:9/Won`t Start:6/Other:4
+2017-07-06T06:15:00.000,fascia5-11,Heavy Traffic:54/Other:30/Mechanical Problem:6,fascia12-19,Heavy Traffic:9/Mechanical Problem:4/Won`t Start:3
+2017-07-07T06:10:00.000,fascia5-11,Heavy Traffic:31/Other:25/Mechanical Problem:6,fascia12-19,Heavy Traffic:7/Other:3/Mechanical Problem:3
+2017-07-10T06:00:00.000,fascia5-11,Heavy Traffic:67/Other:20/Mechanical Problem:14,fascia12-19,Heavy Traffic:19/Other:7/Won`t Start:4
+2017-07-11T06:08:00.000,fascia5-11,Heavy Traffic:88/Other:37/Mechanical Problem:12,fascia12-19,Heavy Traffic:34/Won`t Start:5/Other:4
+2017-07-12T05:55:00.000,fascia5-11,Heavy Traffic:42/Other:30/Mechanical Problem:9,fascia12-19,Other:9/Heavy Traffic:9/Mechanical Problem:5
+2017-07-13T06:03:00.000,fascia5-11,Heavy Traffic:48/Other:22/Mechanical Problem:10,fascia12-19,Won`t Start:8/Heavy Traffic:8/Mechanical Problem:7
+2017-07-14T05:25:00.000,fascia5-11,Heavy Traffic:46/Other:23/Flat Tire:5,fascia12-19,Heavy Traffic:10/Won`t Start:5/Other:4
+2017-07-17T05:47:00.000,fascia5-11,Heavy Traffic:52/Other:34/Mechanical Problem:9,fascia12-19,Other:13/Heavy Traffic:9/Won`t Start:6
+2017-07-18T05:50:00.000,fascia5-11,Heavy Traffic:69/Other:33/Mechanical Problem:13,fascia12-19,Won`t Start:7/Heavy Traffic:7/Other:5
+2017-07-19T06:00:00.000,fascia5-11,Heavy Traffic:52/Other:47/Mechanical Problem:11,fascia12-19,Other:10/Heavy Traffic:8/Mechanical Problem:8
+2017-07-20T06:00:00.000,fascia5-11,Heavy Traffic:69/Other:33/Mechanical Problem:12,fascia12-19,Other:12/Heavy Traffic:7/Flat Tire:3
+2017-07-21T06:10:00.000,fascia5-11,Heavy Traffic:54/Other:24/Mechanical Problem:4,fascia12-19,Mechanical Problem:8/Other:7/Heavy Traffic:3
+2017-07-24T05:18:00.000,fascia5-11,Heavy Traffic:96/Other:34/Weather Conditions:22,fascia12-19,Heavy Traffic:5/Won`t Start:3/Other:3
+2017-07-25T05:50:00.000,fascia5-11,Heavy Traffic:79/Other:17/Mechanical Problem:7,fascia12-19,Mechanical Problem:6/Heavy Traffic:5/Won`t Start:4
+2017-07-26T06:00:00.000,fascia5-11,Heavy Traffic:58/Other:19/Mechanical Problem:3,fascia12-19,Heavy Traffic:11/Other:10/Won`t Start:6
+2017-07-27T06:06:00.000,fascia5-11,Heavy Traffic:92/Other:16/Mechanical Problem:10,fascia12-19,Other:5/Won`t Start:4/Mechanical Problem:4
+2017-07-28T06:00:00.000,fascia5-11,Heavy Traffic:33/Other:19/Mechanical Problem:7,fascia12-19,Heavy Traffic:16/Other:6/Mechanical Problem:4
+2017-07-31T05:46:00.000,fascia5-11,Heavy Traffic:71/Other:28/Mechanical Problem:11,fascia12-19,Heavy Traffic:9/Other:7/Mechanical Problem:7
+2017-08-01T06:10:00.000,fascia5-11,Heavy Traffic:86/Other:20/Mechanical Problem:8,fascia12-19,Won`t Start:4/Other:2/Heavy Traffic:2
+2017-08-02T06:00:00.000,fascia5-11,Heavy Traffic:43/Other:19/Mechanical Problem:9,fascia12-19,Heavy Traffic:21/Mechanical Problem:8/Late return from Field Trip:6
+2017-08-03T05:09:00.000,fascia5-11,Heavy Traffic:48/Other:26/Mechanical Problem:14,fascia12-19,Heavy Traffic:9/Mechanical Problem:7/Won`t Start:6
+2017-08-04T06:00:00.000,fascia5-11,Heavy Traffic:41/Other:18/Won`t Start:4,fascia12-19,Heavy Traffic:13/Won`t Start:9/Mechanical Problem:5
+2017-08-07T05:37:00.000,fascia5-11,Heavy Traffic:47/Other:23/Mechanical Problem:8,fascia12-19,Heavy Traffic:6/Other:3/Won`t Start:3
+2017-09-01T06:36:00.000,fascia5-11,Heavy Traffic:8/Other:3/Won`t Start:1,fascia12-19,Heavy Traffic:1
+2017-09-05T05:35:00.000,fascia5-11,Heavy Traffic:42/Other:10/Flat Tire:3,fascia12-19,Heavy Traffic:2/Flat Tire:1/Mechanical Problem:1
+2017-09-06T06:00:00.000,fascia5-11,Heavy Traffic:56/Other:15/Mechanical Problem:7,fascia12-19,Other:3/Heavy Traffic:2/Won`t Start:2
+2017-09-07T05:19:00.000,fascia5-11,Heavy Traffic:313/Other:35/Mechanical Problem:33,fascia12-19,Mechanical Problem:11/Won`t Start:8/Other:7
+2017-09-08T05:47:00.000,fascia5-11,Heavy Traffic:218/Other:24/Mechanical Problem:19,fascia12-19,Heavy Traffic:12/Won`t Start:1/Accident:1
+2017-09-11T05:40:00.000,fascia5-11,Heavy Traffic:297/Other:38/Mechanical Problem:35,fascia12-19,Heavy Traffic:44/Mechanical Problem:12/Other:9
+2017-09-12T05:34:00.000,fascia5-11,Heavy Traffic:228/Other:32/Mechanical Problem:21,fascia12-19,Heavy Traffic:33/Other:11/Mechanical Problem:8
+2017-09-13T05:57:00.000,fascia5-11,Heavy Traffic:229/Other:30/Mechanical Problem:15,fascia12-19,Heavy Traffic:35/Mechanical Problem:13/Other:7
+2017-09-14T05:48:00.000,fascia5-11,Heavy Traffic:258/Other:26/Mechanical Problem:25,fascia12-19,Heavy Traffic:39/Mechanical Problem:18/Other:13
+2017-09-15T05:19:00.000,fascia5-11,Heavy Traffic:223/Other:37/Mechanical Problem:21,fascia12-19,Heavy Traffic:69/Mechanical Problem:8/Won`t Start:7
+2017-09-18T05:17:00.000,fascia5-11,Heavy Traffic:365/Other:48/Mechanical Problem:34,fascia12-19,Heavy Traffic:44/Mechanical Problem:15/Other:10
+2017-09-19T05:30:00.000,fascia5-11,Heavy Traffic:322/Other:39/Mechanical Problem:29,fascia12-19,Heavy Traffic:56/Mechanical Problem:14/Won`t Start:4
+2017-09-20T05:27:00.000,fascia5-11,Heavy Traffic:235/Other:43/Mechanical Problem:27,fascia12-19,Heavy Traffic:58/Mechanical Problem:8/Won`t Start:5
+2017-09-21T05:43:00.000,fascia5-11,Heavy Traffic:16/Other:6/Mechanical Problem:3,fascia12-19,Delayed by School:1/Other:1/Heavy Traffic:1
+2017-09-22T06:44:00.000,fascia5-11,Other:1,fascia12-19,Other:1/Heavy Traffic:1/Mechanical Problem:1
+2017-09-25T05:25:00.000,fascia5-11,Heavy Traffic:296/Other:59/Mechanical Problem:39,fascia12-19,Heavy Traffic:88/Mechanical Problem:20/Other:13
+2017-09-26T05:20:00.000,fascia5-11,Heavy Traffic:304/Other:50/Mechanical Problem:30,fascia12-19,Heavy Traffic:74/Mechanical Problem:14/Won`t Start:10
+2017-09-27T05:05:00.000,fascia5-11,Heavy Traffic:318/Other:56/Mechanical Problem:28,fascia12-19,Heavy Traffic:57/Mechanical Problem:13/Other:12
+2017-09-28T05:27:00.000,fascia5-11,Heavy Traffic:301/Other:36/Mechanical Problem:30,fascia12-19,Heavy Traffic:84/Other:20/Mechanical Problem:15
+2017-09-29T05:32:00.000,fascia5-11,Heavy Traffic:249/Other:29/Mechanical Problem:16,fascia12-19,Heavy Traffic:64/Mechanical Problem:11/Other:9
+2017-10-02T05:32:00.000,fascia5-11,Heavy Traffic:365/Other:65/Mechanical Problem:51,fascia12-19,Heavy Traffic:63/Mechanical Problem:18/Flat Tire:9
+2017-10-03T05:51:00.000,fascia5-11,Heavy Traffic:354/Other:50/Mechanical Problem:27,fascia12-19,Heavy Traffic:57/Other:7/Mechanical Problem:7
+2017-10-04T05:30:00.000,fascia5-11,Heavy Traffic:311/Other:33/Mechanical Problem:23,fascia12-19,Heavy Traffic:82/Mechanical Problem:7/Won`t Start:6
+2017-10-05T05:08:00.000,fascia5-11,Heavy Traffic:231/Mechanical Problem:24/Other:22,fascia12-19,Heavy Traffic:61/Mechanical Problem:10/Other:6
+2017-10-06T05:36:00.000,fascia5-11,Heavy Traffic:176/Other:25/Mechanical Problem:12,fascia12-19,Heavy Traffic:83/Other:6/Mechanical Problem:6
+2017-10-09T13:33:00.000,fascia5-11,,fascia12-19,Mechanical Problem:1
+2017-10-10T05:25:00.000,fascia5-11,Heavy Traffic:337/Other:58/Mechanical Problem:40,fascia12-19,Heavy Traffic:63/Mechanical Problem:20/Other:10
+2017-10-11T05:26:00.000,fascia5-11,Heavy Traffic:299/Other:36/Mechanical Problem:29,fascia12-19,Heavy Traffic:53/Mechanical Problem:14/Won`t Start:6
+2017-10-12T05:00:00.000,fascia5-11,Heavy Traffic:342/Other:37/Mechanical Problem:16,fascia12-19,Heavy Traffic:40/Mechanical Problem:7/Won`t Start:6
+2017-10-13T05:30:00.000,fascia5-11,Heavy Traffic:180/Other:22/Mechanical Problem:19,fascia12-19,Heavy Traffic:30/Mechanical Problem:13/Won`t Start:7
+2017-10-16T05:03:00.000,fascia5-11,Heavy Traffic:335/Mechanical Problem:52/Other:52,fascia12-19,Heavy Traffic:52/Mechanical Problem:18/Other:10
+2017-10-17T05:34:00.000,fascia5-11,Heavy Traffic:283/Other:57/Mechanical Problem:36,fascia12-19,Heavy Traffic:55/Mechanical Problem:12/Won`t Start:9
+2017-10-18T05:13:00.000,fascia5-11,Heavy Traffic:255/Other:56/Mechanical Problem:36,fascia12-19,Heavy Traffic:51/Mechanical Problem:21/Flat Tire:10
+2017-10-19T05:21:00.000,fascia5-11,Heavy Traffic:319/Other:57/Mechanical Problem:35,fascia12-19,Heavy Traffic:71/Mechanical Problem:17/Other:14
+2017-10-20T05:15:00.000,fascia5-11,Heavy Traffic:265/Other:34/Mechanical Problem:29,fascia12-19,Heavy Traffic:69/Other:15/Mechanical Problem:10
+2017-10-23T05:20:00.000,fascia5-11,Heavy Traffic:310/Mechanical Problem:55/Other:47,fascia12-19,Heavy Traffic:51/Mechanical Problem:21/Won`t Start:8
+2017-10-24T05:20:00.000,fascia5-11,Heavy Traffic:296/Other:39/Mechanical Problem:38,fascia12-19,Heavy Traffic:43/Mechanical Problem:16/Flat Tire:7
+2017-10-25T05:20:00.000,fascia5-11,Heavy Traffic:321/Other:37/Mechanical Problem:31,fascia12-19,Heavy Traffic:35/Won`t Start:8/Late return from Field Trip:8
+2017-10-26T05:33:00.000,fascia5-11,Heavy Traffic:314/Other:53/Mechanical Problem:30,fascia12-19,Heavy Traffic:62/Mechanical Problem:14/Other:13
+2017-10-27T05:15:00.000,fascia5-11,Heavy Traffic:263/Other:55/Mechanical Problem:42,fascia12-19,Heavy Traffic:74/Late return from Field Trip:18/Mechanical Problem:17
+2017-10-30T05:15:00.000,fascia5-11,Heavy Traffic:550/Weather Conditions:60/Other:51,fascia12-19,Heavy Traffic:65/Mechanical Problem:18/Other:10
+2017-10-31T05:21:00.000,fascia5-11,Heavy Traffic:276/Other:105/Mechanical Problem:42,fascia12-19,Heavy Traffic:40/Mechanical Problem:15/Flat Tire:9
+2017-11-01T05:30:00.000,fascia5-11,Heavy Traffic:166/Mechanical Problem:29/Other:22,fascia12-19,Heavy Traffic:46/Mechanical Problem:17/Won`t Start:11
+2017-11-02T06:40:00.000,fascia5-11,Heavy Traffic:45/Other:13/Flat Tire:2,fascia12-19,Heavy Traffic:39/Mechanical Problem:16/Other:12
+2017-11-03T05:30:00.000,fascia5-11,Heavy Traffic:253/Other:26/Mechanical Problem:26,fascia12-19,Heavy Traffic:56/Mechanical Problem:15/Other:9
+2017-11-06T06:00:00.000,fascia5-11,Heavy Traffic:27/Other:8/Mechanical Problem:3,fascia12-19,Mechanical Problem:13/Heavy Traffic:7/Won`t Start:4
+2017-11-07T06:29:00.000,fascia5-11,Heavy Traffic:15/Mechanical Problem:4/Flat Tire:2,fascia12-19,Heavy Traffic:4/Other:2/Problem Run:1
+2017-11-08T05:02:00.000,fascia5-11,Heavy Traffic:319/Other:61/Mechanical Problem:53,fascia12-19,Heavy Traffic:33/Mechanical Problem:23/Other:17
+2017-11-09T05:38:00.000,fascia5-11,Heavy Traffic:351/Mechanical Problem:52/Other:45,fascia12-19,Heavy Traffic:56/Other:11/Mechanical Problem:10
+2017-11-10T05:22:00.000,fascia5-11,Heavy Traffic:175/Mechanical Problem:26/Other:22,fascia12-19,Heavy Traffic:32/Won`t Start:9/Mechanical Problem:9
+2017-11-13T05:15:00.000,fascia5-11,Heavy Traffic:407/Other:95/Mechanical Problem:64,fascia12-19,Heavy Traffic:36/Other:32/Mechanical Problem:15
+2017-11-14T05:21:00.000,fascia5-11,Heavy Traffic:191/Mechanical Problem:47/Other:40,fascia12-19,Heavy Traffic:11/Other:9/Mechanical Problem:8
+2017-11-15T05:13:00.000,fascia5-11,Heavy Traffic:247/Other:36/Mechanical Problem:33,fascia12-19,Heavy Traffic:21/Mechanical Problem:19/Won`t Start:8
+2017-11-16T05:00:00.000,fascia5-11,Heavy Traffic:435/Other:45/Weather Conditions:38,fascia12-19,Heavy Traffic:32/Other:14/Flat Tire:5
+2017-11-17T05:24:00.000,fascia5-11,Heavy Traffic:189/Other:37/Mechanical Problem:23,fascia12-19,Heavy Traffic:42/Late return from Field Trip:25/Mechanical Problem:16
+2017-11-20T05:12:00.000,fascia5-11,Heavy Traffic:177/Mechanical Problem:49/Other:46,fascia12-19,Heavy Traffic:22/Mechanical Problem:17/Other:9
+2017-11-21T05:31:00.000,fascia5-11,Heavy Traffic:209/Other:38/Mechanical Problem:30,fascia12-19,Heavy Traffic:33/Late return from Field Trip:18/Mechanical Problem:16
+2017-11-22T05:36:00.000,fascia5-11,Heavy Traffic:231/Other:19/Mechanical Problem:14,fascia12-19,Heavy Traffic:23/Won`t Start:11/Mechanical Problem:6
+2017-11-27T05:13:00.000,fascia5-11,Heavy Traffic:248/Mechanical Problem:54/Other:44,fascia12-19,Heavy Traffic:17/Mechanical Problem:17/Won`t Start:6
+2017-11-28T05:40:00.000,fascia5-11,Heavy Traffic:214/Other:40/Mechanical Problem:39,fascia12-19,Heavy Traffic:36/Late return from Field Trip:24/Mechanical Problem:13
+2017-11-29T05:10:00.000,fascia5-11,Heavy Traffic:210/Mechanical Problem:41/Other:36,fascia12-19,Heavy Traffic:26/Mechanical Problem:18/Late return from Field Trip:11
+2017-11-30T05:08:00.000,fascia5-11,Heavy Traffic:176/Other:37/Mechanical Problem:31,fascia12-19,Heavy Traffic:21/Won`t Start:11/Other:11
+2017-12-01T05:42:00.000,fascia5-11,Heavy Traffic:289/Other:33/Mechanical Problem:32,fascia12-19,Heavy Traffic:36/Late return from Field Trip:9/Mechanical Problem:7
+2017-12-04T05:22:00.000,fascia5-11,Heavy Traffic:265/Mechanical Problem:58/Other:44,fascia12-19,Heavy Traffic:23/Mechanical Problem:17/Won`t Start:6
+2017-12-05T05:12:00.000,fascia5-11,Heavy Traffic:205/Other:47/Mechanical Problem:31,fascia12-19,Heavy Traffic:27/Other:13/Accident:6
+2017-12-06T05:19:00.000,fascia5-11,Heavy Traffic:205/Other:30/Mechanical Problem:27,fascia12-19,Heavy Traffic:16/Other:13/Late return from Field Trip:10
+2017-12-07T05:15:00.000,fascia5-11,Heavy Traffic:212/Mechanical Problem:37/Other:37,fascia12-19,Heavy Traffic:46/Mechanical Problem:12/Other:8
+2017-12-08T05:18:00.000,fascia5-11,Heavy Traffic:189/Other:44/Mechanical Problem:35,fascia12-19,Heavy Traffic:32/Other:14/Mechanical Problem:10
+2017-12-11T05:20:00.000,fascia5-11,Heavy Traffic:267/Mechanical Problem:54/Other:54,fascia12-19,Heavy Traffic:66/Other:17/Mechanical Problem:16
+2017-12-12T05:20:00.000,fascia5-11,Heavy Traffic:361/Mechanical Problem:52/Other:48,fascia12-19,Heavy Traffic:52/Other:23/Late return from Field Trip:13
+2017-12-13T05:27:00.000,fascia5-11,Heavy Traffic:342/Mechanical Problem:102/Other:47,fascia12-19,Heavy Traffic:67/Other:34/Mechanical Problem:25
+2017-12-14T05:22:00.000,fascia5-11,Heavy Traffic:609/Weather Conditions:204/Mechanical Problem:69,fascia12-19,Heavy Traffic:65/Other:19/Delayed by School:11
+2017-12-15T05:15:00.000,fascia5-11,Heavy Traffic:472/Mechanical Problem:79/Other:70,fascia12-19,Heavy Traffic:65/Mechanical Problem:31/Late return from Field Trip:25
+2017-12-18T05:30:00.000,fascia5-11,Heavy Traffic:482/Other:82/Mechanical Problem:81,fascia12-19,Heavy Traffic:48/Other:28/Mechanical Problem:16
+2017-12-19T05:17:00.000,fascia5-11,Heavy Traffic:253/Mechanical Problem:79/Other:54,fascia12-19,Heavy Traffic:45/Mechanical Problem:27/Other:24
+2017-12-20T05:20:00.000,fascia5-11,Heavy Traffic:287/Other:56/Mechanical Problem:47,fascia12-19,Heavy Traffic:50/Late return from Field Trip:20/Mechanical Problem:20
+2017-12-21T05:27:00.000,fascia5-11,Heavy Traffic:258/Other:45/Mechanical Problem:44,fascia12-19,Heavy Traffic:72/Mechanical Problem:20/Won`t Start:9
+2017-12-22T05:41:00.000,fascia5-11,Heavy Traffic:174/Mechanical Problem:36/Other:36,fascia12-19,Heavy Traffic:80/Other:22/Accident:7
+2017-12-26T06:19:00.000,fascia5-11,Other:8/Heavy Traffic:4/Won`t Start:4,fascia12-19,Other:2/Mechanical Problem:2
+2017-12-27T07:01:00.000,fascia5-11,Heavy Traffic:2/Mechanical Problem:2/Other:2,fascia12-19,Mechanical Problem:1
+2017-12-28T07:07:00.000,fascia5-11,Mechanical Problem:5/Other:2,fascia12-19,Accident:3/Other:2/Heavy Traffic:2
+2017-12-29T07:09:00.000,fascia5-11,Heavy Traffic:2/Mechanical Problem:2,fascia12-19,
+2018-01-02T05:00:00.000,fascia5-11,Heavy Traffic:204/Mechanical Problem:83/Won`t Start:68,fascia12-19,Heavy Traffic:35/Mechanical Problem:22/Other:18
+2018-01-03T05:30:00.000,fascia5-11,Heavy Traffic:181/Mechanical Problem:58/Other:49,fascia12-19,Heavy Traffic:32/Other:14/Mechanical Problem:12
+2018-01-05T05:30:00.000,fascia5-11,Weather Conditions:372/Heavy Traffic:227/Mechanical Problem:54,fascia12-19,Heavy Traffic:35/Mechanical Problem:18/Won`t Start:16
+2018-01-07T06:44:00.000,fascia5-11,Other:1,fascia12-19,
+2018-01-08T05:00:00.000,fascia5-11,Heavy Traffic:272/Mechanical Problem:156/Other:59,fascia12-19,Heavy Traffic:27/Other:23/Mechanical Problem:13
+2018-01-09T05:06:00.000,fascia5-11,Heavy Traffic:346/Other:95/Mechanical Problem:70,fascia12-19,Heavy Traffic:49/Mechanical Problem:19/Other:15
+2018-01-10T05:15:00.000,fascia5-11,Heavy Traffic:240/Other:57/Mechanical Problem:50,fascia12-19,Heavy Traffic:52/Mechanical Problem:14/Late return from Field Trip:11
+2018-01-11T05:19:00.000,fascia5-11,Heavy Traffic:173/Other:53/Mechanical Problem:34,fascia12-19,Heavy Traffic:48/Other:10/Won`t Start:9
+2018-01-12T05:01:00.000,fascia5-11,Heavy Traffic:241/Mechanical Problem:32/Other:31,fascia12-19,Heavy Traffic:28/Other:20/Won`t Start:11
+2018-01-16T05:00:00.000,fascia5-11,Heavy Traffic:250/Other:74/Mechanical Problem:62,fascia12-19,Heavy Traffic:29/Mechanical Problem:14/Other:13
+2018-01-17T05:15:00.000,fascia5-11,Heavy Traffic:270/Other:51/Mechanical Problem:46,fascia12-19,Heavy Traffic:30/Other:7/Mechanical Problem:5
+2018-01-18T05:52:00.000,fascia5-11,Heavy Traffic:290/Other:49/Mechanical Problem:38,fascia12-19,Heavy Traffic:82/Mechanical Problem:19/Won`t Start:18
+2018-01-19T05:25:00.000,fascia5-11,Heavy Traffic:200/Other:49/Mechanical Problem:45,fascia12-19,Heavy Traffic:80/Mechanical Problem:28/Other:15
+2018-01-22T05:43:00.000,fascia5-11,Heavy Traffic:280/Other:87/Mechanical Problem:35,fascia12-19,Heavy Traffic:58/Mechanical Problem:15/Other:10
+2018-01-23T05:28:00.000,fascia5-11,Heavy Traffic:338/Mechanical Problem:61/Other:56,fascia12-19,Heavy Traffic:30/Mechanical Problem:16/Other:4
+2018-01-24T05:38:00.000,fascia5-11,Heavy Traffic:205/Other:90/Mechanical Problem:28,fascia12-19,Heavy Traffic:37/Mechanical Problem:24/Other:11
+2018-01-25T05:05:00.000,fascia5-11,Heavy Traffic:206/Other:71/Mechanical Problem:52,fascia12-19,Heavy Traffic:59/Mechanical Problem:21/Other:13
+2018-01-26T05:43:00.000,fascia5-11,Heavy Traffic:226/Other:53/Mechanical Problem:29,fascia12-19,Heavy Traffic:50/Other:14/Mechanical Problem:14
+2018-01-29T05:30:00.000,fascia5-11,Heavy Traffic:282/Other:66/Mechanical Problem:58,fascia12-19,Heavy Traffic:47/Mechanical Problem:14/Won`t Start:13
+2018-01-30T05:14:00.000,fascia5-11,Heavy Traffic:353/Other:65/Weather Conditions:42,fascia12-19,Heavy Traffic:30/Mechanical Problem:8/Won`t Start:7
+2018-01-31T05:20:00.000,fascia5-11,Heavy Traffic:167/Other:43/Mechanical Problem:34,fascia12-19,Heavy Traffic:25/Other:13/Mechanical Problem:9
+2018-02-01T05:35:00.000,fascia5-11,Heavy Traffic:169/Other:39/Mechanical Problem:23,fascia12-19,Heavy Traffic:18/Other:7/Late return from Field Trip:5
+2018-02-02T05:50:00.000,fascia5-11,Heavy Traffic:144/Other:27/Mechanical Problem:24,fascia12-19,Heavy Traffic:21/Mechanical Problem:16/Other:10
+2018-02-05T05:35:00.000,fascia5-11,Heavy Traffic:209/Other:46/Mechanical Problem:30,fascia12-19,Other:31/Heavy Traffic:24/Mechanical Problem:12
+2018-02-06T05:54:00.000,fascia5-11,Heavy Traffic:213/Other:52/Mechanical Problem:35,fascia12-19,Heavy Traffic:24/Mechanical Problem:12/Other:9
+2018-02-07T05:40:00.000,fascia5-11,Heavy Traffic:129/Mechanical Problem:47/Other:27,fascia12-19,Heavy Traffic:40/Other:11/Mechanical Problem:10
+2018-02-08T05:43:00.000,fascia5-11,Heavy Traffic:117/Mechanical Problem:27/Other:27,fascia12-19,Heavy Traffic:28/Other:16/Mechanical Problem:13
+2018-02-09T05:45:00.000,fascia5-11,Heavy Traffic:150/Other:44/Mechanical Problem:17,fascia12-19,Heavy Traffic:25/Other:14/Won`t Start:7
+2018-02-12T05:30:00.000,fascia5-11,Heavy Traffic:196/Other:69/Mechanical Problem:42,fascia12-19,Heavy Traffic:31/Mechanical Problem:14/Other:9
+2018-02-13T05:35:00.000,fascia5-11,Heavy Traffic:288/Mechanical Problem:69/Other:62,fascia12-19,Heavy Traffic:56/Mechanical Problem:32/Won`t Start:26
+2018-02-14T05:00:00.000,fascia5-11,Heavy Traffic:312/Other:41/Mechanical Problem:27,fascia12-19,Other:8/Heavy Traffic:8/Mechanical Problem:6
+2018-02-15T05:00:00.000,fascia5-11,Heavy Traffic:236/Mechanical Problem:51/Other:50,fascia12-19,Heavy Traffic:61/Other:38/Late return from Field Trip:20
+2018-02-16T06:13:00.000,fascia5-11,Heavy Traffic:19/Mechanical Problem:2/Won`t Start:2,fascia12-19,Heavy Traffic:3/Weather Conditions:2/Other:1
+2018-02-20T06:11:00.000,fascia5-11,Mechanical Problem:2/Other:1,fascia12-19,Other:1
+2018-02-21T06:15:00.000,fascia5-11,Heavy Traffic:9/Other:6/Won`t Start:2,fascia12-19,
+2018-02-22T06:00:00.000,fascia5-11,Mechanical Problem:3,fascia12-19,Other:1/Late return from Field Trip:1
+2018-02-23T07:24:00.000,fascia5-11,Heavy Traffic:3,fascia12-19,Other:1/Accident:1/Mechanical Problem:1
+2018-02-26T05:30:00.000,fascia5-11,Heavy Traffic:314/Mechanical Problem:123/Other:77,fascia12-19,Heavy Traffic:50/Mechanical Problem:33/Other:16
+2018-02-27T05:41:00.000,fascia5-11,Heavy Traffic:265/Other:66/Mechanical Problem:65,fascia12-19,Heavy Traffic:48/Mechanical Problem:14/Late return from Field Trip:10
+2018-02-28T05:37:00.000,fascia5-11,Heavy Traffic:321/Other:70/Mechanical Problem:44,fascia12-19,Heavy Traffic:39/Other:24/Mechanical Problem:16
+2018-03-01T05:28:00.000,fascia5-11,Heavy Traffic:172/Other:32/Mechanical Problem:31,fascia12-19,Heavy Traffic:30/Mechanical Problem:13/Won`t Start:5
+2018-03-02T05:32:00.000,fascia5-11,Heavy Traffic:261/Weather Conditions:92/Mechanical Problem:48,fascia12-19,Heavy Traffic:132/Weather Conditions:63/Other:30
+2018-03-05T05:15:00.000,fascia5-11,Heavy Traffic:421/Mechanical Problem:129/Other:69,fascia12-19,Heavy Traffic:89/Mechanical Problem:18/Won`t Start:9
+2018-03-06T05:41:00.000,fascia5-11,Heavy Traffic:439/Other:74/Mechanical Problem:49,fascia12-19,Heavy Traffic:37/Mechanical Problem:9/Other:8
+2018-03-07T05:24:00.000,fascia5-11,Heavy Traffic:171/Weather Conditions:49/Mechanical Problem:29,fascia12-19,Heavy Traffic:52/Mechanical Problem:16/Weather Conditions:10
+2018-03-08T05:29:00.000,fascia5-11,Heavy Traffic:314/Mechanical Problem:53/Other:53,fascia12-19,Heavy Traffic:50/Mechanical Problem:14/Flat Tire:13
+2018-03-09T05:30:00.000,fascia5-11,Heavy Traffic:287/Other:44/Mechanical Problem:22,fascia12-19,Heavy Traffic:75/Other:18/Mechanical Problem:14
+2018-03-12T05:30:00.000,fascia5-11,Heavy Traffic:385/Other:70/Mechanical Problem:60,fascia12-19,Heavy Traffic:74/Other:23/Mechanical Problem:17
+2018-03-13T05:33:00.000,fascia5-11,Heavy Traffic:356/Weather Conditions:114/Mechanical Problem:57,fascia12-19,Heavy Traffic:57/Mechanical Problem:16/Other:7
+2018-03-14T05:33:00.000,fascia5-11,Heavy Traffic:460/Other:91/Mechanical Problem:52,fascia12-19,Heavy Traffic:64/Mechanical Problem:31/Other:18
+2018-03-15T05:10:00.000,fascia5-11,Heavy Traffic:323/Other:65/Mechanical Problem:54,fascia12-19,Heavy Traffic:46/Mechanical Problem:16/Other:10
+2018-03-16T05:00:00.000,fascia5-11,Heavy Traffic:250/Other:59/Mechanical Problem:37,fascia12-19,Heavy Traffic:65/Late return from Field Trip:19/Mechanical Problem:19
+2018-03-19T05:24:00.000,fascia5-11,Heavy Traffic:389/Mechanical Problem:76/Other:75,fascia12-19,Heavy Traffic:60/Mechanical Problem:22/Other:15
+2018-03-20T05:15:00.000,fascia5-11,Heavy Traffic:375/Other:75/Mechanical Problem:47,fascia12-19,Heavy Traffic:85/Mechanical Problem:18/Late return from Field Trip:15
+2018-03-22T05:24:00.000,fascia5-11,Heavy Traffic:278/Weather Conditions:262/Other:68,fascia12-19,Heavy Traffic:42/Mechanical Problem:16/Other:11
+2018-03-23T05:10:00.000,fascia5-11,Heavy Traffic:237/Other:69/Mechanical Problem:38,fascia12-19,Heavy Traffic:99/Other:18/Late return from Field Trip:13
+2018-03-26T05:21:00.000,fascia5-11,Heavy Traffic:362/Other:80/Mechanical Problem:52,fascia12-19,Heavy Traffic:51/Mechanical Problem:17/Other:6
+2018-03-27T05:49:00.000,fascia5-11,Heavy Traffic:194/Other:68/Mechanical Problem:27,fascia12-19,Heavy Traffic:88/Late return from Field Trip:30/Other:19
+2018-03-28T05:15:00.000,fascia5-11,Heavy Traffic:296/Other:43/Mechanical Problem:35,fascia12-19,Heavy Traffic:54/Mechanical Problem:16/Other:13
+2018-03-29T05:16:00.000,fascia5-11,Heavy Traffic:207/Other:39/Mechanical Problem:12,fascia12-19,Heavy Traffic:40/Mechanical Problem:11/Late return from Field Trip:6
+2018-03-30T07:31:00.000,fascia5-11,Other:1,fascia12-19,
+2018-04-02T06:07:00.000,fascia5-11,Weather Conditions:11/Mechanical Problem:5/Heavy Traffic:4,fascia12-19,Flat Tire:2/Heavy Traffic:1
+2018-04-03T05:55:00.000,fascia5-11,Heavy Traffic:6/Other:3/Mechanical Problem:2,fascia12-19,
+2018-04-04T05:53:00.000,fascia5-11,Heavy Traffic:3/Mechanical Problem:1,fascia12-19,Other:2/Heavy Traffic:2
+2018-04-05T05:52:00.000,fascia5-11,Heavy Traffic:7/Mechanical Problem:4/Other:4,fascia12-19,Heavy Traffic:1
+2018-04-06T05:06:00.000,fascia5-11,Heavy Traffic:2/Mechanical Problem:1,fascia12-19,Heavy Traffic:2/Other:1
+2018-04-09T05:23:00.000,fascia5-11,Heavy Traffic:291/Other:101/Mechanical Problem:94,fascia12-19,Heavy Traffic:31/Other:20/Mechanical Problem:19
+2018-04-10T05:26:00.000,fascia5-11,Heavy Traffic:250/Mechanical Problem:52/Other:51,fascia12-19,Heavy Traffic:50/Mechanical Problem:25/Other:8
+2018-04-11T05:30:00.000,fascia5-11,Heavy Traffic:216/Mechanical Problem:46/Other:37,fascia12-19,Heavy Traffic:63/Late return from Field Trip:24/Mechanical Problem:20
+2018-04-12T05:23:00.000,fascia5-11,Heavy Traffic:194/Other:35/Mechanical Problem:23,fascia12-19,Heavy Traffic:53/Late return from Field Trip:19/Mechanical Problem:16
+2018-04-13T05:29:00.000,fascia5-11,Heavy Traffic:179/Other:39/Mechanical Problem:32,fascia12-19,Heavy Traffic:75/Other:15/Mechanical Problem:15
+2018-04-16T05:15:00.000,fascia5-11,Heavy Traffic:284/Weather Conditions:112/Mechanical Problem:55,fascia12-19,Heavy Traffic:55/Mechanical Problem:27/Other:13
+2018-04-17T05:35:00.000,fascia5-11,Heavy Traffic:197/Mechanical Problem:48/Other:41,fascia12-19,Heavy Traffic:65/Mechanical Problem:19/Won`t Start:11
+2018-04-18T05:14:00.000,fascia5-11,Heavy Traffic:171/Other:39/Mechanical Problem:32,fascia12-19,Heavy Traffic:59/Mechanical Problem:11/Other:9
+2018-04-19T05:10:00.000,fascia5-11,Heavy Traffic:319/Mechanical Problem:48/Other:44,fascia12-19,Heavy Traffic:54/Mechanical Problem:10/Won`t Start:8
+2018-04-20T05:51:00.000,fascia5-11,Heavy Traffic:178/Other:43/Mechanical Problem:29,fascia12-19,Heavy Traffic:58/Late return from Field Trip:19/Mechanical Problem:14
+2018-04-23T05:45:00.000,fascia5-11,Heavy Traffic:218/Mechanical Problem:47/Other:46,fascia12-19,Heavy Traffic:67/Mechanical Problem:15/Other:11
+2018-04-24T05:50:00.000,fascia5-11,Heavy Traffic:240/Other:52/Mechanical Problem:40,fascia12-19,Heavy Traffic:30/Late return from Field Trip:12/Mechanical Problem:10
+2018-04-25T05:16:00.000,fascia5-11,Heavy Traffic:421/Weather Conditions:58/Other:52,fascia12-19,Heavy Traffic:77/Late return from Field Trip:14/Other:13
+2018-04-26T05:10:00.000,fascia5-11,Heavy Traffic:390/Mechanical Problem:36/Other:27,fascia12-19,Heavy Traffic:66/Mechanical Problem:16/Late return from Field Trip:14
+2018-04-27T05:20:00.000,fascia5-11,Heavy Traffic:239/Other:43/Mechanical Problem:34,fascia12-19,Heavy Traffic:69/Late return from Field Trip:24/Other:21
+2018-04-30T05:10:00.000,fascia5-11,Heavy Traffic:257/Mechanical Problem:56/Other:51,fascia12-19,Heavy Traffic:102/Mechanical Problem:31/Other:29
+2018-05-01T05:05:00.000,fascia5-11,Heavy Traffic:351/Mechanical Problem:67/Other:58,fascia12-19,Heavy Traffic:120/Late return from Field Trip:69/Other:31
+2018-05-02T05:10:00.000,fascia5-11,Heavy Traffic:278/Other:61/Mechanical Problem:52,fascia12-19,Heavy Traffic:66/Late return from Field Trip:30/Mechanical Problem:19
+2018-05-03T05:15:00.000,fascia5-11,Heavy Traffic:209/Other:52/Mechanical Problem:34,fascia12-19,Heavy Traffic:62/Mechanical Problem:30/Late return from Field Trip:27
+2018-05-04T05:15:00.000,fascia5-11,Heavy Traffic:211/Other:53/Mechanical Problem:40,fascia12-19,Heavy Traffic:92/Mechanical Problem:19/Late return from Field Trip:8
+2018-05-07T05:20:00.000,fascia5-11,Heavy Traffic:244/Other:64/Mechanical Problem:56,fascia12-19,Heavy Traffic:60/Mechanical Problem:20/Other:9
+2018-05-08T05:20:00.000,fascia5-11,Heavy Traffic:217/Mechanical Problem:38/Other:32,fascia12-19,Heavy Traffic:41/Mechanical Problem:13/Won`t Start:10
+2018-05-09T05:20:00.000,fascia5-11,Heavy Traffic:231/Other:43/Mechanical Problem:27,fascia12-19,Heavy Traffic:66/Mechanical Problem:15/Other:14
+2018-05-10T05:33:00.000,fascia5-11,Heavy Traffic:183/Other:59/Mechanical Problem:34,fascia12-19,Heavy Traffic:44/Late return from Field Trip:28/Other:17
+2018-05-11T05:35:00.000,fascia5-11,Heavy Traffic:225/Other:59/Mechanical Problem:44,fascia12-19,Heavy Traffic:83/Late return from Field Trip:40/Other:20
+2018-05-14T05:19:00.000,fascia5-11,Heavy Traffic:245/Other:66/Mechanical Problem:50,fascia12-19,Heavy Traffic:76/Mechanical Problem:20/Other:11
+2018-05-15T05:45:00.000,fascia5-11,Heavy Traffic:133/Other:29/Mechanical Problem:20,fascia12-19,Heavy Traffic:67/Late return from Field Trip:20/Won`t Start:13
+2018-05-16T05:24:00.000,fascia5-11,Heavy Traffic:176/Other:57/Mechanical Problem:36,fascia12-19,Heavy Traffic:81/Other:18/Mechanical Problem:13
+2018-05-17T05:10:00.000,fascia5-11,Heavy Traffic:328/Weather Conditions:60/Other:46,fascia12-19,Heavy Traffic:61/Mechanical Problem:19/Late return from Field Trip:13
+2018-05-18T05:45:00.000,fascia5-11,Heavy Traffic:210/Other:50/Mechanical Problem:25,fascia12-19,Heavy Traffic:67/Won`t Start:15/Late return from Field Trip:15
+2018-05-21T05:15:00.000,fascia5-11,Heavy Traffic:226/Other:53/Mechanical Problem:34,fascia12-19,Heavy Traffic:53/Other:11/Mechanical Problem:11
+2018-05-22T05:23:00.000,fascia5-11,Heavy Traffic:227/Other:49/Mechanical Problem:42,fascia12-19,Heavy Traffic:52/Late return from Field Trip:15/Mechanical Problem:13
+2018-05-23T05:20:00.000,fascia5-11,Heavy Traffic:238/Mechanical Problem:50/Other:34,fascia12-19,Heavy Traffic:64/Mechanical Problem:20/Late return from Field Trip:19
+2018-05-24T05:15:00.000,fascia5-11,Heavy Traffic:260/Other:49/Mechanical Problem:36,fascia12-19,Heavy Traffic:57/Late return from Field Trip:39/Other:15
+2018-05-25T05:25:00.000,fascia5-11,Heavy Traffic:184/Other:46/Mechanical Problem:16,fascia12-19,Heavy Traffic:68/Late return from Field Trip:42/Mechanical Problem:9
+2018-05-29T05:35:00.000,fascia5-11,Heavy Traffic:260/Mechanical Problem:48/Other:46,fascia12-19,Heavy Traffic:43/Mechanical Problem:18/Other:17
+2018-05-30T05:30:00.000,fascia5-11,Heavy Traffic:205/Other:54/Mechanical Problem:48,fascia12-19,Heavy Traffic:61/Late return from Field Trip:21/Mechanical Problem:19
+2018-05-31T05:20:00.000,fascia5-11,Heavy Traffic:223/Other:64/Mechanical Problem:44,fascia12-19,Heavy Traffic:64/Mechanical Problem:21/Late return from Field Trip:18
+2018-06-01T05:30:00.000,fascia5-11,Heavy Traffic:236/Other:51/Mechanical Problem:29,fascia12-19,Heavy Traffic:61/Other:24/Late return from Field Trip:21
+2018-06-04T05:20:00.000,fascia5-11,Heavy Traffic:281/Mechanical Problem:66/Other:61,fascia12-19,Heavy Traffic:44/Other:19/Mechanical Problem:15
+2018-06-05T05:38:00.000,fascia5-11,Heavy Traffic:292/Other:47/Mechanical Problem:36,fascia12-19,Heavy Traffic:51/Late return from Field Trip:27/Other:10
+2018-06-06T05:30:00.000,fascia5-11,Heavy Traffic:189/Other:44/Mechanical Problem:41,fascia12-19,Late return from Field Trip:53/Heavy Traffic:44/Mechanical Problem:16
+2018-06-07T06:15:00.000,fascia5-11,Heavy Traffic:39/Mechanical Problem:9/Other:4,fascia12-19,Heavy Traffic:9/Late return from Field Trip:4/Other:2
+2018-06-08T05:40:00.000,fascia5-11,Heavy Traffic:211/Mechanical Problem:51/Other:50,fascia12-19,Heavy Traffic:72/Late return from Field Trip:38/Other:21
+2018-06-11T05:30:00.000,fascia5-11,Heavy Traffic:36/Other:16/Mechanical Problem:8,fascia12-19,Heavy Traffic:11/Mechanical Problem:6/Other:3
+2018-06-12T05:42:00.000,fascia5-11,Heavy Traffic:299/Other:75/Mechanical Problem:45,fascia12-19,Heavy Traffic:84/Late return from Field Trip:40/Other:28
+2018-06-13T05:10:00.000,fascia5-11,Heavy Traffic:322/Other:54/Mechanical Problem:52,fascia12-19,Heavy Traffic:112/Late return from Field Trip:40/Other:36
+2018-06-14T05:45:00.000,fascia5-11,Heavy Traffic:315/Mechanical Problem:60/Other:54,fascia12-19,Late return from Field Trip:64/Heavy Traffic:60/Mechanical Problem:24
+2018-06-15T05:45:00.000,fascia5-11,Heavy Traffic:52/Flat Tire:6/Other:4,fascia12-19,Heavy Traffic:16/Mechanical Problem:4/Flat Tire:2
+2018-06-18T05:30:00.000,fascia5-11,Heavy Traffic:381/Other:83/Mechanical Problem:61,fascia12-19,Heavy Traffic:70/Mechanical Problem:22/Other:16
+2018-06-19T05:35:00.000,fascia5-11,Heavy Traffic:8/Accident:3/Other:1,fascia12-19,
+2018-06-25T06:01:00.000,fascia5-11,Heavy Traffic:125/Other:34/Mechanical Problem:15,fascia12-19,
+2018-09-04T05:43:00.000,fascia5-11,Heavy Traffic:68/Other:21/Mechanical Problem:14,fascia12-19,Heavy Traffic:1/Mechanical Problem:1
+2018-09-05T05:20:00.000,fascia5-11,Heavy Traffic:291/Mechanical Problem:76/Other:70,fascia12-19,Heavy Traffic:30/Mechanical Problem:21/Won`t Start:11
+2018-09-06T05:17:00.000,fascia5-11,Heavy Traffic:297/Mechanical Problem:58/Other:32,fascia12-19,Other:53/Heavy Traffic:34/Mechanical Problem:32
+2018-09-07T05:24:00.000,fascia5-11,Heavy Traffic:219/Other:35/Mechanical Problem:34,fascia12-19,Heavy Traffic:35/Other:13/Mechanical Problem:7
+2018-09-10T05:45:00.000,fascia5-11,Heavy Traffic:11/Other:7/Mechanical Problem:6,fascia12-19,Mechanical Problem:4/Won`t Start:1/Weather Conditions:1
+2018-09-11T05:25:00.000,fascia5-11,Heavy Traffic:17/Other:7/Mechanical Problem:5,fascia12-19,Other:1
+2018-09-12T05:00:00.000,fascia5-11,Heavy Traffic:585/Other:88/Mechanical Problem:87,fascia12-19,Heavy Traffic:40/Other:36/Mechanical Problem:32
+2018-09-13T05:33:00.000,fascia5-11,Heavy Traffic:583/Other:70/Mechanical Problem:54,fascia12-19,Heavy Traffic:101/Mechanical Problem:40/Other:20
+2018-09-14T05:30:00.000,fascia5-11,Heavy Traffic:409/Mechanical Problem:81/Other:51,fascia12-19,Heavy Traffic:108/Other:29/Mechanical Problem:27
+2018-09-17T05:25:00.000,fascia5-11,Heavy Traffic:513/Mechanical Problem:85/Other:63,fascia12-19,Heavy Traffic:108/Won`t Start:8/Other:7
+2018-09-18T06:00:00.000,fascia5-11,Heavy Traffic:191/Other:20/Mechanical Problem:11,fascia12-19,Heavy Traffic:83/Other:13/Mechanical Problem:12
+2018-09-19T06:38:00.000,fascia5-11,Heavy Traffic:3/Other:3/Flat Tire:1,fascia12-19,Other:2/Heavy Traffic:1
+2018-09-20T05:29:00.000,fascia5-11,Heavy Traffic:449/Other:99/Mechanical Problem:70,fascia12-19,Heavy Traffic:164/Other:16/Mechanical Problem:13
+2018-09-21T05:55:00.000,fascia5-11,Heavy Traffic:151/Mechanical Problem:18/Other:16,fascia12-19,Heavy Traffic:42/Other:3/Won`t Start:2
+2018-09-24T05:35:00.000,fascia5-11,Heavy Traffic:337/Other:36/Mechanical Problem:24,fascia12-19,Heavy Traffic:128/Mechanical Problem:21/Other:16
+2018-09-25T05:32:00.000,fascia5-11,Heavy Traffic:520/Weather Conditions:56/Other:52,fascia12-19,Heavy Traffic:34/Won`t Start:4/Other:4
+2018-09-26T05:40:00.000,fascia5-11,Heavy Traffic:176/Other:17/Mechanical Problem:10,fascia12-19,Heavy Traffic:49/Mechanical Problem:10/Won`t Start:7
+2018-09-27T05:14:00.000,fascia5-11,Heavy Traffic:157/Mechanical Problem:21/Other:16,fascia12-19,Heavy Traffic:24/Mechanical Problem:6/Other:5
+2018-09-28T05:17:00.000,fascia5-11,Heavy Traffic:174/Weather Conditions:58/Mechanical Problem:17,fascia12-19,Heavy Traffic:42/Mechanical Problem:7/Other:5
+2018-10-01T05:00:00.000,fascia5-11,Heavy Traffic:118/Other:15/Problem Run:10,fascia12-19,Heavy Traffic:41/Other:10/Mechanical Problem:10
+2018-10-02T06:00:00.000,fascia5-11,Heavy Traffic:80/Mechanical Problem:18/Other:13,fascia12-19,Heavy Traffic:37/Mechanical Problem:4/Flat Tire:2
+2018-10-03T05:28:00.000,fascia5-11,Heavy Traffic:154/Mechanical Problem:18/Other:12,fascia12-19,Heavy Traffic:58/Other:18/Mechanical Problem:12
+2018-10-04T05:55:00.000,fascia5-11,Heavy Traffic:105/Other:25/Mechanical Problem:17,fascia12-19,Heavy Traffic:63/Mechanical Problem:10/Other:9
+2018-10-05T05:47:00.000,fascia5-11,Heavy Traffic:108/Mechanical Problem:13/Other:9,fascia12-19,Heavy Traffic:50/Other:7/Mechanical Problem:4
+2018-10-09T05:11:00.000,fascia5-11,Heavy Traffic:152/Mechanical Problem:32/Problem Run:21,fascia12-19,Heavy Traffic:46/Mechanical Problem:9/Other:5
+2018-10-10T06:05:00.000,fascia5-11,Heavy Traffic:99/Other:17/Mechanical Problem:10,fascia12-19,Heavy Traffic:39/Mechanical Problem:6/Other:5
+2018-10-11T05:30:00.000,fascia5-11,Heavy Traffic:128/Other:29/Mechanical Problem:15,fascia12-19,Heavy Traffic:33/Other:5/Mechanical Problem:5
+2018-10-12T05:49:00.000,fascia5-11,Heavy Traffic:142/Mechanical Problem:24/Other:15,fascia12-19,Heavy Traffic:59/Mechanical Problem:15/Other:6
+2018-10-15T05:29:00.000,fascia5-11,Heavy Traffic:158/Mechanical Problem:32/Other:24,fascia12-19,Heavy Traffic:93/Other:25/Mechanical Problem:17
+2018-10-16T05:38:00.000,fascia5-11,Heavy Traffic:563/Mechanical Problem:79/Other:60,fascia12-19,Heavy Traffic:151/Mechanical Problem:37/Other:23
+2018-10-17T05:21:00.000,fascia5-11,Heavy Traffic:401/Other:70/Mechanical Problem:48,fascia12-19,Heavy Traffic:155/Mechanical Problem:21/Won`t Start:11
+2018-10-18T05:00:00.000,fascia5-11,Heavy Traffic:582/Other:95/Mechanical Problem:67,fascia12-19,Heavy Traffic:209/Mechanical Problem:36/Other:25
+2018-10-19T05:27:00.000,fascia5-11,Heavy Traffic:603/Other:65/Mechanical Problem:57,fascia12-19,Heavy Traffic:242/Mechanical Problem:35/Other:30
+2018-10-22T05:41:00.000,fascia5-11,Heavy Traffic:350/Mechanical Problem:69/Other:54,fascia12-19,Heavy Traffic:91/Late return from Field Trip:34/Mechanical Problem:28
+2018-10-23T05:15:00.000,fascia5-11,Heavy Traffic:361/Other:52/Mechanical Problem:31,fascia12-19,Heavy Traffic:107/Mechanical Problem:19/Other:15
+2018-10-24T05:26:00.000,fascia5-11,Heavy Traffic:353/Other:48/Mechanical Problem:33,fascia12-19,Heavy Traffic:108/Mechanical Problem:30/Late return from Field Trip:16
+2018-10-25T05:20:00.000,fascia5-11,Heavy Traffic:341/Other:55/Mechanical Problem:53,fascia12-19,Heavy Traffic:111/Other:28/Mechanical Problem:15
+2018-10-26T05:50:00.000,fascia5-11,Heavy Traffic:291/Other:50/Mechanical Problem:38,fascia12-19,Heavy Traffic:134/Late return from Field Trip:63/Mechanical Problem:17
+2018-10-29T05:15:00.000,fascia5-11,Heavy Traffic:404/Other:91/Mechanical Problem:58,fascia12-19,Heavy Traffic:123/Mechanical Problem:29/Other:22
+2018-10-30T05:55:00.000,fascia5-11,Heavy Traffic:355/Other:61/Mechanical Problem:34,fascia12-19,Heavy Traffic:108/Mechanical Problem:22/Other:20
+2018-10-31T05:15:00.000,fascia5-11,Heavy Traffic:363/Other:73/Mechanical Problem:41,fascia12-19,Heavy Traffic:128/Mechanical Problem:20/Won`t Start:6
+2018-11-01T05:16:00.000,fascia5-11,Heavy Traffic:347/Other:72/Mechanical Problem:39,fascia12-19,Heavy Traffic:124/Mechanical Problem:16/Other:12
+2018-11-02T05:35:00.000,fascia5-11,Heavy Traffic:334/Other:67/Mechanical Problem:35,fascia12-19,Heavy Traffic:139/Mechanical Problem:29/Other:27
+2018-11-04T07:00:00.000,fascia5-11,Heavy Traffic:1,fascia12-19,
+2018-11-05T05:30:00.000,fascia5-11,Heavy Traffic:680/Other:131/Mechanical Problem:100,fascia12-19,Heavy Traffic:211/Other:40/Mechanical Problem:25
+2018-11-06T05:56:00.000,fascia5-11,Heavy Traffic:189/Mechanical Problem:12/Other:8,fascia12-19,Heavy Traffic:125/Mechanical Problem:4/Other:2
+2018-11-07T05:10:00.000,fascia5-11,Heavy Traffic:475/Other:65/Mechanical Problem:64,fascia12-19,Heavy Traffic:125/Mechanical Problem:14/Won`t Start:11
+2018-11-08T05:30:00.000,fascia5-11,Heavy Traffic:417/Other:52/Mechanical Problem:43,fascia12-19,Heavy Traffic:114/Mechanical Problem:21/Other:11
+2018-11-09T05:23:00.000,fascia5-11,Heavy Traffic:360/Other:50/Mechanical Problem:44,fascia12-19,Heavy Traffic:243/Mechanical Problem:24/Other:20
+2018-11-12T06:04:00.000,fascia5-11,Heavy Traffic:4,fascia12-19,
+2018-11-13T05:10:00.000,fascia5-11,Heavy Traffic:1115/Weather Conditions:146/Other:146,fascia12-19,Heavy Traffic:215/Mechanical Problem:47/Other:25
+2018-11-14T05:20:00.000,fascia5-11,Heavy Traffic:463/Other:79/Mechanical Problem:66,fascia12-19,Heavy Traffic:127/Mechanical Problem:22/Won`t Start:18
+2018-11-15T05:30:00.000,fascia5-11,Heavy Traffic:352/Other:118/Mechanical Problem:55,fascia12-19,Heavy Traffic:161/Weather Conditions:142/Other:14
+2018-11-16T05:30:00.000,fascia5-11,Heavy Traffic:488/Weather Conditions:423/Other:60,fascia12-19,Heavy Traffic:175/Other:42/Mechanical Problem:24
+2018-11-19T05:22:00.000,fascia5-11,Heavy Traffic:813/Other:152/Mechanical Problem:96,fascia12-19,Heavy Traffic:220/Other:20/Late return from Field Trip:20
+2018-11-20T05:18:00.000,fascia5-11,Heavy Traffic:666/Other:88/Mechanical Problem:58,fascia12-19,Heavy Traffic:239/Other:23/Mechanical Problem:12
+2018-11-21T05:25:00.000,fascia5-11,Heavy Traffic:535/Other:74/Problem Run:50,fascia12-19,Heavy Traffic:126/Mechanical Problem:31/Late return from Field Trip:16
+2018-11-23T07:35:00.000,fascia5-11,Mechanical Problem:2/Heavy Traffic:2/Flat Tire:2,fascia12-19,
+2018-11-26T05:36:00.000,fascia5-11,Heavy Traffic:666/Other:96/Mechanical Problem:87,fascia12-19,Heavy Traffic:248/Other:23/Mechanical Problem:21
+2018-11-27T05:35:00.000,fascia5-11,Heavy Traffic:652/Other:112/Mechanical Problem:87,fascia12-19,Heavy Traffic:227/Other:24/Mechanical Problem:11
+2018-11-28T05:15:00.000,fascia5-11,Heavy Traffic:594/Mechanical Problem:75/Other:72,fascia12-19,Heavy Traffic:231/Late return from Field Trip:55/Mechanical Problem:24
+2018-11-29T05:32:00.000,fascia5-11,Heavy Traffic:624/Other:104/Mechanical Problem:66,fascia12-19,Heavy Traffic:289/Other:47/Late return from Field Trip:44
+2018-11-30T05:32:00.000,fascia5-11,Heavy Traffic:539/Mechanical Problem:87/Other:73,fascia12-19,Heavy Traffic:221/Other:26/Mechanical Problem:26
+2018-12-03T05:21:00.000,fascia5-11,Heavy Traffic:270/Other:48/Mechanical Problem:39,fascia12-19,Other:3/Heavy Traffic:2/Mechanical Problem:1
+2018-12-04T06:20:00.000,fascia5-11,Heavy Traffic:13/Other:4/Won`t Start:3,fascia12-19,Heavy Traffic:2/Mechanical Problem:1
+2018-12-05T05:30:00.000,fascia5-11,Heavy Traffic:4/Other:4/Mechanical Problem:1,fascia12-19,Heavy Traffic:2/Other:1/Flat Tire:1
+2018-12-06T06:15:00.000,fascia5-11,Heavy Traffic:3/Other:1/Flat Tire:1,fascia12-19,Other:2/Heavy Traffic:2/Won`t Start:1
+2018-12-07T06:02:00.000,fascia5-11,Heavy Traffic:3/Other:3,fascia12-19,Heavy Traffic:3/Other:1
+2018-12-10T06:09:00.000,fascia5-11,Heavy Traffic:3/Other:3/Problem Run:1,fascia12-19,Other:1/Mechanical Problem:1
+2018-12-11T06:15:00.000,fascia5-11,Heavy Traffic:6/Flat Tire:2/Accident:1,fascia12-19,Flat Tire:1
+2018-12-12T07:29:00.000,fascia5-11,Heavy Traffic:1/Other:1,fascia12-19,Mechanical Problem:2/Flat Tire:1/Won`t Start:1
+2018-12-13T06:25:00.000,fascia5-11,Mechanical Problem:3/Other:2/Heavy Traffic:1,fascia12-19,Other:1/Mechanical Problem:1
+2018-12-14T06:05:00.000,fascia5-11,Heavy Traffic:5/Other:3/Won`t Start:2,fascia12-19,Heavy Traffic:2/Won`t Start:1
+2018-12-17T06:20:00.000,fascia5-11,Other:3/Heavy Traffic:1/Mechanical Problem:1,fascia12-19,
+2018-12-18T06:06:00.000,fascia5-11,Mechanical Problem:1/Heavy Traffic:1/Other:1,fascia12-19,Mechanical Problem:1
+2018-12-19T06:23:00.000,fascia5-11,Other:3/Heavy Traffic:2/Accident:1,fascia12-19,Flat Tire:1/Other:1/Accident:1
+2018-12-20T06:15:00.000,fascia5-11,Heavy Traffic:4/Mechanical Problem:3/Flat Tire:1,fascia12-19,Mechanical Problem:1
+2018-12-21T06:45:00.000,fascia5-11,Heavy Traffic:7/Mechanical Problem:2/Other:2,fascia12-19,Other:1
+2018-12-26T05:36:00.000,fascia5-11,Won`t Start:1,fascia12-19,
+2019-01-02T06:43:00.000,fascia5-11,Heavy Traffic:5/Other:3/Won`t Start:1,fascia12-19,Won`t Start:1
+2019-01-03T06:04:00.000,fascia5-11,Heavy Traffic:3/Other:1,fascia12-19,Heavy Traffic:36/Mechanical Problem:8/Other:8
+2019-01-04T05:24:00.000,fascia5-11,Heavy Traffic:232/Other:48/Mechanical Problem:34,fascia12-19,Heavy Traffic:93/Other:15/Mechanical Problem:14
+2019-01-07T05:30:00.000,fascia5-11,Heavy Traffic:255/Mechanical Problem:54/Other:53,fascia12-19,Heavy Traffic:89/Other:21/Mechanical Problem:18
+2019-01-08T05:40:00.000,fascia5-11,Heavy Traffic:316/Other:42/Weather Conditions:33,fascia12-19,Heavy Traffic:100/Other:15/Won`t Start:4
+2019-01-09T05:15:00.000,fascia5-11,Heavy Traffic:255/Other:43/Mechanical Problem:24,fascia12-19,Heavy Traffic:102/Other:19/Mechanical Problem:11
+2019-01-10T05:24:00.000,fascia5-11,Heavy Traffic:262/Other:50/Mechanical Problem:29,fascia12-19,Heavy Traffic:100/Other:17/Mechanical Problem:9
+2019-01-11T05:23:00.000,fascia5-11,Heavy Traffic:217/Other:36/Mechanical Problem:31,fascia12-19,Heavy Traffic:137/Other:17/Mechanical Problem:6
+2019-01-14T05:27:00.000,fascia5-11,Heavy Traffic:282/Other:51/Mechanical Problem:47,fascia12-19,Heavy Traffic:107/Other:23/Mechanical Problem:7
+2019-01-15T05:43:00.000,fascia5-11,Heavy Traffic:244/Other:54/Mechanical Problem:29,fascia12-19,Heavy Traffic:99/Other:12/Mechanical Problem:8
+2019-01-16T05:10:00.000,fascia5-11,Heavy Traffic:280/Other:39/Mechanical Problem:34,fascia12-19,Other:21/Heavy Traffic:16/Mechanical Problem:9
+2019-01-17T05:30:00.000,fascia5-11,Heavy Traffic:209/Other:47/Mechanical Problem:19,fascia12-19,Heavy Traffic:107/Other:24/Mechanical Problem:11
+2019-01-18T05:22:00.000,fascia5-11,Heavy Traffic:267/Other:38/Weather Conditions:38,fascia12-19,Heavy Traffic:88/Other:20/Late return from Field Trip:8
+2019-01-22T05:29:00.000,fascia5-11,Heavy Traffic:349/Mechanical Problem:103/Won`t Start:79,fascia12-19,Heavy Traffic:106/Other:20/Mechanical Problem:8
+2019-01-23T05:00:00.000,fascia5-11,Heavy Traffic:265/Mechanical Problem:33/Other:33,fascia12-19,Heavy Traffic:98/Other:9/Mechanical Problem:6
+2019-01-24T05:00:00.000,fascia5-11,Heavy Traffic:263/Weather Conditions:34/Other:30,fascia12-19,Heavy Traffic:102/Other:9/Mechanical Problem:6
+2019-01-25T05:42:00.000,fascia5-11,Heavy Traffic:325/Mechanical Problem:41/Other:27,fascia12-19,Heavy Traffic:218/Other:20/Mechanical Problem:12
+2019-01-28T05:15:00.000,fascia5-11,Heavy Traffic:503/Other:115/Mechanical Problem:84,fascia12-19,Heavy Traffic:205/Mechanical Problem:30/Other:15
+2019-01-29T05:24:00.000,fascia5-11,Heavy Traffic:578/Other:82/Mechanical Problem:70,fascia12-19,Heavy Traffic:241/Other:35/Mechanical Problem:20
+2019-01-30T05:00:00.000,fascia5-11,Heavy Traffic:593/Mechanical Problem:79/Other:59,fascia12-19,Heavy Traffic:219/Mechanical Problem:19/Late return from Field Trip:14
+2019-01-31T05:17:00.000,fascia5-11,Heavy Traffic:645/Weather Conditions:189/Won`t Start:173,fascia12-19,Heavy Traffic:246/Mechanical Problem:46/Won`t Start:19
+2019-02-01T05:30:00.000,fascia5-11,Heavy Traffic:591/Mechanical Problem:110/Other:72,fascia12-19,Heavy Traffic:222/Mechanical Problem:26/Other:23
+2019-02-04T05:31:00.000,fascia5-11,Heavy Traffic:719/Mechanical Problem:138/Other:91,fascia12-19,Heavy Traffic:289/Mechanical Problem:29/Late return from Field Trip:18
+2019-02-05T05:13:00.000,fascia5-11,Heavy Traffic:122/Mechanical Problem:17/Other:11,fascia12-19,Heavy Traffic:2/Mechanical Problem:2
+2019-02-06T05:00:00.000,fascia5-11,Heavy Traffic:536/Other:116/Mechanical Problem:92,fascia12-19,Heavy Traffic:206/Mechanical Problem:18/Late return from Field Trip:10
+2019-02-07T05:20:00.000,fascia5-11,Heavy Traffic:511/Other:54/Mechanical Problem:45,fascia12-19,Heavy Traffic:122/Other:20/Mechanical Problem:18
+2019-02-08T05:35:00.000,fascia5-11,Heavy Traffic:342/Other:61/Mechanical Problem:51,fascia12-19,Heavy Traffic:122/Other:15/Mechanical Problem:14
+2019-02-11T05:21:00.000,fascia5-11,Heavy Traffic:496/Other:66/Mechanical Problem:51,fascia12-19,Heavy Traffic:107/Other:15/Mechanical Problem:13
+2019-02-12T05:35:00.000,fascia5-11,Heavy Traffic:269/Other:32/Mechanical Problem:27,fascia12-19,Heavy Traffic:101/Weather Conditions:15/Mechanical Problem:14
+2019-02-13T05:28:00.000,fascia5-11,Heavy Traffic:392/Mechanical Problem:60/Other:54,fascia12-19,Heavy Traffic:122/Mechanical Problem:18/Other:16
+2019-02-14T05:37:00.000,fascia5-11,Heavy Traffic:316/Other:62/Mechanical Problem:48,fascia12-19,Heavy Traffic:132/Mechanical Problem:20/Other:17
+2019-02-15T05:29:00.000,fascia5-11,Heavy Traffic:275/Mechanical Problem:49/Other:35,fascia12-19,Heavy Traffic:136/Other:30/Mechanical Problem:14
+2019-02-19T06:17:00.000,fascia5-11,Heavy Traffic:5/Other:3,fascia12-19,Flat Tire:1
+2019-02-20T06:10:00.000,fascia5-11,Flat Tire:6/Heavy Traffic:4/Other:2,fascia12-19,Heavy Traffic:5/Other:1/Accident:1
+2019-02-21T06:51:00.000,fascia5-11,Heavy Traffic:5/Won`t Start:1,fascia12-19,Mechanical Problem:2/Heavy Traffic:1/Other:1
+2019-02-22T06:35:00.000,fascia5-11,Other:5/Heavy Traffic:3/Mechanical Problem:2,fascia12-19,Other:2/Heavy Traffic:1
+2019-02-25T05:00:00.000,fascia5-11,Heavy Traffic:441/Other:100/Mechanical Problem:96,fascia12-19,Heavy Traffic:118/Other:34/Mechanical Problem:19
+2019-02-26T05:35:00.000,fascia5-11,Heavy Traffic:369/Mechanical Problem:63/Other:62,fascia12-19,Heavy Traffic:86/Other:27/Mechanical Problem:19
+2019-02-27T05:26:00.000,fascia5-11,Heavy Traffic:325/Other:58/Mechanical Problem:52,fascia12-19,Heavy Traffic:119/Other:22/Mechanical Problem:9
+2019-02-28T05:05:00.000,fascia5-11,Heavy Traffic:386/Other:64/Mechanical Problem:46,fascia12-19,Heavy Traffic:127/Other:25/Mechanical Problem:20
+2019-03-01T05:36:00.000,fascia5-11,Heavy Traffic:440/Weather Conditions:78/Other:53,fascia12-19,Heavy Traffic:119/Other:23/Mechanical Problem:18
+2019-03-05T05:22:00.000,fascia5-11,Heavy Traffic:414/Other:86/Mechanical Problem:46,fascia12-19,Heavy Traffic:127/Other:13/Mechanical Problem:12
+2019-03-06T05:00:00.000,fascia5-11,Heavy Traffic:324/Mechanical Problem:58/Other:54,fascia12-19,Heavy Traffic:129/Mechanical Problem:23/Other:21
+2019-03-07T05:39:00.000,fascia5-11,Heavy Traffic:356/Mechanical Problem:45/Other:40,fascia12-19,Heavy Traffic:83/Other:17/Mechanical Problem:13
+2019-03-08T05:44:00.000,fascia5-11,Heavy Traffic:322/Other:46/Mechanical Problem:35,fascia12-19,Heavy Traffic:109/Mechanical Problem:13/Other:11
+2019-03-11T05:21:00.000,fascia5-11,Heavy Traffic:332/Mechanical Problem:87/Other:60,fascia12-19,Heavy Traffic:117/Other:31/Mechanical Problem:20
+2019-03-12T05:37:00.000,fascia5-11,Heavy Traffic:393/Other:68/Mechanical Problem:54,fascia12-19,Heavy Traffic:116/Mechanical Problem:19/Other:15
+2019-03-13T05:15:00.000,fascia5-11,Heavy Traffic:290/Other:68/Mechanical Problem:31,fascia12-19,Heavy Traffic:124/Mechanical Problem:17/Other:11
+2019-03-14T05:47:00.000,fascia5-11,Heavy Traffic:139/Other:7/Mechanical Problem:5,fascia12-19,Other:1
+2019-03-15T05:10:00.000,fascia5-11,Heavy Traffic:307/Other:56/Mechanical Problem:46,fascia12-19,Heavy Traffic:109/Mechanical Problem:14/Other:9
+2019-03-18T05:38:00.000,fascia5-11,Heavy Traffic:346/Other:74/Mechanical Problem:54,fascia12-19,Heavy Traffic:98/Other:22/Mechanical Problem:19
+2019-03-19T05:35:00.000,fascia5-11,Heavy Traffic:339/Other:87/Mechanical Problem:50,fascia12-19,Heavy Traffic:113/Other:21/Mechanical Problem:14
+2019-03-20T05:26:00.000,fascia5-11,Heavy Traffic:301/Other:51/Mechanical Problem:37,fascia12-19,Heavy Traffic:93/Late return from Field Trip:6/Won`t Start:5
+2019-03-21T05:30:00.000,fascia5-11,Heavy Traffic:309/Other:38/Mechanical Problem:22,fascia12-19,Heavy Traffic:98/Mechanical Problem:14/Late return from Field Trip:13
+2019-03-22T05:22:00.000,fascia5-11,Heavy Traffic:409/Other:42/Weather Conditions:37,fascia12-19,Heavy Traffic:101/Other:10/Late return from Field Trip:7
+2019-03-25T05:16:00.000,fascia5-11,Heavy Traffic:351/Other:90/Mechanical Problem:49,fascia12-19,Heavy Traffic:88/Mechanical Problem:27/Other:12
+2019-03-26T05:31:00.000,fascia5-11,Heavy Traffic:336/Other:52/Mechanical Problem:43,fascia12-19,Heavy Traffic:90/Other:12/Mechanical Problem:7
+2019-03-27T05:00:00.000,fascia5-11,Heavy Traffic:283/Other:68/Mechanical Problem:30,fascia12-19,Heavy Traffic:57/Other:22/Mechanical Problem:20
+2019-03-28T05:30:00.000,fascia5-11,Heavy Traffic:234/Other:53/Mechanical Problem:34,fascia12-19,Heavy Traffic:71/Other:27/Mechanical Problem:10
+2019-03-29T05:04:00.000,fascia5-11,Heavy Traffic:230/Other:83/Mechanical Problem:39,fascia12-19,Heavy Traffic:67/Other:22/Late return from Field Trip:13
+2019-04-01T05:26:00.000,fascia5-11,Heavy Traffic:321/Other:93/Mechanical Problem:57,fascia12-19,Heavy Traffic:72/Other:27/Mechanical Problem:23
+2019-04-02T05:30:00.000,fascia5-11,Heavy Traffic:271/Other:77/Mechanical Problem:51,fascia12-19,Heavy Traffic:62/Other:28/Late return from Field Trip:26
+2019-04-03T05:35:00.000,fascia5-11,Heavy Traffic:279/Other:59/Mechanical Problem:41,fascia12-19,Heavy Traffic:77/Late return from Field Trip:19/Other:15
+2019-04-04T05:40:00.000,fascia5-11,Heavy Traffic:301/Other:63/Mechanical Problem:37,fascia12-19,Heavy Traffic:75/Other:20/Mechanical Problem:16
+2019-04-05T05:35:00.000,fascia5-11,Heavy Traffic:207/Other:64/Mechanical Problem:38,fascia12-19,Heavy Traffic:94/Other:22/Mechanical Problem:14
+2019-04-08T05:00:00.000,fascia5-11,Heavy Traffic:263/Other:85/Mechanical Problem:65,fascia12-19,Heavy Traffic:60/Other:24/Mechanical Problem:14
+2019-04-09T05:16:00.000,fascia5-11,Heavy Traffic:320/Other:47/Mechanical Problem:42,fascia12-19,Heavy Traffic:65/Other:26/Mechanical Problem:14
+2019-04-10T05:40:00.000,fascia5-11,Heavy Traffic:262/Other:69/Mechanical Problem:33,fascia12-19,Heavy Traffic:77/Other:24/Mechanical Problem:15
+2019-04-11T05:26:00.000,fascia5-11,Heavy Traffic:246/Other:47/Mechanical Problem:30,fascia12-19,Heavy Traffic:70/Mechanical Problem:13/Other:11
+2019-04-12T05:00:00.000,fascia5-11,Heavy Traffic:62/Other:22/Mechanical Problem:14,fascia12-19,Heavy Traffic:1/Other:1
+2019-04-15T06:15:00.000,fascia5-11,Heavy Traffic:7/Other:3/Weather Conditions:1,fascia12-19,Other:1/Flat Tire:1
+2019-04-16T06:10:00.000,fascia5-11,Heavy Traffic:3/Other:2/Flat Tire:1,fascia12-19,Heavy Traffic:1/Flat Tire:1/Other:1
+2019-04-17T06:30:00.000,fascia5-11,Other:3/Heavy Traffic:2/Flat Tire:1,fascia12-19,Other:1
+2019-04-18T07:30:00.000,fascia5-11,Heavy Traffic:3,fascia12-19,Heavy Traffic:1
+2019-04-22T07:43:00.000,fascia5-11,Heavy Traffic:1,fascia12-19,
+2019-04-24T06:25:00.000,fascia5-11,Other:2,fascia12-19,
+2019-04-29T08:00:00.000,fascia5-11,Heavy Traffic:1,fascia12-19,
+2019-04-30T06:00:00.000,fascia5-11,Heavy Traffic:3/Other:2,fascia12-19,Heavy Traffic:1
+2019-05-01T06:15:00.000,fascia5-11,Heavy Traffic:3/Other:3,fascia12-19,Heavy Traffic:2/Won`t Start:1/Late return from Field Trip:1
+2019-05-02T06:25:00.000,fascia5-11,Heavy Traffic:4/Other:1,fascia12-19,Flat Tire:1/Mechanical Problem:1
+2019-05-03T06:22:00.000,fascia5-11,Heavy Traffic:4/Other:2/Flat Tire:1,fascia12-19,Mechanical Problem:1
+2019-05-06T06:27:00.000,fascia5-11,Heavy Traffic:3/Other:2/Won`t Start:1,fascia12-19,Heavy Traffic:2/Won`t Start:1/Other:1
+2019-05-07T06:18:00.000,fascia5-11,Heavy Traffic:4/Won`t Start:1,fascia12-19,Mechanical Problem:1
+2019-05-08T06:15:00.000,fascia5-11,Heavy Traffic:3/Other:2/Mechanical Problem:1,fascia12-19,Won`t Start:1/Flat Tire:1/Other:1
+2019-05-09T07:14:00.000,fascia5-11,Heavy Traffic:2/Other:1/Problem Run:1,fascia12-19,Heavy Traffic:1/Flat Tire:1/Accident:1
+2019-05-10T06:28:00.000,fascia5-11,Heavy Traffic:3/Other:2/Flat Tire:1,fascia12-19,Flat Tire:1
+2019-05-13T06:15:00.000,fascia5-11,Heavy Traffic:6/Other:3/Flat Tire:2,fascia12-19,Heavy Traffic:3/Mechanical Problem:1
+2019-05-14T05:56:00.000,fascia5-11,Other:5/Heavy Traffic:3/Mechanical Problem:3,fascia12-19,Other:1
+2019-05-15T06:00:00.000,fascia5-11,Heavy Traffic:3/Flat Tire:3/Other:2,fascia12-19,Other:1
+2019-05-16T06:40:00.000,fascia5-11,Heavy Traffic:53/Other:7/Mechanical Problem:4,fascia12-19,Heavy Traffic:79/Late return from Field Trip:27/Other:14
+2019-05-17T05:40:00.000,fascia5-11,Heavy Traffic:264/Other:66/Mechanical Problem:27,fascia12-19,Heavy Traffic:108/Late return from Field Trip:54/Other:43
+2019-05-20T05:20:00.000,fascia5-11,Heavy Traffic:268/Other:95/Mechanical Problem:52,fascia12-19,Heavy Traffic:85/Other:20/Mechanical Problem:20
+2019-05-21T05:22:00.000,fascia5-11,Heavy Traffic:259/Other:46/Mechanical Problem:27,fascia12-19,Heavy Traffic:74/Late return from Field Trip:20/Mechanical Problem:19
+2019-05-22T05:29:00.000,fascia5-11,Heavy Traffic:264/Other:42/Mechanical Problem:38,fascia12-19,Heavy Traffic:82/Late return from Field Trip:29/Mechanical Problem:17
+2019-05-23T05:36:00.000,fascia5-11,Heavy Traffic:369/Other:62/Mechanical Problem:38,fascia12-19,Heavy Traffic:79/Late return from Field Trip:28/Mechanical Problem:9
+2019-05-24T05:36:00.000,fascia5-11,Heavy Traffic:235/Other:28/Mechanical Problem:17,fascia12-19,Heavy Traffic:99/Late return from Field Trip:46/Delayed by School:16
+2019-05-28T05:30:00.000,fascia5-11,Heavy Traffic:271/Other:64/Mechanical Problem:44,fascia12-19,Heavy Traffic:57/Other:10/Mechanical Problem:9
+2019-05-29T05:20:00.000,fascia5-11,Heavy Traffic:320/Other:72/Mechanical Problem:35,fascia12-19,Heavy Traffic:61/Late return from Field Trip:30/Other:14
+2019-05-30T05:15:00.000,fascia5-11,Heavy Traffic:272/Other:64/Mechanical Problem:30,fascia12-19,Heavy Traffic:42/Other:28/Mechanical Problem:17
+2019-05-31T05:37:00.000,fascia5-11,Heavy Traffic:325/Other:92/Mechanical Problem:42,fascia12-19,Heavy Traffic:94/Late return from Field Trip:28/Other:16
+2019-06-03T05:33:00.000,fascia5-11,Heavy Traffic:255/Other:63/Mechanical Problem:54,fascia12-19,Heavy Traffic:58/Late return from Field Trip:27/Mechanical Problem:22
+2019-06-04T05:39:00.000,fascia5-11,Heavy Traffic:24/Other:10/Mechanical Problem:5,fascia12-19,Heavy Traffic:14/Other:2/Flat Tire:1
+2019-06-05T05:15:00.000,fascia5-11,Heavy Traffic:244/Other:79/Mechanical Problem:54,fascia12-19,Heavy Traffic:47/Late return from Field Trip:37/Mechanical Problem:26
+2019-06-06T05:55:00.000,fascia5-11,Heavy Traffic:61/Other:13/Mechanical Problem:5,fascia12-19,Heavy Traffic:33/Other:8/Late return from Field Trip:6
+2019-06-07T05:39:00.000,fascia5-11,Heavy Traffic:219/Other:79/Mechanical Problem:57,fascia12-19,Heavy Traffic:94/Late return from Field Trip:31/Other:17
+2019-06-10T05:33:00.000,fascia5-11,Heavy Traffic:274/Other:63/Mechanical Problem:50,fascia12-19,Heavy Traffic:78/Late return from Field Trip:17/Mechanical Problem:10
+2019-06-11T05:49:00.000,fascia5-11,Heavy Traffic:109/Other:31/Mechanical Problem:12,fascia12-19,Heavy Traffic:39/Other:8/Mechanical Problem:8
+2019-06-12T05:13:00.000,fascia5-11,Heavy Traffic:246/Other:103/Mechanical Problem:51,fascia12-19,Heavy Traffic:74/Other:25/Late return from Field Trip:23
+2019-06-13T05:26:00.000,fascia5-11,Heavy Traffic:216/Other:67/Mechanical Problem:44,fascia12-19,Heavy Traffic:83/Mechanical Problem:24/Other:21
+2019-06-14T05:34:00.000,fascia5-11,Heavy Traffic:251/Other:90/Mechanical Problem:46,fascia12-19,Heavy Traffic:70/Other:46/Late return from Field Trip:31
+2019-06-17T05:25:00.000,fascia5-11,Heavy Traffic:234/Other:96/Mechanical Problem:45,fascia12-19,Heavy Traffic:52/Other:25/Mechanical Problem:17
+2019-06-18T05:30:00.000,fascia5-11,Heavy Traffic:217/Other:53/Mechanical Problem:25,fascia12-19,Heavy Traffic:59/Other:15/Mechanical Problem:10
+2019-06-19T05:25:00.000,fascia5-11,Heavy Traffic:214/Other:59/Mechanical Problem:19,fascia12-19,Heavy Traffic:49/Other:21/Late return from Field Trip:7
+2019-06-20T05:23:00.000,fascia5-11,Heavy Traffic:224/Other:71/Mechanical Problem:20,fascia12-19,Heavy Traffic:65/Other:18/Mechanical Problem:12
+2019-06-21T05:50:00.000,fascia5-11,Heavy Traffic:213/Other:78/Weather Conditions:20,fascia12-19,Heavy Traffic:65/Other:23/Mechanical Problem:9
+2019-06-24T05:23:00.000,fascia5-11,Heavy Traffic:167/Other:66/Mechanical Problem:29,fascia12-19,Heavy Traffic:68/Other:18/Mechanical Problem:13
+2019-06-25T06:02:00.000,fascia5-11,Heavy Traffic:157/Other:39/Mechanical Problem:18,fascia12-19,Heavy Traffic:20/Mechanical Problem:11/Other:7
+2019-06-26T05:23:00.000,fascia5-11,Heavy Traffic:87/Other:32/Mechanical Problem:29,fascia12-19,Heavy Traffic:9/Won`t Start:2/Delayed by School:1
+2019-06-27T07:15:00.000,fascia5-11,Heavy Traffic:6/Mechanical Problem:1/Other:1,fascia12-19,Other:1/Heavy Traffic:1
+2019-09-03T05:18:00.000,fascia5-11,Heavy Traffic:95/Other:21/Mechanical Problem:13,fascia12-19,Heavy Traffic:12/Mechanical Problem:3/Other:1
+2019-09-04T05:06:00.000,fascia5-11,Heavy Traffic:141/Mechanical Problem:26/Other:23,fascia12-19,Heavy Traffic:11/Flat Tire:3/Other:3
+2019-09-05T05:10:00.000,fascia5-11,Heavy Traffic:530/Other:115/Mechanical Problem:79,fascia12-19,Heavy Traffic:80/Mechanical Problem:38/Other:25
+2019-09-06T05:15:00.000,fascia5-11,Heavy Traffic:499/Other:100/Mechanical Problem:63,fascia12-19,Heavy Traffic:102/Mechanical Problem:23/Other:22
+2019-09-09T05:00:00.000,fascia5-11,Heavy Traffic:622/Other:131/Mechanical Problem:93,fascia12-19,Heavy Traffic:58/Mechanical Problem:39/Other:21
+2019-09-10T05:32:00.000,fascia5-11,Heavy Traffic:680/Other:93/Problem Run:59,fascia12-19,Heavy Traffic:73/Mechanical Problem:41/Other:34
+2019-09-11T05:50:00.000,fascia5-11,Heavy Traffic:538/Other:81/Problem Run:61,fascia12-19,Heavy Traffic:89/Mechanical Problem:49/Other:24
+2019-09-12T05:45:00.000,fascia5-11,Heavy Traffic:491/Mechanical Problem:96/Other:95,fascia12-19,Heavy Traffic:109/Mechanical Problem:44/Other:25
+2019-09-13T05:20:00.000,fascia5-11,Heavy Traffic:483/Other:63/Problem Run:51,fascia12-19,Heavy Traffic:124/Mechanical Problem:21/Other:19
+2019-09-16T05:00:00.000,fascia5-11,Heavy Traffic:557/Mechanical Problem:66/Other:64,fascia12-19,Heavy Traffic:1
+2019-09-17T06:15:00.000,fascia5-11,Heavy Traffic:51/Other:12/Mechanical Problem:2,fascia12-19,Heavy Traffic:66/Other:19/Mechanical Problem:14
+2019-09-18T05:15:00.000,fascia5-11,Heavy Traffic:417/Other:54/Problem Run:45,fascia12-19,Heavy Traffic:101/Mechanical Problem:24/Other:9
+2019-09-19T05:28:00.000,fascia5-11,Heavy Traffic:435/Other:64/Problem Run:51,fascia12-19,Heavy Traffic:115/Mechanical Problem:26/Other:19
+2019-09-20T05:45:00.000,fascia5-11,Heavy Traffic:412/Other:68/Problem Run:56,fascia12-19,Heavy Traffic:109/Other:23/Mechanical Problem:21
+2019-09-23T05:25:00.000,fascia5-11,Heavy Traffic:457/Other:99/Mechanical Problem:52,fascia12-19,Heavy Traffic:158/Mechanical Problem:26/Other:18
+2019-09-24T05:43:00.000,fascia5-11,Heavy Traffic:603/Other:68/Problem Run:67,fascia12-19,Heavy Traffic:117/Mechanical Problem:21/Other:12
+2019-09-25T05:28:00.000,fascia5-11,Heavy Traffic:469/Other:60/Problem Run:40,fascia12-19,Heavy Traffic:142/Mechanical Problem:28/Other:19
+2019-09-26T05:20:00.000,fascia5-11,Heavy Traffic:452/Other:46/Problem Run:43,fascia12-19,Heavy Traffic:111/Mechanical Problem:24/Other:23
+2019-09-27T05:28:00.000,fascia5-11,Heavy Traffic:493/Other:64/Problem Run:42,fascia12-19,Heavy Traffic:101/Mechanical Problem:18/Other:14
+2019-09-30T06:00:00.000,fascia5-11,Heavy Traffic:7/Other:6/Mechanical Problem:3,fascia12-19,Heavy Traffic:3/Flat Tire:1/Won`t Start:1
+2019-10-01T06:15:00.000,fascia5-11,Heavy Traffic:11/Other:2,fascia12-19,
+2019-10-02T05:15:00.000,fascia5-11,Heavy Traffic:481/Other:77/Mechanical Problem:53,fascia12-19,Heavy Traffic:116/Other:21/Mechanical Problem:17
+2019-10-03T05:30:00.000,fascia5-11,Heavy Traffic:429/Other:58/Mechanical Problem:36,fascia12-19,Heavy Traffic:139/Mechanical Problem:32/Other:21
+2019-10-04T05:51:00.000,fascia5-11,Heavy Traffic:480/Other:75/Mechanical Problem:49,fascia12-19,Heavy Traffic:180/Other:28/Mechanical Problem:22
+2019-10-07T05:25:00.000,fascia5-11,Heavy Traffic:550/Other:82/Mechanical Problem:63,fascia12-19,Heavy Traffic:104/Mechanical Problem:16/Other:15
+2019-10-08T05:20:00.000,fascia5-11,Heavy Traffic:403/Other:82/Mechanical Problem:45,fascia12-19,Heavy Traffic:111/Mechanical Problem:14/Other:8
+2019-10-09T05:41:00.000,fascia5-11,Heavy Traffic:8/Mechanical Problem:5/Other:2,fascia12-19,Mechanical Problem:3/Heavy Traffic:1
+2019-10-10T05:17:00.000,fascia5-11,Heavy Traffic:438/Other:74/Mechanical Problem:58,fascia12-19,Heavy Traffic:118/Other:23/Mechanical Problem:12
+2019-10-11T05:16:00.000,fascia5-11,Heavy Traffic:400/Other:79/Problem Run:35,fascia12-19,Heavy Traffic:142/Late return from Field Trip:22/Mechanical Problem:18
+2019-10-15T05:15:00.000,fascia5-11,Heavy Traffic:386/Other:77/Mechanical Problem:50,fascia12-19,Heavy Traffic:113/Mechanical Problem:16/Won`t Start:7
+2019-10-16T05:13:00.000,fascia5-11,Heavy Traffic:398/Other:67/Mechanical Problem:36,fascia12-19,Heavy Traffic:102/Other:20/Mechanical Problem:14
+2019-10-17T05:21:00.000,fascia5-11,Heavy Traffic:332/Other:76/Problem Run:37,fascia12-19,Heavy Traffic:132/Other:18/Mechanical Problem:17
+2019-10-18T05:35:00.000,fascia5-11,Heavy Traffic:430/Other:66/Problem Run:39,fascia12-19,Heavy Traffic:184/Late return from Field Trip:21/Mechanical Problem:20
+2019-10-21T05:30:00.000,fascia5-11,Heavy Traffic:414/Other:76/Mechanical Problem:42,fascia12-19,Heavy Traffic:124/Mechanical Problem:17/Other:16
+2019-10-22T05:41:00.000,fascia5-11,Heavy Traffic:458/Other:82/Mechanical Problem:53,fascia12-19,Heavy Traffic:205/Mechanical Problem:18/Other:7
+2019-10-23T05:22:00.000,fascia5-11,Heavy Traffic:397/Other:55/Mechanical Problem:37,fascia12-19,Heavy Traffic:128/Mechanical Problem:24/Other:10
+2019-10-24T05:32:00.000,fascia5-11,Heavy Traffic:647/Other:125/Mechanical Problem:58,fascia12-19,Heavy Traffic:210/Late return from Field Trip:45/Other:30
+2019-10-25T05:20:00.000,fascia5-11,Heavy Traffic:615/Other:101/Mechanical Problem:68,fascia12-19,Heavy Traffic:199/Other:37/Late return from Field Trip:31
+2019-10-28T05:21:00.000,fascia5-11,Heavy Traffic:698/Other:104/Mechanical Problem:91,fascia12-19,Heavy Traffic:153/Other:42/Mechanical Problem:16
+2019-10-29T05:42:00.000,fascia5-11,Heavy Traffic:372/Other:50/Mechanical Problem:35,fascia12-19,Heavy Traffic:85/Mechanical Problem:17/Other:16
+2019-10-30T05:25:00.000,fascia5-11,Heavy Traffic:358/Other:48/Mechanical Problem:34,fascia12-19,Heavy Traffic:82/Late return from Field Trip:15/Mechanical Problem:11
+2019-10-31T05:30:00.000,fascia5-11,Heavy Traffic:474/Other:82/Weather Conditions:68,fascia12-19,Heavy Traffic:147/Other:42/Mechanical Problem:22
+2019-11-01T05:23:00.000,fascia5-11,Heavy Traffic:623/Other:88/Mechanical Problem:74,fascia12-19,Heavy Traffic:193/Other:54/Mechanical Problem:21
+2019-11-04T05:24:00.000,fascia5-11,Heavy Traffic:760/Other:141/Mechanical Problem:84,fascia12-19,Heavy Traffic:129/Other:62/Mechanical Problem:40
+2019-11-05T05:54:00.000,fascia5-11,Heavy Traffic:58/Other:16/Mechanical Problem:11,fascia12-19,Heavy Traffic:6/Flat Tire:4/Mechanical Problem:3
+2019-11-06T05:14:00.000,fascia5-11,Heavy Traffic:546/Other:92/Mechanical Problem:49,fascia12-19,Heavy Traffic:74/Mechanical Problem:12/Other:11
+2019-11-07T05:25:00.000,fascia5-11,Heavy Traffic:343/Other:59/Mechanical Problem:32,fascia12-19,Heavy Traffic:67/Other:17/Mechanical Problem:9
+2019-11-08T05:34:00.000,fascia5-11,Heavy Traffic:280/Other:52/Mechanical Problem:35,fascia12-19,Heavy Traffic:79/Mechanical Problem:19/Late return from Field Trip:14
+2019-11-11T07:30:00.000,fascia5-11,Other:1,fascia12-19,
+2019-11-12T05:08:00.000,fascia5-11,Heavy Traffic:403/Mechanical Problem:82/Other:80,fascia12-19,Heavy Traffic:95/Other:28/Mechanical Problem:22
+2019-11-13T05:22:00.000,fascia5-11,Heavy Traffic:301/Other:85/Mechanical Problem:75,fascia12-19,Heavy Traffic:93/Other:27/Mechanical Problem:16
+2019-11-14T05:20:00.000,fascia5-11,Heavy Traffic:294/Other:93/Mechanical Problem:47,fascia12-19,Heavy Traffic:70/Mechanical Problem:9/Other:8
+2019-11-15T05:43:00.000,fascia5-11,Heavy Traffic:332/Other:60/Mechanical Problem:40,fascia12-19,Heavy Traffic:121/Other:28/Late return from Field Trip:17
+2019-11-18T05:17:00.000,fascia5-11,Heavy Traffic:447/Other:75/Mechanical Problem:64,fascia12-19,Heavy Traffic:162/Other:47/Mechanical Problem:37
+2019-11-19T05:20:00.000,fascia5-11,Heavy Traffic:651/Other:127/Mechanical Problem:79,fascia12-19,Heavy Traffic:179/Other:67/Late return from Field Trip:26
+2019-11-20T05:19:00.000,fascia5-11,Heavy Traffic:630/Other:163/Mechanical Problem:68,fascia12-19,Heavy Traffic:174/Other:41/Mechanical Problem:34
+2019-11-21T05:23:00.000,fascia5-11,Heavy Traffic:563/Other:135/Mechanical Problem:62,fascia12-19,Heavy Traffic:235/Other:40/Mechanical Problem:31
+2019-11-22T05:15:00.000,fascia5-11,Heavy Traffic:564/Other:116/Mechanical Problem:70,fascia12-19,Heavy Traffic:198/Other:34/Mechanical Problem:16
+2019-11-25T05:15:00.000,fascia5-11,Heavy Traffic:807/Other:119/Mechanical Problem:99,fascia12-19,Heavy Traffic:174/Other:39/Late return from Field Trip:18

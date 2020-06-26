@@ -3,6 +3,9 @@ import org.apache.kafka.clients.consumer.*;
 import org.apache.kafka.common.PartitionInfo;
 import org.apache.kafka.common.serialization.StringDeserializer;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.time.Duration;
 import java.util.*;
 import java.util.concurrent.ExecutionException;
@@ -16,6 +19,9 @@ public class SimpleKafkaConsumer implements Runnable {
     private Consumer<String, String> consumer;
     private int id;
     private String topic;
+    private  int mex_daprocessare=900;
+    private  int mex_processati=0;
+    private String tempi="";
 
     public SimpleKafkaConsumer(int id, String topic){
 
@@ -69,6 +75,20 @@ public class SimpleKafkaConsumer implements Runnable {
 
     }
 
+    public static void appendStrToFile(String fileName,
+                                       String str)
+    {
+        try {
+
+            BufferedWriter out = new BufferedWriter(
+                    new FileWriter(fileName, true));
+            out.write(str+"\n");
+            out.close();
+        }
+        catch (IOException e) {
+            System.out.println("exception occoured" + e);
+        }
+    }
     public void run() {
 
         boolean running = true;
@@ -76,12 +96,8 @@ public class SimpleKafkaConsumer implements Runnable {
         try {
             while (running) {
                 //Thread.sleep(1000);
-                long start=System.nanoTime();
                 ConsumerRecords<String, String> records =
                         consumer.poll(Duration.ofMillis(0));
-
-
-                int i=0;
                 for (ConsumerRecord<String, String> record : records){
                     long end = System.nanoTime();
                     String[] cx = record.value().split(",");
@@ -89,16 +105,18 @@ public class SimpleKafkaConsumer implements Runnable {
                     String oldTime = cx[1];
                     float timenew = (float)(end - Long.valueOf(newTime))/1000000000 ;
                     float tmieold =(float) (end -Long.valueOf(oldTime))/1000000000 ;
-                    System.out.println(record.value());
-                    System.out.println("tempo di latenza da recod più vecchio: "+tmieold  );
-                    System.out.println("tempo di latenza da recod più nuovo: "+timenew  );
-                    i++;
+                    //save to file appendStrToFile("output.csv",record.value().substring(28,record.value().length()));
+                    //System.out.println("tempo di latenza da recod più vecchio: "+tmieold  );
+                    //System.out.println("tempo di latenza da recod più nuovo: "+timenew  );
+                    tempi=tempi+timenew+","+tmieold+"\n";
+                    mex_processati++;
                 }
-                long fine=System.nanoTime();
-                if (i>0){
+                if(mex_processati == mex_daprocessare){
+                    System.out.println("finito");
+                    appendStrToFile("output.csv",tempi);
+                    break;
+                }
 
-                }
-                System.out.println("provaaa"+i);
             }
         } catch (Exception e) {
             e.printStackTrace();

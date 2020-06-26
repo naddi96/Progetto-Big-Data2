@@ -54,15 +54,15 @@ public class Query1 {
 
 
 	public static void main(String[] args) throws Exception {
-		// set up the streaming execution environment
 
-		//Time time = Time.hours(1);
-		 Time time = Time.days(1);
-		// private Time time = Time.days(7);
-		//private Time time = Time.days(30);
+		//Time time = Time.days(1);
+		//Time time = Time.days(7);
+		Time time = Time.days(30);
 
-		final String hostname="127.0.0.1";
-		final int port =444;
+		//final String hostname="127.0.0.1";
+		//final int port =444;
+		//DataStream<String> text = env.socketTextStream(hostname, port, "\n");
+
 
 		final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
@@ -73,7 +73,7 @@ public class Query1 {
 
 		DataStream<String> text = env
 				.addSource(new FlinkKafkaConsumer<>(kafka.input_topic, new SimpleStringSchema(), properties));
-		//DataStream<String> text = env.socketTextStream(hostname, port, "\n");
+
 		env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
 		DataStream<Tuple2<String, BussDelay>> parsed_data=text.flatMap(new parseFlatMap());
 		MapReduceFunctions.putEventTime(parsed_data, Time.hours(0)).keyBy(0)

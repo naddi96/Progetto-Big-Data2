@@ -2,6 +2,9 @@ package naddi.sadb.progetto;
 
 import naddi.sadb.progetto.utils.utils;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -11,6 +14,21 @@ import java.util.Date;
 
 
 public class debug_class {
+
+    public static void appendStrToFile(String fileName,
+                                       String str)
+    {
+        try {
+
+            BufferedWriter out = new BufferedWriter(
+                    new FileWriter(fileName, true));
+            out.write(str+"\n");
+            out.close();
+        }
+        catch (IOException e) {
+            System.out.println("exception occoured" + e);
+        }
+    }
     public static String week(String date){
         Date x =utils.parseDate("yyyy-MM-dd'T'HH:mm:ss.SSS",date);
         Calendar cal = Calendar.getInstance();
@@ -21,6 +39,10 @@ public class debug_class {
 
 
     public static void main(String[] args) throws ParseException {
+        appendStrToFile("prova.txt","prova1");
+        appendStrToFile("prova.txt","prova2");
+        String y=System.nanoTime()+","+System.nanoTime()+",asdsdsadsda";
+        System.out.println(y.substring(28,y.length()));
         System.out.println("aaaaaaa".split(",")[0]);
         System.out.println("3000-09-07T07:41:00.000".substring(0,10));//giorno
         System.out.println("3000-09-07T07:41:00.000".substring(0,7));//mese

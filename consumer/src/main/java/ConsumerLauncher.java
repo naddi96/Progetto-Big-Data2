@@ -1,7 +1,7 @@
 
 public class ConsumerLauncher {
 
-    private final static String TOPIC = "streams-wordcount-output";
+    private final static String TOPIC = "output-stream";
     //private final static String TOPIC = "t-multi-part";
 
 

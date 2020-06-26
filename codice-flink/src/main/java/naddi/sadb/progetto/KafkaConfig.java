@@ -9,8 +9,9 @@ public class KafkaConfig {
 
     public String brokers="localhost:9092,localhost:9093,localhost:9094";
     public String zookeeper="localhost:2181";
-    public String input_topic ="streams";
-    public String output_topic="streams-wordcount-output";
+
+    public String input_topic ="input-stream";
+    public String output_topic="output-stream";
 
     public  Properties getProperties(){
         Properties properties = new Properties();

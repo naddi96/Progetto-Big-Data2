@@ -76,7 +76,7 @@ public class BussDelayProcess {
         props.put(StreamsConfig.DEFAULT_TIMESTAMP_EXTRACTOR_CLASS_CONFIG, TimeExstractor.class);
         final StreamsBuilder builder = new StreamsBuilder();
         final KStream<String, String> textLines =
-                builder.stream("streams");
+                builder.stream("input-stream");
 
 
        String durata="giorno";
@@ -94,7 +94,7 @@ public class BussDelayProcess {
         KTable<String, BussDelay> agrecated = avg.reduce((i,j)-> MapReduceFunc.aggrecate(i,j));
         KTable<String, String> output = agrecated.mapValues(value
                 -> value.startingTimeNew+","+value.startingTimeOld+","+value.Occurred_On+","+value.How_Long_Delayed);
-        output.toStream().to("streams-wordcount-output",Produced.with(Serdes.String(), Serdes.String()));
+        output.toStream().to("output-stream",Produced.with(Serdes.String(), Serdes.String()));
         final KafkaStreams streams = new KafkaStreams(builder.build(), props);
         streams.cleanUp();
         streams.start();

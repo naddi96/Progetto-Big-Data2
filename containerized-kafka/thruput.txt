@@ -1,0 +1,29 @@
+query1 1day
+start.time, end.time, data.consumed.in.MB, MB.sec, data.consumed.in.nMsg, nMsg.sec, rebalance.time.ms, fetch.time.ms, fetch.MB.sec, fetch.nMsg.sec
+2020-06-26 17:25:09:111, 2020-06-26 17:27:11:433, 0.2035, 0.0017, 900, 7.3576, 77, 122245, 0.0017, 7.3623
+
+query1 7day
+start.time, end.time, data.consumed.in.MB, MB.sec, data.consumed.in.nMsg, nMsg.sec, rebalance.time.ms, fetch.time.ms, fetch.MB.sec, fetch.nMsg.sec
+2020-06-26 17:32:06:711, 2020-06-26 17:32:46:838, 0.0611, 0.0015, 200, 4.9842, 152, 39975, 0.0015, 5.0031
+
+
+query1 30 day
+start.time, end.time, data.consumed.in.MB, MB.sec, data.consumed.in.nMsg, nMsg.sec, rebalance.time.ms, fetch.time.ms, fetch.MB.sec, fetch.nMsg.sec
+2020-06-26 17:34:43:581, 2020-06-26 17:37:04:703, 0.0161, 0.0001, 48, 0.3401, 21, 141101, 0.0001, 0.3402
+
+
+
+query2 1 day
+start.time, end.time, data.consumed.in.MB, MB.sec, data.consumed.in.nMsg, nMsg.sec, rebalance.time.ms, fetch.time.ms, fetch.MB.sec, fetch.nMsg.sec
+2020-06-26 17:41:03:338, 2020-06-26 17:43:26:132, 0.1454, 0.0010, 900, 6.3028, 15, 142779, 0.0010, 6.3034
+
+query2 7day
+start.time, end.time, data.consumed.in.MB, MB.sec, data.consumed.in.nMsg, nMsg.sec, rebalance.time.ms, fetch.time.ms, fetch.MB.sec, fetch.nMsg.sec
+2020-06-26 17:45:03:542, 2020-06-26 17:47:45:713, 0.0339, 0.0002, 200, 1.2333, 21, 162150, 0.0002, 1.2334
+
+
+
+
+
+
+

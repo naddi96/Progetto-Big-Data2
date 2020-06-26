@@ -5,7 +5,7 @@ public class BussDelayProducerLauncher {
   //  $KAFKA_HOME/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic stream
 
 
-    private final static String TOPIC = "streams";
+    private final static String TOPIC = "input-stream";
     //private final static String TOPIC = "t-multi-part";
 
     private final static int NUM_MESSAGES = 1000;
@@ -23,8 +23,8 @@ public class BussDelayProducerLauncher {
             Scanner sc=new Scanner(fis);    //file to be scanned
 
             sc.nextLine();
-            System.out.println("inizio stream tra 10 sec");
-            Thread.sleep(10000);
+           // System.out.println("inizio stream tra 10 sec");
+           // Thread.sleep(10000);
             while(sc.hasNextLine())
             {
                 String payload =  sc.nextLine();
