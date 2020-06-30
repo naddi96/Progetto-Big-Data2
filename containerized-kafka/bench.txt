@@ -1,1 +1,1 @@
-/home/naddi/kafka/bin/kafka-consumer-perf-test.sh --topic output-stream --broker-list "localhost:9092,localhost:9093,localhost:9094" --messages 900 --threads 1
+/home/naddi/kafka/bin/kafka-consumer-perf-test.sh --topic output-stream --broker-list "localhost:9092,localhost:9093,localhost:9094" --messages 200 --threads 1

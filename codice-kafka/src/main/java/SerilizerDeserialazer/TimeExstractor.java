@@ -46,17 +46,17 @@ public class TimeExstractor implements TimestampExtractor {
         return date.substring(0,4)+"-"+week;
     }
 
-    public static String windowsTime(String time,String intervallo){
-        if (intervallo.equals("ora")){
+    public static String windowsTime(String time,int intervallo){
+        /*if (intervallo.equals("ora")){
             return  time.substring(0,13);
-        }
-        if (intervallo.equals("giorno")){
+        }*/
+        if (intervallo==1){
             return time.substring(0,10);
         }
-        if (intervallo.equals("mese")){
+        if (intervallo==30){
             return  time.substring(0,7);
         }
-        if (intervallo.equals("settimana")){
+        if (intervallo==7){
             return TimeExstractor.returnWeek(time);
         }
         return "";

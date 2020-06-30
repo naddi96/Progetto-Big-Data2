@@ -54,7 +54,7 @@ public class BussDelayProcess {
         props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG,
                 Serdes.String().getClass().getName());
 
-        // Records should be flushed every 10 seconds.
+
         props//.put(StreamsConfig.COMMIT_INTERVAL_MS_CONFIG, 10 * 1000);
                 .put(StreamsConfig.COMMIT_INTERVAL_MS_CONFIG, 1000);
         // props.put(StreamsConfig.CACHE_MAX_BYTES_BUFFERING_CONFIG, 0);
@@ -79,8 +79,17 @@ public class BussDelayProcess {
                 builder.stream("input-stream");
 
 
-       String durata="giorno";
-       Duration durataWindow = Duration.ofDays(1);
+      int durata=1;
+       Duration durataWindow = Duration.ofDays(durata);
+
+
+       // int durata=7;
+        //Duration durataWindow = Duration.ofDays(durata);
+
+
+        //int durata=30;
+        //Duration durataWindow = Duration.ofDays(durata);
+
 
         KStream<String, BussDelay> buss = textLines.flatMap((key, value) -> MapReduceFunc.parseFlatmap(value));
         TimeWindowedKStream<String, BussDelay> widowedBuss = buss.groupByKey(Serialized.with(Serdes.String(),BussDelaySerde))
