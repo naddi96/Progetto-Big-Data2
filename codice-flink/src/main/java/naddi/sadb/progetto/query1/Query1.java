@@ -56,8 +56,8 @@ public class Query1 {
 	public static void main(String[] args) throws Exception {
 
 		//Time time = Time.days(1);
-		//Time time = Time.days(7);
-		Time time = Time.days(30);
+		Time time = Time.days(7);
+		//Time time = Time.days(30);
 
 		//final String hostname="127.0.0.1";
 		//final int port =444;

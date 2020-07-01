@@ -58,7 +58,7 @@ public class BussDelayProcess {
         props//.put(StreamsConfig.COMMIT_INTERVAL_MS_CONFIG, 10 * 1000);
                 .put(StreamsConfig.COMMIT_INTERVAL_MS_CONFIG, 1000);
         // props.put(StreamsConfig.CACHE_MAX_BYTES_BUFFERING_CONFIG, 0);
-        props.put(StreamsConfig.CACHE_MAX_BYTES_BUFFERING_CONFIG, 10 * 1024 * 1024L);
+        //props.put(StreamsConfig.CACHE_MAX_BYTES_BUFFERING_CONFIG, 10 * 1024 * 1024L);
         return props;
     }
 
@@ -69,6 +69,28 @@ public class BussDelayProcess {
 
     public static void main(final String[] args) throws Exception {
 
+
+
+       // int durata=1;
+       // Duration durataWindow = Duration.ofDays(durata);
+
+
+         int durata=7;
+        Duration durataWindow = Duration.ofDays(durata);
+
+
+        //int durata=30;
+        //Duration durataWindow = Duration.ofDays(durata);
+
+
+
+
+
+
+
+
+
+
         SerializerBuss ser= new SerializerBuss();
         DeserialazerBuss des =new DeserialazerBuss();
         final Serde<BussDelay> BussDelaySerde = Serdes.serdeFrom(ser, des);
@@ -78,17 +100,6 @@ public class BussDelayProcess {
         final KStream<String, String> textLines =
                 builder.stream("input-stream");
 
-
-      int durata=1;
-       Duration durataWindow = Duration.ofDays(durata);
-
-
-       // int durata=7;
-        //Duration durataWindow = Duration.ofDays(durata);
-
-
-        //int durata=30;
-        //Duration durataWindow = Duration.ofDays(durata);
 
 
         KStream<String, BussDelay> buss = textLines.flatMap((key, value) -> MapReduceFunc.parseFlatmap(value));

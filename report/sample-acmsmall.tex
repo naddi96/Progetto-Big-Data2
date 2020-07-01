@@ -136,8 +136,9 @@ Il dataset viene letto e inviato riga per riga a una topica kafka che viene poi 
 
 \subsection{Query1}
 \begin{quote}
-query 1
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.\end{quote}
+Calcolare il ritardo medio degli autobus per quartiere nelle ultime 24 ore (di event time), 7 giorni (di
+event time) e 1 mese (di event time). L’output della query ha il seguente schema: ts, boro-x, avg-x, ..., boro-z, avg-z
+\end{quote}
 
 Lo stream del dataset viene letto da una topica kafka la prima operazione fatta 
 è una 
@@ -155,6 +156,9 @@ teniamo anche in considerazione la "somma" delle reduce fatte e la data più vec
 \subsubsection{Map}
 In questa Map andiamo a calcolare la media dei ritardi sommati per ogni quartiere nella precedente reduce
 
+\subsubsection{TumblingEventTimeWindows}
+specifichiamo ancora la finestra temporale
+
 \subsubsection{Apply}
 In fine vengono raggruppati tutti i dati nella stessa finestra temporale e viene formattato l'output come richiesto dalle specifiche.
 \subsubsection{addSink}
@@ -166,7 +170,9 @@ La query 1 è stata fatta anche su kafka streams le operazioni fatte sono più o
 
 \subsection{Query2}
 \begin{quote}
-query2 .\end{quote}
+Fornire la classifica delle tre cause di disservizio piu frequenti (ad esempio, Heavy Traffic, Mechanical `
+Problem, Flat Tire) nelle due fasce orarie di servizio 5:00-11:59 e 12:00-19:00. Le tre cause sono ordinate dalla piu frequente alla meno frequente. L’output della query ha il seguente schema:
+ts, slot-a, rank-a, slot-p, rank-p .\end{quote}
 
 Lo stream del dataset viene letto da una topica kafka la prima operazione fatta 
 è una 
@@ -213,33 +219,86 @@ In questo paragrafo descriveremo come sono stati calcolati
 
 
 \subsection{Producer}
-Come accennato prima abbiamo un producer che legge il dataset riga per riga  e li passa a una topica kafka durante questa operazione appena prima di inserire la riga sulla topica viene aggiunto a inizio riga il timestamp corrente.
+Come accennato prima abbiamo un producer che legge il dataset riga per riga  e li passa a una topica kafka durante questa operazione appena prima di inserire la riga sulla topica viene aggiunto a inizio riga il timestamp corrente, il producer invia i dati alla topica alla massima velocità possibile.
 
 
-\subsection{2 tipo di latenza}
+\subsection{2 tipi di latenza}
 Quando viene fatta una reduce andiamo ad unificare più righe del dataset che sono state inserite nella topica a tempi di processamento diversi, durante queste operazioni viene tenuta traccia del tempo di processamento più vecchio e più nuovo, quindi ogni output prodotto da flink e da kafka conterrà 3 tempi:
 event time,processing time riga più vecchia,processing time riga più nuova.
 Abbiamo la latenza del record più vecchio e la latenza del record più nuovo
 per ogni output da flink/kafka
 
 \subsection{Consumer}
-Il consumer non fa altro che leggere da una topica kafka (output di flink o kafka streams) registra il timestamp corrente ad ogni record prelevato da quest'ultima e calcola i due tempi di latenza in secondi andando a fare la differnza tra quello corrente e quelli presnti nell'output,
+Il consumer non fa altro che leggere da una topica kafka (output di flink o kafka streams) registra il timestamp corrente ad ogni record prelevato da quest'ultima e calcola i due tempi di latenza in secondi andando a fare la differenza tra quello corrente e quelli presenti nell'output,
 
 \subsection{throughput}
 Per misurare il throughput ho utilizzato questo comando di kafka streams
 \begin{lstlisting}[language=bash]
-/home/naddi/kafka/bin/kafka-consumer-perf-test.sh 
+$ kafka/bin/kafka-consumer-perf-test.sh 
 --topic output-stream
  --broker-list "localhost:9092,localhost:9093,localhost:9094" 
  --messages 900 --threads 1
 \end{lstlisting}
-che tra le misure che ritorna vi è anche la latenza
+che tra le misure che ritorna vi è anche la latenza in termini di messaggi al secondo
+\\\\
+
+	\begin{tabular}{|c|l|l|l|}
+		\hline
+		\begin{tabular}[c]{@{}c@{}}throughput\\ nMsg/sec\end{tabular} & 1 day                       & 7 day  & 30 day \\ \hline
+		\begin{tabular}[c]{@{}c@{}}Query1 \\ flink\end{tabular}       & \multicolumn{1}{c|}{7.3576} & 1.4208 & 0.3401 \\ \hline
+		\begin{tabular}[c]{@{}c@{}}Query1\\ kafka\end{tabular}        & 0.8268                      & 1.1856 & 3.0889 \\ \hline
+		\begin{tabular}[c]{@{}c@{}}Query2\\ flink\end{tabular}        & 6.3028                      & 1.2333 &        \\ \hline
+	\end{tabular}\\
+
+
+\subsection{Latenza}
+In queste tabelle mostriamo la latenza media,minima,massima su ogni cella sono presenti due valori il primo corrisponde alla latenza del record più recente (in termini di inserimento nella topica di input) e il secondo del record più vecchio (nella cartella /results/tempi sono presenti tutti i grafici delle latenze)
+\\
 
 
 
+\begin{tabular}{|c|c|c|c|}
+	\hline
+	\begin{tabular}[c]{@{}c@{}}latenza media\\ in sec\end{tabular} & \begin{tabular}[c]{@{}c@{}}1 day\\ new\\ old\end{tabular} & \begin{tabular}[c]{@{}c@{}}7 day\\ new\\ old\end{tabular} & \begin{tabular}[c]{@{}c@{}}30 day\\ new\\ old\end{tabular} \\ \hline
+	\begin{tabular}[c]{@{}c@{}}Query1 \\ flink\end{tabular}        & \begin{tabular}[c]{@{}c@{}}0.496\\ 0.640\end{tabular}     & \begin{tabular}[c]{@{}c@{}}0.726\\ 1.418\end{tabular}     & \begin{tabular}[c]{@{}c@{}}3.679\\ 5.730\end{tabular}      \\ \hline
+	\begin{tabular}[c]{@{}c@{}}Query1\\ kafka\end{tabular}         & \begin{tabular}[c]{@{}c@{}}176.675\\ 176.845\end{tabular} & \begin{tabular}[c]{@{}c@{}}183.018\\ 183.921\end{tabular} & \begin{tabular}[c]{@{}c@{}}130.153\\ 133.146\end{tabular}  \\ \hline
+	\begin{tabular}[c]{@{}c@{}}Query2\\ flink\end{tabular}         & \begin{tabular}[c]{@{}c@{}}0.686\\ 0.837\end{tabular}     & \begin{tabular}[c]{@{}c@{}}0.725\\ 1.392\end{tabular}     &                                                            \\ \hline
+\end{tabular}
+\begin{tabular}{|c|c|c|c|}
+	\hline
+	\begin{tabular}[c]{@{}c@{}}latenza minima\\ in sec\end{tabular} & \begin{tabular}[c]{@{}c@{}}1 day\\ new\\ old\end{tabular} & \begin{tabular}[c]{@{}c@{}}7 day\\ new\\ old\end{tabular} & \begin{tabular}[c]{@{}c@{}}30 day\\ new\\ old\end{tabular} \\ \hline
+	\begin{tabular}[c]{@{}c@{}}Query1 \\ flink\end{tabular}         & \begin{tabular}[c]{@{}c@{}}0.113\\ 0.158\end{tabular}     & \begin{tabular}[c]{@{}c@{}}0.185\\ 0.409\end{tabular}     & \begin{tabular}[c]{@{}c@{}}0.267\\ 0.366\end{tabular}      \\ \hline
+	\begin{tabular}[c]{@{}c@{}}Query1\\ kafka\end{tabular}          & \begin{tabular}[c]{@{}c@{}}12.385\\ 12.401\end{tabular}   & \begin{tabular}[c]{@{}c@{}}16.743\\ 17.426\end{tabular}   & \begin{tabular}[c]{@{}c@{}}10.603\\ 11.294\end{tabular}    \\ \hline
+	\begin{tabular}[c]{@{}c@{}}Query2\\ flink\end{tabular}          & \begin{tabular}[c]{@{}c@{}}0.347\\ 0.430\end{tabular}     & \begin{tabular}[c]{@{}c@{}}0.310\\ 0.340\end{tabular}     &                                                            \\ \hline
+\end{tabular}
+
+\begin{tabular}{|c|c|c|c|}
+	\hline
+	\begin{tabular}[c]{@{}c@{}}latenza massima\\ in sec\end{tabular} & \begin{tabular}[c]{@{}c@{}}1 day\\ new\\ old\end{tabular} & \begin{tabular}[c]{@{}c@{}}7 day\\ new\\ old\end{tabular} & \begin{tabular}[c]{@{}c@{}}30 day\\ new\\ old\end{tabular} \\ \hline
+	\begin{tabular}[c]{@{}c@{}}Query1 \\ flink\end{tabular}          & \begin{tabular}[c]{@{}c@{}}1.421\\ 3.021\end{tabular}     & \begin{tabular}[c]{@{}c@{}}3.027\\ 4.016\end{tabular}     & \begin{tabular}[c]{@{}c@{}}6.126\\ 10.338\end{tabular}     \\ \hline
+	\begin{tabular}[c]{@{}c@{}}Query1\\ kafka\end{tabular}           & \begin{tabular}[c]{@{}c@{}}232.500\\ 232.605\end{tabular} & \begin{tabular}[c]{@{}c@{}}260.347\\ 259.638\end{tabular} & \begin{tabular}[c]{@{}c@{}}205.181\\ 209.985\end{tabular}  \\ \hline
+	\begin{tabular}[c]{@{}c@{}}Query2\\ flink\end{tabular}           & \begin{tabular}[c]{@{}c@{}}2.515\\ 3.653\end{tabular}     & \begin{tabular}[c]{@{}c@{}}2.678\\ 3.374\end{tabular}     &                                                            \\ \hline
+\end{tabular}
 
 
+\section{Conclusioni}
+\subsection{Apache Flink}
 
+Apache Flink si è dimostrato un framework semplice semplice da svilupparci e guardando i tempi anche  efficente riuscendo a processare lo streamming del dataset aggiungendo poca latenza e con un alto throughput.
+Flink inizia a mostrare rallentamenti significativi con la finestra da 30 giorni avendo una latenza media del record più nuovo pari a 3.679 secondi e vediamo dal grafico che l'andamento della latenza è crescente
+
+\includegraphics[width=14cm]{../results/tempi/new-latency-30Day-Flink-query1.csv.png}
+
+
+\subsection{Kafka Streams}
+ho trovato Kafka Stream a livello di sviluppo più difficoltoso inoltre dai test effettuati non è riuscito a "rimanere dietro" allo stremming dei dati tantè che mediamente aveva una latenza superiore ai due minuti.
+Inoltre ho notato che kafka e flink hanno una gestione diversa delle finestre, flink non processa la finestra fino a quando non viene superato l'event time di fine finestra,mentre kafka appena arriva un nuovo record processa tutta finestra e se arriva un novo record che rientra ancora nella stessa finestra la riprocessa, questo potrebbe essere un motivo per la  differenza delle performance dei due framework.
+Una cosa interessante è osservare il grafico della latenza di kafka stream
+notiamo che la latenza arriva fino a un picco di oltre 200 secondi per poi iniziare a diminuire 
+questo pattern è stato osservato in tutti i test fatti con kafka streams
+\includegraphics[width=14cm]{../results/tempi/new-latency-1Day-Kafka-query1.csv.png}
+
+ 
 
 
 
