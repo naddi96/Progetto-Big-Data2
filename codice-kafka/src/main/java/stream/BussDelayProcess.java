@@ -17,26 +17,7 @@ import org.apache.kafka.streams.kstream.internals.TimeWindow;
 import java.time.Duration;
 import java.util.*;
 
-/*
- * 1) Create the input and output topics used by this example.
- * $ bin/kafka-topics.sh --create --topic streams-plaintext-input \
- *                       --zookeeper localhost:2181 --partitions 1 --replication-factor 1
- * $ bin/kafka-topics.sh  --create --topic streams-wordcount-output \
- *                        --zookeeper localhost:2181 --partitions 1 --replication-factor 1
- *
- * 2) Start this  application
- *
- * 3) Write some input data to the source topic "streams-plaintext-input"
- *      e.g.:
- * $ bin/kafka-console-producer --broker-list localhost:9092 --topic streams-plaintext-input
- *
- * 4) Inspect the resulting data in the output topic "streams-wordcount-output"
- *      e.g.:
- * $ bin/kafka-console-consumer --topic streams-wordcount-output --from-beginning \
- *                              --new-consumer --bootstrap-server localhost:9092 \
- *                              --property print.key=true \
- *                              --property value.deserializer=org.apache.kafka.common.serialization.LongDeserializer
- */
+
 public class BussDelayProcess {
 
 //  $KAFKA_HOME/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic streams

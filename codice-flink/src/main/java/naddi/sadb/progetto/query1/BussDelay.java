@@ -3,9 +3,6 @@ package naddi.sadb.progetto.query1;
 
 import java.io.Serializable;
 
-/**
- * Data type for words with count.
- */
 public class BussDelay implements Serializable {
     public String How_Long_Delayed;
     public String Boro;
