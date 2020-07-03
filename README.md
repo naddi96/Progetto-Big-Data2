@@ -14,7 +14,7 @@ details on project implementation and performance can be found in the pdf inside
 
 - dowload kafka `https://kafka.apache.org/downloads`
 
-- go inside `cd containerized-kafka\'
+- go inside `cd containerized-kafka\`
 
 - exucute `./launchEnvironment.sh`
 
