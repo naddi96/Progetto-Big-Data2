@@ -18,7 +18,7 @@ import java.time.Duration;
 import java.util.*;
 
 
-public class BussDelayProcess {
+public class Query1 {
 
 //  $KAFKA_HOME/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic streams
     private static Properties createStreamProperties(){

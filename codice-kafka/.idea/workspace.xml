@@ -78,20 +78,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BussDelayProcess">
-    <configuration name="BussDelayProcess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.BussDelayProcess" />
-      <module name="codice-kafka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Query1">
     <configuration name="BussDelayProducerLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="producer.BussDelayProducerLauncher" />
       <module name="codice-kafka" />
@@ -106,9 +93,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Query1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.Query1" />
+      <module name="codice-kafka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BussDelayProcess" />
+        <item itemvalue="Application.Query1" />
         <item itemvalue="Application.BussDelayProducerLauncher" />
         <item itemvalue="Application.ConsumerLauncher" />
       </list>
