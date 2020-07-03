@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.5.25)  1 JUL 2020 16:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.5.25)  3 JUL 2020 15:09
 entering extended mode
 **./sample-acmsmall.tex
 (sample-acmsmall.tex
@@ -1132,11 +1132,11 @@ Package rerunfilecheck Info: File `sample-acmsmall.out' has not changed.
 (rerunfilecheck)             Checksum: 471FDA93F02F480DF8ED9AB77EDC2F13;2056.
  ) 
 Here is how much of TeX's memory you used:
- 20128 strings out of 480898
- 304074 string characters out of 2898309
+ 20137 strings out of 480898
+ 304293 string characters out of 2898309
  775397 words of memory out of 3000000
  35291 multiletter control sequences out of 15000+200000
- 647498 words of font info for 183 fonts, out of 3000000 for 9000
+ 648442 words of font info for 189 fonts, out of 3000000 for 9000
  1302 hyphenation exceptions out of 8191
  63i,12n,100p,829b,1285s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/naddi/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/inconsolata
@@ -1154,7 +1154,7 @@ ddi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/libertine/LinBiolinumT
 I.pfb><C:/Users/naddi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/libe
 rtine/LinLibertineT.pfb><C:/Users/naddi/AppData/Local/Programs/MiKTeX 2.9/fonts
 /type1/public/libertine/LinLibertineTB.pfb>
-Output written on sample-acmsmall.pdf (5 pages, 423123 bytes).
+Output written on sample-acmsmall.pdf (5 pages, 423120 bytes).
 PDF statistics:
  173 PDF objects out of 1000 (max. 8388607)
  43 named destinations out of 1000 (max. 500000)

@@ -140,18 +140,18 @@ Calcolare il ritardo medio degli autobus per quartiere nelle ultime 24 ore (di e
 event time) e 1 mese (di event time). L’output della query ha il seguente schema: ts, boro-x, avg-x, ..., boro-z, avg-z
 \end{quote}
 
-Lo stream del dataset viene letto da una topica kafka la prima operazione fatta 
+Lo stream del dataset viene letto da una topica kafka, la prima operazione fatta 
 è una 
 \subsubsection{flatMap} 
-In questa flatMap viene processata la singola ringa del dataset andando a mettere come chiave il campo Boro (il quartiere) e come valore un ogetto con questi campi: OccurredOn (data del ritardo), HowLongelayed (ritardo in minuti ) e altri campi meno importanti;
+In questa flatMap viene processata la singola ringa del dataset andando a mettere come chiave il campo Boro (il quartiere) e come valore un oggetto con questi campi: OccurredOn (data del ritardo), HowLongelayed (ritardo in minuti ) e altri campi meno importanti;
 le righe del dataset che non hanno il campo HowLongDelayed o lo hanno in un formato non previsto vengono ignorate.
 \subsubsection{EventTime e TumblingEventTimeWindows}
-A questo punto flink estrare l'event time dai dati processati della flatMap e 
+A questo punto flink estrae l'event time dai dati processati dalla flatMap e 
 subito dopo crea una TumblingWindows della durata preimpostata tra 1,7,30 giorni
 
 \subsubsection{Reduce}
 Facciamo una reduce (abbiamo che chiave Boro), essenzialmente andiamo a sommare i ritardi di un quartiere (nella stessa finestra) 
-teniamo anche in considerazione la "somma" delle reduce fatte e la data più vecchia in ogni reduce.
+teniamo anche in considerazione la "somma" delle reduce (per la media) fatte e la data più vecchia in ogni reduce.
 
 \subsubsection{Map}
 In questa Map andiamo a calcolare la media dei ritardi sommati per ogni quartiere nella precedente reduce
@@ -178,12 +178,12 @@ Lo stream del dataset viene letto da una topica kafka la prima operazione fatta
 è una 
 
 \subsubsection{flatMap}
-In questa flatMap viene processata la singola riga del dataset andando a mettere come chiave il campo Reason con il prefisso "fascia5-11" o "fascia12-19" scelto in base al campo OccuredOn mentre come valore un ogetto con i seguenti attributi
+In questa flatMap viene processata la singola riga del dataset andando a mettere come chiave il campo Reason con il prefisso "fascia5-11" o "fascia12-19" scelto in base al campo OccuredOn mentre come valore un oggetto con i seguenti attributi
 OccurredOn,Reason,rank(intero inizialmente pari a 1 ), list(inizialmente vuota).
 
 
 \subsubsection{EventTime e TumblingEventTimeWindows}
-A questo punto flink estrare l'event time dai dati processati della flatMap e 
+A questo punto flink estrae l'event time dai dati processati della flatMap e 
 subito dopo crea una TumblingWindows della durata preimpostata tra 1 o 7 giorni
 
 
@@ -207,7 +207,7 @@ Adesso prendiamo la dal campo list le 3 Reason che hanno il rank più alto
 Specifichiamo ancora la finestra temporale
 
 \subsubsection{Reduce e Map}
-In fine facciamo una Reduce e una Map ai fine formattare l'output come richiesto dalle specifiche
+In fine facciamo una Reduce e una Map al fine di formattare l'output come richiesto dalle specifiche
 \subsubsection{addSink}
 Viene aggiunto un sink che manda lo stream processato a una topica kafka
 
