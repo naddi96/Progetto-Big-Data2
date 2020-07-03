@@ -31,9 +31,9 @@ details on project implementation and performance can be found in the pdf inside
 ## Start Processor
 
 - import the `/codice-flink` or `/codice-kafka` folder inside intelij/eclise and run the main class or siply use maven from comand line:
-	-- for query1 in flink `mvn exec:java -Dexec.mainClass="naddi.sadb.progetto.query1.Query1"`
-	-- for query2 in flink `mvn exec:java -Dexec.mainClass="naddi.sadb.progetto.query2.Query2"`
-	-- for query1 in kafka-streams `mvn exec:java -Dexec.mainClass="stream.Query1"`
+	- for query1 in flink `mvn exec:java -Dexec.mainClass="naddi.sadb.progetto.query1.Query1"`
+	- for query2 in flink `mvn exec:java -Dexec.mainClass="naddi.sadb.progetto.query2.Query2"`
+	- for query1 in kafka-streams `mvn exec:java -Dexec.mainClass="stream.Query1"`
 
 
 
