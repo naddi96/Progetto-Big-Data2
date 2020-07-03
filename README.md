@@ -22,13 +22,13 @@ details on project implementation and performance can be found in the pdf inside
 
 - create topic input-stream `$KAFKA_HOME/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic output-stream`
 
-##Start Consumer
+## Start Consumer
 
 - import the `/consume` folder inside intelij/eclise and run the main class or siply use `mvn exec:java -Dexec.mainClass="ConsumerLauncher"`
 
 
 
-##Start Processor
+## Start Processor
 
 - import the `/codice-flink` or `/codice-kafka` folder inside intelij/eclise and run the main class or siply use maven from comand line:
 	-- for query1 in flink `mvn exec:java -Dexec.mainClass="naddi.sadb.progetto.query1.Query1"`
@@ -37,14 +37,14 @@ details on project implementation and performance can be found in the pdf inside
 
 
 
-##Start Producer
+## Start Producer
 
 - import the `/producer` folder inside intelij/eclise and run the main class or siply use `mvn exec:java -Dexec.mainClass="BussDelayProducerLauncher"`
 
 
 
 
-##View of the processing pipeline
+## View of the processing pipeline
 
 
-![processing infrastructure](https://github.com/naddi96/Progetto-Big-Data2/blob/master/report/architettura.png?raw=true)``
+![processing infrastructure](https://github.com/naddi96/Progetto-Big-Data2/blob/master/report/architettura.png?raw=true)
