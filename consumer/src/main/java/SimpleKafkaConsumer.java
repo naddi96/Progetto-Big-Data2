@@ -19,8 +19,8 @@ public class SimpleKafkaConsumer implements Runnable {
     private Consumer<String, String> consumer;
     private int id;
     private String topic;
-    private  int mex_daprocessare=1060;
-    private  int mex_processati=0;
+    //private  int mex_daprocessare=1060;
+    //private  int mex_processati=0;
     private String tempi="";
 
     public SimpleKafkaConsumer(int id, String topic){
@@ -105,19 +105,21 @@ public class SimpleKafkaConsumer implements Runnable {
                     String oldTime = cx[1];
                     float timenew = (float)(end - Long.valueOf(newTime))/1000000000 ;
                     float tmieold =(float) (end -Long.valueOf(oldTime))/1000000000 ;
-                    //save to file appendStrToFile("output.csv",record.value().substring(28,record.value().length()));
+                    System.out.println(timenew+","+tmieold);
+                    //save to file
+                    appendStrToFile("output.csv",record.value().substring(28,record.value().length()));
                     //System.out.println("tempo di latenza da recod più vecchio: "+tmieold  );
                     //System.out.println("tempo di latenza da recod più nuovo: "+timenew  );
                     //System.out.println(record.value().substring(28,record.value().length()));
-                    tempi=tempi+timenew+","+tmieold+"\n";
-                    mex_processati++;
-                    System.out.println(timenew+","+tmieold);
+                    //tempi=tempi+timenew+","+tmieold+"\n";
+                    //mex_processati++;
+
                 }
-                if(mex_processati == mex_daprocessare){
+                /*if(mex_processati == mex_daprocessare){
                     System.out.println("finito");
                     appendStrToFile("output.csv",tempi);
                     break;
-                }
+                }*/
 
             }
         } catch (Exception e) {

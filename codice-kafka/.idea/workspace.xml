@@ -22,18 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c745bcb-98f5-4f6c-a23b-b20d1ad73380" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stream/BussDelayProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stream/BussDelayProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../report/livy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../report/sample-acmsmall.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../report/sample-acmsmall.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../report/sample-acmsmall.log" beforeDir="false" afterPath="$PROJECT_DIR$/../report/sample-acmsmall.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../report/sample-acmsmall.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../report/sample-acmsmall.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../report/sample-acmsmall.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../report/sample-acmsmall.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../report/sample-acmsmall.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../report/sample-acmsmall.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../report/sistema.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../report/slide.pdf" beforeDir="false" />
-    </list>
+    <list default="true" id="0c745bcb-98f5-4f6c-a23b-b20d1ad73380" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
