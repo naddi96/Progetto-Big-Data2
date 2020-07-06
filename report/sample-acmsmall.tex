@@ -246,7 +246,7 @@ che tra le misure che ritorna vi è anche la latenza in termini di messaggi al s
 		\hline
 		\begin{tabular}[c]{@{}c@{}}throughput\\ nMsg/sec\end{tabular} & 1 day                       & 7 day  & 30 day \\ \hline
 		\begin{tabular}[c]{@{}c@{}}Query1 \\ flink\end{tabular}       & \multicolumn{1}{c|}{7.3576} & 1.4208 & 0.3401 \\ \hline
-		\begin{tabular}[c]{@{}c@{}}Query1\\ kafka\end{tabular}        & 0.8268                      & 1.1856 & 3.0889 \\ \hline
+		\begin{tabular}[c]{@{}c@{}}Query1\\ kafka\end{tabular}        & 4.6352                      & 1.7077 & 0.8268 \\ \hline
 		\begin{tabular}[c]{@{}c@{}}Query2\\ flink\end{tabular}        & 6.3028                      & 1.2333 &        \\ \hline
 	\end{tabular}\\
 
@@ -261,14 +261,17 @@ In queste tabelle mostriamo la latenza media,minima,massima su ogni cella sono p
 	\hline
 	\begin{tabular}[c]{@{}c@{}}latenza media\\ in sec\end{tabular} & \begin{tabular}[c]{@{}c@{}}1 day\\ new\\ old\end{tabular} & \begin{tabular}[c]{@{}c@{}}7 day\\ new\\ old\end{tabular} & \begin{tabular}[c]{@{}c@{}}30 day\\ new\\ old\end{tabular} \\ \hline
 	\begin{tabular}[c]{@{}c@{}}Query1 \\ flink\end{tabular}        & \begin{tabular}[c]{@{}c@{}}0.496\\ 0.640\end{tabular}     & \begin{tabular}[c]{@{}c@{}}0.726\\ 1.418\end{tabular}     & \begin{tabular}[c]{@{}c@{}}3.679\\ 5.730\end{tabular}      \\ \hline
-	\begin{tabular}[c]{@{}c@{}}Query1\\ kafka\end{tabular}         & \begin{tabular}[c]{@{}c@{}}176.675\\ 176.845\end{tabular} & \begin{tabular}[c]{@{}c@{}}183.018\\ 183.921\end{tabular} & \begin{tabular}[c]{@{}c@{}}130.153\\ 133.146\end{tabular}  \\ \hline
+	\begin{tabular}[c]{@{}c@{}}Query1\\ kafka\end{tabular}         & \begin{tabular}[c]{@{}c@{}}67.490\\ 67.661\end{tabular} & \begin{tabular}[c]{@{}c@{}}62.907\\ 63.850\end{tabular} & \begin{tabular}[c]{@{}c@{}}56.862\\ 60.099\end{tabular}  \\ \hline
 	\begin{tabular}[c]{@{}c@{}}Query2\\ flink\end{tabular}         & \begin{tabular}[c]{@{}c@{}}0.686\\ 0.837\end{tabular}     & \begin{tabular}[c]{@{}c@{}}0.725\\ 1.392\end{tabular}     &                                                            \\ \hline
 \end{tabular}
+
+
+
 \begin{tabular}{|c|c|c|c|}
 	\hline
 	\begin{tabular}[c]{@{}c@{}}latenza minima\\ in sec\end{tabular} & \begin{tabular}[c]{@{}c@{}}1 day\\ new\\ old\end{tabular} & \begin{tabular}[c]{@{}c@{}}7 day\\ new\\ old\end{tabular} & \begin{tabular}[c]{@{}c@{}}30 day\\ new\\ old\end{tabular} \\ \hline
 	\begin{tabular}[c]{@{}c@{}}Query1 \\ flink\end{tabular}         & \begin{tabular}[c]{@{}c@{}}0.113\\ 0.158\end{tabular}     & \begin{tabular}[c]{@{}c@{}}0.185\\ 0.409\end{tabular}     & \begin{tabular}[c]{@{}c@{}}0.267\\ 0.366\end{tabular}      \\ \hline
-	\begin{tabular}[c]{@{}c@{}}Query1\\ kafka\end{tabular}          & \begin{tabular}[c]{@{}c@{}}12.385\\ 12.401\end{tabular}   & \begin{tabular}[c]{@{}c@{}}16.743\\ 17.426\end{tabular}   & \begin{tabular}[c]{@{}c@{}}10.603\\ 11.294\end{tabular}    \\ \hline
+	\begin{tabular}[c]{@{}c@{}}Query1\\ kafka\end{tabular}          & \begin{tabular}[c]{@{}c@{}}10.063\\ 10.221\end{tabular}   & \begin{tabular}[c]{@{}c@{}}10.911\\ 11.540\end{tabular}   & \begin{tabular}[c]{@{}c@{}} 9.948\\ 13.034\end{tabular}    \\ \hline
 	\begin{tabular}[c]{@{}c@{}}Query2\\ flink\end{tabular}          & \begin{tabular}[c]{@{}c@{}}0.347\\ 0.430\end{tabular}     & \begin{tabular}[c]{@{}c@{}}0.310\\ 0.340\end{tabular}     &                                                            \\ \hline
 \end{tabular}
 
@@ -276,7 +279,7 @@ In queste tabelle mostriamo la latenza media,minima,massima su ogni cella sono p
 	\hline
 	\begin{tabular}[c]{@{}c@{}}latenza massima\\ in sec\end{tabular} & \begin{tabular}[c]{@{}c@{}}1 day\\ new\\ old\end{tabular} & \begin{tabular}[c]{@{}c@{}}7 day\\ new\\ old\end{tabular} & \begin{tabular}[c]{@{}c@{}}30 day\\ new\\ old\end{tabular} \\ \hline
 	\begin{tabular}[c]{@{}c@{}}Query1 \\ flink\end{tabular}          & \begin{tabular}[c]{@{}c@{}}1.421\\ 3.021\end{tabular}     & \begin{tabular}[c]{@{}c@{}}3.027\\ 4.016\end{tabular}     & \begin{tabular}[c]{@{}c@{}}6.126\\ 10.338\end{tabular}     \\ \hline
-	\begin{tabular}[c]{@{}c@{}}Query1\\ kafka\end{tabular}           & \begin{tabular}[c]{@{}c@{}}232.500\\ 232.605\end{tabular} & \begin{tabular}[c]{@{}c@{}}260.347\\ 259.638\end{tabular} & \begin{tabular}[c]{@{}c@{}}205.181\\ 209.985\end{tabular}  \\ \hline
+	\begin{tabular}[c]{@{}c@{}}Query1\\ kafka\end{tabular}           & \begin{tabular}[c]{@{}c@{}}121.246\\ 121.641\end{tabular} & \begin{tabular}[c]{@{}c@{}}113.000\\ 115.382\end{tabular} & \begin{tabular}[c]{@{}c@{}}121.246\\ 121.641\end{tabular}  \\ \hline
 	\begin{tabular}[c]{@{}c@{}}Query2\\ flink\end{tabular}           & \begin{tabular}[c]{@{}c@{}}2.515\\ 3.653\end{tabular}     & \begin{tabular}[c]{@{}c@{}}2.678\\ 3.374\end{tabular}     &                                                            \\ \hline
 \end{tabular}
 
@@ -291,11 +294,9 @@ Flink inizia a mostrare rallentamenti significativi con la finestra da 30 giorni
 
 
 \subsection{Kafka Streams}
-ho trovato Kafka Stream a livello di sviluppo più difficoltoso inoltre dai test effettuati non è riuscito a "rimanere dietro" allo stremming dei dati tantè che mediamente aveva una latenza superiore ai due minuti.
-Inoltre ho notato che kafka e flink hanno una gestione diversa delle finestre, flink non processa la finestra fino a quando non viene superato l'event time di fine finestra,mentre kafka appena arriva un nuovo record processa tutta finestra e se arriva un novo record che rientra ancora nella stessa finestra la riprocessa, questo potrebbe essere un motivo per la  differenza delle performance dei due framework.
-Una cosa interessante è osservare il grafico della latenza di kafka stream
-notiamo che la latenza arriva fino a un picco di oltre 200 secondi per poi iniziare a diminuire 
-questo pattern è stato osservato in tutti i test fatti con kafka streams
+ho trovato Kafka Stream a livello di sviluppo più difficoltoso inoltre dai test effettuati non è riuscito a "rimanere dietro" allo stremming dei dati tantè che mediamente aveva una latenza intorno al minuto.
+Dal grafico della latenza notiamo come l'andamento è sempre crescente 
+questo pattern è stato osservato in tutti i test effettuati con kafka streams data la mia poca esperienza con il framework potrebbe essere anche un errore di configurazione \\
 \includegraphics[width=14cm]{../results/tempi/new-latency-1Day-Kafka-query1.csv.png}
 
  

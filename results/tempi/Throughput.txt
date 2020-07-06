@@ -27,17 +27,22 @@ start.time, end.time, data.consumed.in.MB, MB.sec, data.consumed.in.nMsg, nMsg.s
 
 query1 kafka 30day
 start.time, end.time, data.consumed.in.MB, MB.sec, data.consumed.in.nMsg, nMsg.sec, rebalance.time.ms, fetch.time.ms, fetch.MB.sec, fetch.nMsg.sec
-2020-06-30 11:26:35:690, 2020-06-30 11:30:37:590, 0.0566, 0.0002, 200, 0.8268, 85, 241815, 0.0002, 0.8271
+2020-07-06 10:09:07:060, 2020-07-06 10:11:24:302, 0.0566, 0.0002, 200, 0.8268, 85, 241815, 0.0002, 0.8271
+
+
+
 
 
 
 query1 kafka 7day
 start.time, end.time, data.consumed.in.MB, MB.sec, data.consumed.in.nMsg, nMsg.sec, rebalance.time.ms, fetch.time.ms, fetch.MB.sec, fetch.nMsg.sec
-2020-06-30 11:38:16:722, 2020-06-30 11:42:30:603, 0.0745, 0.0003, 301, 1.1856, 23, 253858, 0.0003, 1.1857
+2020-07-06 09:49:37:386, 2020-07-06 09:52:34:820, 0.0774, 0.0004, 303, 1.7077, 115, 177319, 0.0004, 1.7088
 
 
 
 query1 kafka 1day
 
 start.time, end.time, data.consumed.in.MB, MB.sec, data.consumed.in.nMsg, nMsg.sec, rebalance.time.ms, fetch.time.ms, fetch.MB.sec, fetch.nMsg.sec
-2020-06-30 11:49:11:732, 2020-06-30 11:54:11:196, 0.2225, 0.0007, 925, 3.0889, 195, 299269, 0.0007, 3.0909
+2020-07-06 09:29:50:642, 2020-07-06 09:33:26:382, 0.2353, 0.0011, 1000, 4.6352, 154, 215586, 0.0011, 4.6385
+
+

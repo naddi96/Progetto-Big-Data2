@@ -22,7 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c745bcb-98f5-4f6c-a23b-b20d1ad73380" name="Default Changelist" comment="" />
+    <list default="true" id="0c745bcb-98f5-4f6c-a23b-b20d1ad73380" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stream/Query1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stream/Query1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer/src/main/java/SimpleKafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/src/main/java/SimpleKafkaConsumer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,26 +143,26 @@
       <screen x="0" y="38" width="1920" height="947" />
     </state>
     <state x="743" y="272" width="426" height="485" key="FileChooserDialogImpl/0.38.1920.947@0.38.1920.947" timestamp="1593089611334" />
-    <state width="1870" height="235" key="GridCell.Tab.0.bottom" timestamp="1593597169048">
+    <state width="1870" height="234" key="GridCell.Tab.0.bottom" timestamp="1594022652402">
       <screen x="0" y="38" width="1920" height="947" />
     </state>
     <state width="1870" height="326" key="GridCell.Tab.0.bottom/0.38.1920.1042@0.38.1920.1042" timestamp="1593082032150" />
-    <state width="1870" height="235" key="GridCell.Tab.0.bottom/0.38.1920.947@0.38.1920.947" timestamp="1593597169048" />
-    <state width="1870" height="235" key="GridCell.Tab.0.center" timestamp="1593597169047">
+    <state width="1870" height="234" key="GridCell.Tab.0.bottom/0.38.1920.947@0.38.1920.947" timestamp="1594022652402" />
+    <state width="1870" height="234" key="GridCell.Tab.0.center" timestamp="1594022652400">
       <screen x="0" y="38" width="1920" height="947" />
     </state>
     <state width="1870" height="326" key="GridCell.Tab.0.center/0.38.1920.1042@0.38.1920.1042" timestamp="1593082032146" />
-    <state width="1870" height="235" key="GridCell.Tab.0.center/0.38.1920.947@0.38.1920.947" timestamp="1593597169047" />
-    <state width="1870" height="235" key="GridCell.Tab.0.left" timestamp="1593597169047">
+    <state width="1870" height="234" key="GridCell.Tab.0.center/0.38.1920.947@0.38.1920.947" timestamp="1594022652400" />
+    <state width="1870" height="234" key="GridCell.Tab.0.left" timestamp="1594022652400">
       <screen x="0" y="38" width="1920" height="947" />
     </state>
     <state width="1870" height="326" key="GridCell.Tab.0.left/0.38.1920.1042@0.38.1920.1042" timestamp="1593082032144" />
-    <state width="1870" height="235" key="GridCell.Tab.0.left/0.38.1920.947@0.38.1920.947" timestamp="1593597169047" />
-    <state width="1870" height="235" key="GridCell.Tab.0.right" timestamp="1593597169048">
+    <state width="1870" height="234" key="GridCell.Tab.0.left/0.38.1920.947@0.38.1920.947" timestamp="1594022652400" />
+    <state width="1870" height="234" key="GridCell.Tab.0.right" timestamp="1594022652401">
       <screen x="0" y="38" width="1920" height="947" />
     </state>
     <state width="1870" height="326" key="GridCell.Tab.0.right/0.38.1920.1042@0.38.1920.1042" timestamp="1593082032148" />
-    <state width="1870" height="235" key="GridCell.Tab.0.right/0.38.1920.947@0.38.1920.947" timestamp="1593597169048" />
+    <state width="1870" height="234" key="GridCell.Tab.0.right/0.38.1920.947@0.38.1920.947" timestamp="1594022652401" />
     <state x="534" y="307" width="843" height="509" key="IDE.errors.dialog" timestamp="1592998176926">
       <screen x="0" y="38" width="1920" height="1042" />
     </state>
@@ -171,6 +175,10 @@
       <screen x="0" y="38" width="1920" height="947" />
     </state>
     <state x="455" y="202" width="1002" height="687" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.38.1920.947@0.38.1920.947" timestamp="1592951242912" />
+    <state x="623" y="233" width="672" height="678" key="run.anything.popup" timestamp="1594019165662">
+      <screen x="0" y="38" width="1920" height="947" />
+    </state>
+    <state x="623" y="233" width="672" height="678" key="run.anything.popup/0.38.1920.947@0.38.1920.947" timestamp="1594019165662" />
     <state x="623" y="245" width="672" height="678" key="search.everywhere.popup" timestamp="1593505620412">
       <screen x="0" y="38" width="1920" height="947" />
     </state>

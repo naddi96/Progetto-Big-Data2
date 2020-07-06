@@ -36,8 +36,8 @@ public class Query1 {
                 Serdes.String().getClass().getName());
 
 
-        props//.put(StreamsConfig.COMMIT_INTERVAL_MS_CONFIG, 10 * 1000);
-                .put(StreamsConfig.COMMIT_INTERVAL_MS_CONFIG, 1000);
+      //  props//.put(StreamsConfig.COMMIT_INTERVAL_MS_CONFIG, 10 * 1000);
+          //      .put(StreamsConfig.COMMIT_INTERVAL_MS_CONFIG, 1000);
         // props.put(StreamsConfig.CACHE_MAX_BYTES_BUFFERING_CONFIG, 0);
         //props.put(StreamsConfig.CACHE_MAX_BYTES_BUFFERING_CONFIG, 10 * 1024 * 1024L);
         return props;
@@ -53,15 +53,15 @@ public class Query1 {
 
 
        // int durata=1;
+        //Duration durataWindow = Duration.ofDays(durata);
+
+
+       //  int durata=7;
        // Duration durataWindow = Duration.ofDays(durata);
 
 
-         int durata=7;
+        int durata=30;
         Duration durataWindow = Duration.ofDays(durata);
-
-
-        //int durata=30;
-        //Duration durataWindow = Duration.ofDays(durata);
 
 
 
@@ -77,6 +77,8 @@ public class Query1 {
         final Serde<BussDelay> BussDelaySerde = Serdes.serdeFrom(ser, des);
         final Properties props = createStreamProperties();
         props.put(StreamsConfig.DEFAULT_TIMESTAMP_EXTRACTOR_CLASS_CONFIG, TimeExstractor.class);
+        props.put(StreamsConfig.PROCESSING_GUARANTEE_CONFIG,StreamsConfig.EXACTLY_ONCE);
+
         final StreamsBuilder builder = new StreamsBuilder();
         final KStream<String, String> textLines =
                 builder.stream("input-stream");

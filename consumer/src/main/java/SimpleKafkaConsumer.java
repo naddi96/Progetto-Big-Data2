@@ -107,10 +107,11 @@ public class SimpleKafkaConsumer implements Runnable {
                     float tmieold =(float) (end -Long.valueOf(oldTime))/1000000000 ;
                     System.out.println(timenew+","+tmieold);
                     //save to file
-                    appendStrToFile("output.csv",record.value().substring(28,record.value().length()));
+
+                    //appendStrToFile("output.csv",record.value().substring(28,record.value().length()));
                     //System.out.println("tempo di latenza da recod più vecchio: "+tmieold  );
                     //System.out.println("tempo di latenza da recod più nuovo: "+timenew  );
-                    //System.out.println(record.value().substring(28,record.value().length()));
+                    System.out.println(record.value().substring(28,record.value().length()));
                     //tempi=tempi+timenew+","+tmieold+"\n";
                     //mex_processati++;
 
